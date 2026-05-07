@@ -6,7 +6,7 @@ CCO is a domain-independent ontology for representing the regulatory structure o
 ## Diagrams
 
 ### CCO Conceptual Model
-![CCO Conceptual Model](docs/figures/cco-model.png)
+![CCO Conceptual Model](docs/CCO-model.png)
 
 *Figure 1: The Core Compliance Ontology (CCO) conceptual model. Beige nodes represent normative classes (regulations, norms, conditions, exceptions, and deontic types), blue nodes represent contextual classes (agents, roles, role holdings, actions, and resources), and green ellipses represent datatype values.*
 
