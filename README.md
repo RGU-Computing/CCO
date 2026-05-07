@@ -11,7 +11,7 @@ CCO is a domain-independent ontology for representing the regulatory structure o
 
 ### CCO Layered Architecture
 <div align="center">
-<img src="docs/CCO-model.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/cco-layering.png" width="600" alt="CCO Conceptual Model"/>
 </div>
 
 *Figure 2: Intended layered use of CCO, showing domain-specific extensions grounded in CCO and instantiated with representative regulations from different compliance domains.*
