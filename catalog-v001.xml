@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="BFO Core Import" name="http://www.example.org/cco/imports/bfo_core_import" uri="file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/bfo_core_import.owl"/>
-    <uri id="BFO Role Import" name="http://www.example.org/cco/imports/bfo_role_import" uri="file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/bfo_role_import.owl"/>
-    <uri id="NRV Import" name="http://www.example.org/cco/imports/nrv_import" uri="file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/nrv_import.owl"/>
-    <uri id="BFO Core Import OWL" name="http://www.example.org/cco/imports/bfo_core_import.owl" uri="file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/bfo_core_import.owl"/>
-    <uri id="BFO Role Import OWL" name="http://www.example.org/cco/imports/bfo_role_import.owl" uri="file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/bfo_role_import.owl"/>
-    <uri id="NRV Import OWL" name="http://www.example.org/cco/imports/nrv_import.owl" uri="file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/nrv_import.owl"/>
-</catalog>
