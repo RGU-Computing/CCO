@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="CCO Core" name="http://www.example.org/cco" uri="CCO_V1.ttl"/>
+    <uri id="EFRO Module" name="http://www.example.org/cco-education/imports/efro_module" uri="imports/efro_module.owl"/>
+</catalog>
