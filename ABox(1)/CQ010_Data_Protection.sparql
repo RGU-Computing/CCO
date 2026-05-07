@@ -1,0 +1,5 @@
+SELECT ?norm WHERE {
+  ?norm a cco:Norm ;
+         cco:appliesToRole abox:Role1 ;
+         cco:hasObject abox:Resource1 .
+}
