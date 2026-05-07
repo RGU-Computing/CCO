@@ -1,0 +1,483 @@
+@prefix : <http://www.example.org/cco#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix cco: <http://www.example.org/cco#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://www.example.org/cco#> .
+
+<http://www.example.org/cco> rdf:type owl:Ontology ;
+                              owl:imports <file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/bfo_core_import.owl> ,
+                                          <file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/bfo_role_import.owl> ,
+                                          <file:///Users/umair/Desktop/ISWC-2026/CCO-Grounded/imports/nrv_import.owl> ;
+                              dc:creator "Umair Arshad" ;
+                              dc:date "2026" ;
+                              dc:description "A domain-independent core ontology for modelling the regulatory structure of regulations across diverse compliance domains. It captures regulations, norms including obligations, permissions, and prohibitions, conditions, exceptions, actions, roles, agents, resources, and regulatory authority agents and roles. The ontology supports temporal modelling of norm applicability and role holding, while enabling domain-specific extensions for specialised compliance contexts."@en ;
+                              <http://purl.org/dc/terms/contributor> "David Corsar" ,
+                                                                     "Ikechukwu Nkisi-Orji" ;
+                              <http://purl.org/dc/terms/rights> "This ontology is licensed under the Creative Commons Attribution 4.0 International License (CC-BY 4.0). You are free to share and adapt this ontology, provided that you give appropriate credit. More details: https://creativecommons.org/licenses/by/4.0/" ;
+                              rdfs:label "Core Compliance Ontology (CCO)"@en ;
+                              owl:versionInfo "1.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+dc:date rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+skos:closeMatch rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+skos:definition rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#exactMatch
+skos:exactMatch rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.example.org/cco#allocatedTo
+cco:allocatedTo rdf:type owl:ObjectProperty ;
+                rdfs:domain cco:Resource ;
+                rdfs:range cco:Agent ;
+                rdfs:label "allocated to"@en ;
+                skos:definition "Relates a resource to the agent to whom that resource is allocated."@en .
+
+
+###  http://www.example.org/cco#appliesToRole
+cco:appliesToRole rdf:type owl:ObjectProperty ;
+                  rdfs:domain cco:Norm ;
+                  rdfs:range cco:Role ;
+                  rdfs:label "applies to role"@en ;
+                  skos:definition "Relates a norm to the role to which that norm applies."@en .
+
+
+###  http://www.example.org/cco#appliesUnder
+cco:appliesUnder rdf:type owl:ObjectProperty ;
+                 rdfs:domain cco:Norm ;
+                 rdfs:range cco:Condition ;
+                 rdfs:label "applies under"@en ;
+                 skos:definition "Relates a norm to a condition under which that norm becomes applicable."@en .
+
+
+###  http://www.example.org/cco#hasCondition
+cco:hasCondition rdf:type owl:ObjectProperty ;
+                 rdfs:domain cco:Exception ;
+                 rdfs:range cco:Condition ;
+                 rdfs:label "has condition"@en ;
+                 skos:definition "Relates an exception to a condition under which that exception applies to modify a norm."@en .
+
+
+###  http://www.example.org/cco#hasException
+cco:hasException rdf:type owl:ObjectProperty ;
+                 rdfs:domain cco:Norm ;
+                 rdfs:range cco:Exception ;
+                 rdfs:label "has exception"@en ;
+                 skos:definition "Relates a norm to an exception that modifies the applicability or force of that norm in a particular case."@en .
+
+
+###  http://www.example.org/cco#hasRole
+cco:hasRole rdf:type owl:ObjectProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain cco:RoleHolding ;
+            rdfs:range cco:Role ;
+            rdfs:label "has role"@en ;
+            skos:definition "Relates a Role Holding association to the role held by the agent."@en .
+
+
+###  http://www.example.org/cco#has_action
+cco:has_action rdf:type owl:ObjectProperty ;
+               rdfs:domain cco:Norm ;
+               rdfs:range cco:Action ;
+               rdfs:label "has action" ;
+               skos:definition "Relates a norm to the action that the norm requires, permits, or prohibit."@en .
+
+
+###  http://www.example.org/cco#has_object
+cco:has_object rdf:type owl:ObjectProperty ;
+               rdfs:domain cco:Norm ;
+               rdfs:range cco:Resource ;
+               rdfs:label "has object"@en ;
+               skos:definition "Relates a norm to the resource that the norm’s action affects or targets."@en .
+
+
+###  http://www.example.org/cco#holdsRole
+cco:holdsRole rdf:type owl:ObjectProperty ;
+              rdfs:domain cco:Agent ;
+              rdfs:range cco:RoleHolding ;
+              rdfs:label "holds role"@en ;
+              skos:definition "Relates an agent to the time-bounded association through which that agent holds a role."@en .
+
+
+###  http://www.example.org/cco#issues
+cco:issues rdf:type owl:ObjectProperty ;
+           rdfs:domain cco:RegulatoryAuthorityAgent ;
+           rdfs:range cco:Regulation ;
+           rdfs:label "issues"@en ;
+           skos:definition "Relates a regulatory authority agent to a regulation that the agent issues."@en .
+
+
+###  http://www.example.org/cco#modifiesNorm
+cco:modifiesNorm rdf:type owl:ObjectProperty ;
+                 rdfs:domain cco:Exception ;
+                 rdfs:range cco:Norm ;
+                 rdfs:label "modifies norm"@en ;
+                 skos:definition "Relates an exception to a norm whose applicability or force is modified by that exception."@en .
+
+
+###  http://www.example.org/cco#regulates
+cco:regulates rdf:type owl:ObjectProperty ;
+              rdfs:domain cco:Regulation ;
+              rdfs:range cco:Resource ;
+              rdfs:label "regulates"@en ;
+              skos:definition "Relates a regulation to a resource that falls within the regulatory scope of that regulation."@en .
+
+
+###  http://www.example.org/cco#specifiesNorm
+cco:specifiesNorm rdf:type owl:ObjectProperty ;
+                  rdfs:domain cco:Regulation ;
+                  rdfs:range cco:Norm ;
+                  rdfs:label "specifies norm"@en ;
+                  skos:definition "Relates a regulation to a norm specified by that regulation."@en .
+
+
+###  http://www.example.org/cco#supersedes
+cco:supersedes rdf:type owl:ObjectProperty ,
+                        owl:TransitiveProperty ;
+               rdfs:domain cco:Regulation ;
+               rdfs:range cco:Regulation ;
+               rdfs:label "supersedes"@en ;
+               skos:definition "Relates a regulation to a previous regulation that the regulation replaces or supersedes within the same regulatory domain."@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.example.org/cco#hasApplicabilityEnd
+cco:hasApplicabilityEnd rdf:type owl:DatatypeProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain cco:Norm ;
+                        rdfs:range xsd:date ;
+                        rdfs:label "has applicability end"@en ;
+                        skos:definition "Relates a norm to the date on which that norm ceases to be applicable."@en .
+
+
+###  http://www.example.org/cco#hasApplicabilityStart
+cco:hasApplicabilityStart rdf:type owl:DatatypeProperty ,
+                                   owl:FunctionalProperty ;
+                          rdfs:domain cco:Norm ;
+                          rdfs:range xsd:date ;
+                          rdfs:label "has applicability start"@en ;
+                          skos:definition "Relates a norm to the date from which that norm becomes applicable."@en .
+
+
+###  http://www.example.org/cco#hasEndTime
+cco:hasEndTime rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain cco:RoleHolding ;
+               rdfs:range xsd:date ;
+               rdfs:label "has end time"@en ;
+               skos:definition "Relates a Role Holding association to the date on which it ends."@en .
+
+
+###  http://www.example.org/cco#hasStartTime
+cco:hasStartTime rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain cco:RoleHolding ;
+                 rdfs:range xsd:date ;
+                 rdfs:label "has start time"@en ;
+                 skos:definition "Relates a Role Holding association to the date on which it begins."@en .
+
+
+###  http://www.example.org/cco#hasValidityEnd
+cco:hasValidityEnd rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain cco:Regulation ;
+                   rdfs:range xsd:date ;
+                   rdfs:label "has validity end"@en ;
+                   skos:definition "Relates a regulation to the date on which its validity ends."@en .
+
+
+###  http://www.example.org/cco#hasValidityStart
+cco:hasValidityStart rdf:type owl:DatatypeProperty ,
+                              owl:FunctionalProperty ;
+                     rdfs:domain cco:Regulation ;
+                     rdfs:range xsd:date ;
+                     rdfs:label "has validity start"@en ;
+                     skos:definition "Relates a regulation to the date on which its validity begins."@en .
+
+
+###  http://www.example.org/cco#has_action_expression
+cco:has_action_expression rdf:type owl:DatatypeProperty ;
+                          rdfs:domain cco:Condition ;
+                          rdfs:range xsd:string ;
+                          rdfs:label "Relates a condition to a human-readable textual expression that describes the applicability criterion."@en ,
+                                     "has condition expression"@en .
+
+
+###  http://www.example.org/cco#has_condition_expression
+cco:has_condition_expression rdf:type owl:DatatypeProperty ;
+                             rdfs:domain cco:Action ;
+                             rdfs:range xsd:string ;
+                             rdfs:label "has action expression" ;
+                             skos:definition "Relates an action to a plain text string that records the action description, preserving the wording of the regulatory source text."@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://ns.inria.fr/nrv#NormativeRequirement
+<http://ns.inria.fr/nrv#NormativeRequirement> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000015
+<http://purl.obolibrary.org/obo/BFO_0000015> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000023
+<http://purl.obolibrary.org/obo/BFO_0000023> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000027
+<http://purl.obolibrary.org/obo/BFO_0000027> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/BFO_0000030
+<http://purl.obolibrary.org/obo/BFO_0000030> rdf:type owl:Class .
+
+
+###  http://www.example.org/cco#Action
+cco:Action rdf:type owl:Class ;
+           rdfs:label "Action"@en ;
+           skos:closeMatch "http://www.w3.org/ns/odrl/2/Action" ;
+           skos:definition "An action is an activity or behaviour that a norm requires, permits, or prohibits."@en .
+
+
+###  http://www.example.org/cco#Agent
+cco:Agent rdf:type owl:Class ;
+          rdfs:label "Agent"@en ;
+          rdfs:seeAlso "http://www.estrellaproject.org/lkif-core/action.owl#Agent" ;
+          skos:definition "An agent is an entity that can perform actions, hold roles, and be subject to regulatory or compliance requirements."@en .
+
+
+###  http://www.example.org/cco#Condition
+cco:Condition rdf:type owl:Class ;
+              rdfs:label "Condition"@en ;
+              skos:definition "A condition is a criterion that determines the applicability of a norm or exception."@en .
+
+
+###  http://www.example.org/cco#Exception
+cco:Exception rdf:type owl:Class ;
+              rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                       owl:onProperty cco:hasCondition ;
+                                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                       owl:onClass cco:Condition
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty cco:modifiesNorm ;
+                                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                       owl:onClass cco:Norm
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+              owl:disjointWith cco:Norm ;
+              rdfs:label "Exception"@en ;
+              skos:definition "An exception is a normative statement that modifies the applicability or force of a norm in a particular case."@en .
+
+
+###  http://www.example.org/cco#Norm
+cco:Norm rdf:type owl:Class ;
+         rdfs:subClassOf <http://ns.inria.fr/nrv#NormativeRequirement> ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty cco:hasApplicabilityEnd ;
+                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:date
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty cco:hasApplicabilityStart ;
+                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:date
+                         ] ;
+         rdfs:label "Norm"@en ;
+         skos:definition "A norm is a prescriptive rule that specifies what must, may, or must not be done in a regulatory or compliance context."@en .
+
+
+###  http://www.example.org/cco#Obligation
+cco:Obligation rdf:type owl:Class ;
+               rdfs:subClassOf cco:Norm ;
+               rdfs:label "Obligation"@en ;
+               skos:closeMatch "http://docs.oasis-open.org/legalruleml/ns/v1.0/metamodel#Obligation" ;
+               skos:definition "An obligation is a norm that specifies what must be done in a regulatory or compliance context."@en .
+
+
+###  http://www.example.org/cco#Organisation
+cco:Organisation rdf:type owl:Class ;
+                 rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ,
+                                 cco:Agent ;
+                 owl:disjointWith cco:Person ;
+                 rdfs:label "Organisation"@en ;
+                 rdfs:seeAlso "http://www.estrellaproject.org/lkif-core/action.owl#Organisation" ;
+                 skos:definition "An organisation is an institutional agent that can hold roles and participate in regulatory or compliance activities."@en .
+
+
+###  http://www.example.org/cco#Permission
+cco:Permission rdf:type owl:Class ;
+               rdfs:subClassOf cco:Norm ;
+               rdfs:label "Permission"@en ;
+               skos:closeMatch "http://docs.oasis-open.org/legalruleml/ns/v1.0/metamodel#Permission" ;
+               skos:definition "A permission is a norm that specifies what may be done in a regulatory or compliance context."@en .
+
+
+###  http://www.example.org/cco#Person
+cco:Person rdf:type owl:Class ;
+           rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000030> ,
+                           cco:Agent ;
+           rdfs:label "Person"@en ;
+           rdfs:seeAlso "http://www.estrellaproject.org/lkif-core/action.owl#Person" ;
+           skos:definition "A person is an individual human agent."@en .
+
+
+###  http://www.example.org/cco#Prohibition
+cco:Prohibition rdf:type owl:Class ;
+                rdfs:subClassOf cco:Norm ;
+                rdfs:label "Prohibition"@en ;
+                skos:closeMatch "http://docs.oasis-open.org/legalruleml/ns/v1.0/metamodel#Prohibition" ;
+                skos:definition "A prohibition is a norm that specifies what must not be done in a regulatory or compliance context."@en .
+
+
+###  http://www.example.org/cco#Regulation
+cco:Regulation rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty cco:specifiesNorm ;
+                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass cco:Norm
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty cco:hasValidityStart ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:date
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty cco:hasValidityEnd ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:date
+                               ] ;
+               rdfs:label "Regulation"@en ;
+               skos:definition "A regulation is a formal normative instrument that specifies obligations, permissions, or prohibitions in a regulatory or compliance context."@en ;
+               skos:exactMatch "https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation" .
+
+
+###  http://www.example.org/cco#RegulatoryAuthorityAgent
+cco:RegulatoryAuthorityAgent rdf:type owl:Class ;
+                             rdfs:subClassOf [ owl:intersectionOf ( cco:Agent
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty cco:holdsRole ;
+                                                                      owl:someValuesFrom [ owl:intersectionOf ( cco:RoleHolding
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty cco:hasRole ;
+                                                                                                                  owl:someValuesFrom cco:RegulatoryAuthorityRole
+                                                                                                                ]
+                                                                                                              ) ;
+                                                                                           rdf:type owl:Class
+                                                                                         ]
+                                                                    ]
+                                                                  ) ;
+                                               rdf:type owl:Class
+                                             ] ;
+                             rdfs:label "Regulatory Authority Agent"@en ;
+                             skos:definition "An agent that holds a regulatory authority role and is thereby authorised to issue regulations."@en .
+
+
+###  http://www.example.org/cco#RegulatoryAuthorityRole
+cco:RegulatoryAuthorityRole rdf:type owl:Class ;
+                            rdfs:subClassOf cco:Role ;
+                            rdfs:label "Regulatory Authority Role"@en ;
+                            skos:closeMatch "http://www.estrellaproject.org/lkif-core/legal-role.owl#Legal_Role" ;
+                            skos:definition "A role that, when held by an agent, authorises that agent to issue regulations."@en .
+
+
+###  http://www.example.org/cco#Resource
+cco:Resource rdf:type owl:Class ;
+             rdfs:label "Resource"@en ;
+             skos:definition "A resource is a physical, digital, or conceptual asset that is allocated, used, or governed in a regulated activity."@en .
+
+
+###  http://www.example.org/cco#Role
+cco:Role rdf:type owl:Class ;
+         rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> ;
+         rdfs:label "Role"@en ;
+         skos:definition "A role is a position held by an agent within a regulatory or compliance context."@en .
+
+
+###  http://www.example.org/cco#RoleHolding
+cco:RoleHolding rdf:type owl:Class ;
+                rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty cco:hasRole ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass cco:Role
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty cco:hasStartTime ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:date
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty cco:hasEndTime ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:date
+                                ] ;
+                rdfs:label "Role Holding"@en ;
+                skos:definition "RoleHolding is the time-bounded association through which an agent holds a role."@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( cco:Obligation
+                cco:Permission
+                cco:Prohibition
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
