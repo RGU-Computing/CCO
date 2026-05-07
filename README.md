@@ -10,13 +10,16 @@ CCO is a domain-independent ontology for representing the regulatory structure o
 *Figure 1: The Core Compliance Ontology (CCO) conceptual model. Beige nodes represent normative classes (regulations, norms, conditions, exceptions, and deontic types), blue nodes represent contextual classes (agents, roles, role holdings, actions, and resources), and green ellipses represent datatype values.*
 
 ### CCO Layered Architecture
-![CCO Layered Architecture](docs/figures/cco-layering.png)
+<div align="center">
+<img src="docs/CCO-model.png" width="600" alt="CCO Conceptual Model"/>
+</div>
 
 *Figure 2: Intended layered use of CCO, showing domain-specific extensions grounded in CCO and instantiated with representative regulations from different compliance domains.*
 
 ### GDPR Article 33 Instantiation Example
-![GDPR Example](docs/figures/gdpr-example.png)
-
+<div align="center">
+<img src="docs/example.png" width="600" alt="CCO Conceptual Model"/>
+</div>
 *Figure 3: CCO instantiation of selected requirements from GDPR Article 33, paragraphs 1 and 2. Beige nodes represent CCO individuals, green nodes represent plain text datatype values, and dashed arrows denote cco:modifiesNorm links.*
 
 ---
