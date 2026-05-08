@@ -10,6 +10,7 @@ Full ontology documentation is available at:
 
 Permanent identifier: **https://www.w3id.org/cco/cco**
 
+
 ### CCO Conceptual Model
 <div align="center">
 <img src="docs/CCO-model.png" width="600" alt="CCO Conceptual Model"/>
