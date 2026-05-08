@@ -1,0 +1,741 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.w3id.org/cco/cco#"
+     xml:base="https://www.w3id.org/cco/cco"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://www.w3id.org/cco/cco">
+        <dc:creator>Umair Arshad</dc:creator>
+        <dc:description xml:lang="en">A domain-independent core ontology for modelling the regulatory structure of regulations across diverse compliance domains. It captures regulations, norms including obligations, permissions, and prohibitions, conditions, exceptions, actions, roles, agents, resources, and regulatory authority agents and roles. The ontology supports temporal modelling of norm applicability and role holding, while enabling domain-specific extensions for specialised compliance contexts.</dc:description>
+        <dc:title xml:lang="en">CCO: A Core Compliance Ontology for Modelling the Normative Structure of Regulations</dc:title>
+        <terms:abstract>Regulatory compliance applications increasingly combine Semantic Web representations with large language model (LLM); however, transforming regulatory text into structured models that support reliable querying and reasoning remains challenging. Formal ontologies and policy languages for modelling regulations often require domain-specific vocabularies and formal encodings of conditions and actions, which can make reuse across compliance domains challenging. This paper presents the Core Compliance Ontology (CCO), a domain-independent OWL ontology that provides a lightweight vocabulary for representing the obligations, permissions, and prohibitions defined in regulations, together with their applicability conditions, exceptions, role-based scope, and temporal validity. CCO models regulatory instruments and the agents and roles involved in issuing and complying with regulations, recording condition and action descriptions as plain text strings to support structured querying and retrieval-augmented generation workflows. The ontology is evaluated in two stages: first, through competency question-based SPARQL ASK verification over the CCO schema; second, through an LLM-assisted cross-domain evaluation examining CCO&apos;s applicability across education funding, finance, healthcare, and data protection regulations.</terms:abstract>
+        <terms:contributor>David Corsar</terms:contributor>
+        <terms:contributor>Ikechukwu Nkisi-Orji</terms:contributor>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-08</terms:issued>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:rights xml:lang="en">CC-BY 4.0</terms:rights>
+        <owl:versionInfo>1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/rights -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#allocatedTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#allocatedTo">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Resource"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Agent"/>
+        <rdfs:label xml:lang="en">allocated to</rdfs:label>
+        <skos:definition xml:lang="en">Relates a resource to the agent to whom that resource is allocated.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#appliesToRole -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#appliesToRole">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Role"/>
+        <rdfs:label xml:lang="en">applies to role</rdfs:label>
+        <skos:definition xml:lang="en">Relates a norm to the role to which that norm applies.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#appliesUnder -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#appliesUnder">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Condition"/>
+        <rdfs:label xml:lang="en">applies under</rdfs:label>
+        <skos:definition xml:lang="en">Relates a norm to a condition under which that norm becomes applicable.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasAction -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#hasAction">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Action"/>
+        <rdfs:label xml:lang="en">has action</rdfs:label>
+        <skos:definition xml:lang="en">Relates a norm to the action that the norm requires, permits, or prohibit.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasCondition -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#hasCondition">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Exception"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Condition"/>
+        <rdfs:label xml:lang="en">has condition</rdfs:label>
+        <skos:definition xml:lang="en">Relates an exception to a condition under which that exception applies to modify a norm.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasException -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#hasException">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Exception"/>
+        <rdfs:label xml:lang="en">has exception</rdfs:label>
+        <skos:definition xml:lang="en">Relates a norm to an exception that modifies the applicability or force of that norm in a particular case.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasObject -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#hasObject">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Resource"/>
+        <rdfs:label xml:lang="en">has object</rdfs:label>
+        <skos:definition xml:lang="en">Relates a norm to the resource that the norm’s action affects or targets.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasRole -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#hasRole">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#RoleHolding"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Role"/>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+        <skos:definition xml:lang="en">Relates a Role Holding association to the role held by the agent.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#holdsRole -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#holdsRole">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Agent"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#RoleHolding"/>
+        <rdfs:label xml:lang="en">holds role</rdfs:label>
+        <skos:definition xml:lang="en">Relates an agent to the time-bounded association through which that agent holds a role.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#issues -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#issues">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#RegulatoryAuthorityAgent"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Regulation"/>
+        <rdfs:label xml:lang="en">issues</rdfs:label>
+        <skos:definition xml:lang="en">Relates a regulatory authority agent to a regulation that the agent issues.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#modifiesNorm -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#modifiesNorm">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Exception"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:label xml:lang="en">modifies norm</rdfs:label>
+        <skos:definition xml:lang="en">Relates an exception to a norm whose applicability or force is modified by that exception.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#regulates -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#regulates">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Regulation"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Resource"/>
+        <rdfs:label xml:lang="en">regulates</rdfs:label>
+        <skos:definition xml:lang="en">Relates a regulation to a resource that falls within the regulatory scope of that regulation.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#specifiesNorm -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#specifiesNorm">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Regulation"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:label xml:lang="en">specifies norm</rdfs:label>
+        <skos:definition xml:lang="en">Relates a regulation to a norm specified by that regulation.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#supersedes -->
+
+
+    <owl:ObjectProperty rdf:about="https://www.w3id.org/cco/cco#supersedes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Regulation"/>
+        <rdfs:range rdf:resource="https://www.w3id.org/cco/cco#Regulation"/>
+        <rdfs:label xml:lang="en">supersedes</rdfs:label>
+        <skos:definition xml:lang="en">Relates a regulation to a previous regulation that the regulation replaces or supersedes within the same regulatory domain.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasActionExpression -->
+
+
+    <owl:DatatypeProperty rdf:about="https://www.w3id.org/cco/cco#hasActionExpression">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Action"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has action expression</rdfs:label>
+        <skos:definition xml:lang="en">Relates an action to a plain text string that records the action description, preserving the wording of the regulatory source text.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasApplicabilityEnd -->
+
+
+    <owl:DatatypeProperty rdf:about="https://www.w3id.org/cco/cco#hasApplicabilityEnd">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="en">has applicability end</rdfs:label>
+        <skos:definition xml:lang="en">Relates a norm to the date on which that norm ceases to be applicable.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasApplicabilityStart -->
+
+
+    <owl:DatatypeProperty rdf:about="https://www.w3id.org/cco/cco#hasApplicabilityStart">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="en">has applicability start</rdfs:label>
+        <skos:definition xml:lang="en">Relates a norm to the date from which that norm becomes applicable.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasConditionExpression -->
+
+
+    <owl:DatatypeProperty rdf:about="https://www.w3id.org/cco/cco#hasConditionExpression">
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Condition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has condition expression</rdfs:label>
+        <skos:definition xml:lang="en">Relates a condition to a human-readable textual expression that describes the applicability criterion.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasEndTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://www.w3id.org/cco/cco#hasEndTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#RoleHolding"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="en">has end time</rdfs:label>
+        <skos:definition xml:lang="en">Relates a Role Holding association to the date on which it ends.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasStartTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://www.w3id.org/cco/cco#hasStartTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#RoleHolding"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="en">has start time</rdfs:label>
+        <skos:definition xml:lang="en">Relates a Role Holding association to the date on which it begins.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasValidityEnd -->
+
+
+    <owl:DatatypeProperty rdf:about="https://www.w3id.org/cco/cco#hasValidityEnd">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Regulation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="en">has validity end</rdfs:label>
+        <skos:definition xml:lang="en">Relates a regulation to the date on which its validity ends.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#hasValidityStart -->
+
+
+    <owl:DatatypeProperty rdf:about="https://www.w3id.org/cco/cco#hasValidityStart">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.w3id.org/cco/cco#Regulation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="en">has validity start</rdfs:label>
+        <skos:definition xml:lang="en">Relates a regulation to the date on which its validity begins.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Action -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Action">
+        <rdfs:label>Action</rdfs:label>
+        <skos:definition xml:lang="en">An action is an activity or behaviour that a norm requires, permits, or prohibits.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Agent -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Agent">
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+        <skos:definition xml:lang="en">An agent is an entity that can perform actions, hold roles, and be subject to regulatory or compliance requirements.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Condition -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Condition">
+        <rdfs:label xml:lang="en">Condition</rdfs:label>
+        <skos:definition xml:lang="en">A condition is a criterion that determines the applicability of a norm or exception.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Exception -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Exception">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasCondition"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="https://www.w3id.org/cco/cco#Condition"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#modifiesNorm"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:label xml:lang="en">Exception</rdfs:label>
+        <skos:definition xml:lang="en">An exception is a normative statement that modifies the applicability or force of a norm in a particular case.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Norm -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Norm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasApplicabilityEnd"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasApplicabilityStart"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Norm</rdfs:label>
+        <skos:definition xml:lang="en">A norm is a prescriptive rule that specifies what must, may, or must not be done in a regulatory or compliance context.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Obligation -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Obligation">
+        <rdfs:subClassOf rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:label xml:lang="en">Obligation</rdfs:label>
+        <skos:definition xml:lang="en">An obligation is a norm that specifies what must be done in a regulatory or compliance context.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Organisation -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Organisation">
+        <rdfs:subClassOf rdf:resource="https://www.w3id.org/cco/cco#Agent"/>
+        <owl:disjointWith rdf:resource="https://www.w3id.org/cco/cco#Person"/>
+        <rdfs:label xml:lang="en">Organisation</rdfs:label>
+        <skos:definition xml:lang="en">An organisation is an institutional agent that can hold roles and participate in regulatory or compliance activities.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Permission -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Permission">
+        <rdfs:subClassOf rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:label xml:lang="en">Permission</rdfs:label>
+        <skos:definition xml:lang="en">A permission is a norm that specifies what may be done in a regulatory or compliance context.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Person -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Person">
+        <rdfs:subClassOf rdf:resource="https://www.w3id.org/cco/cco#Agent"/>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <skos:definition xml:lang="en">A person is an individual human agent.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Prohibition -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Prohibition">
+        <rdfs:subClassOf rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+        <rdfs:label xml:lang="en">Prohibition</rdfs:label>
+        <skos:definition xml:lang="en">A prohibition is a norm that specifies what must not be done in a regulatory or compliance context.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Regulation -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Regulation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#specifiesNorm"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.w3id.org/cco/cco#Norm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasValidityStart"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasValidityEnd"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Regulation</rdfs:label>
+        <skos:definition xml:lang="en">A regulation is a formal normative instrument that specifies obligations, permissions, or prohibitions in a regulatory or compliance context.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#RegulatoryAuthorityAgent -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#RegulatoryAuthorityAgent">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.w3id.org/cco/cco#Agent"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#holdsRole"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://www.w3id.org/cco/cco#RoleHolding"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasRole"/>
+                                        <owl:someValuesFrom rdf:resource="https://www.w3id.org/cco/cco#RegulatoryAuthorityRole"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Regulatory Authority Agent</rdfs:label>
+        <skos:definition xml:lang="en">An agent that holds a regulatory authority role and is thereby authorised to issue regulations.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#RegulatoryAuthorityRole -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#RegulatoryAuthorityRole">
+        <rdfs:subClassOf rdf:resource="https://www.w3id.org/cco/cco#Role"/>
+        <rdfs:label xml:lang="en">Regulatory Authority Role</rdfs:label>
+        <skos:definition xml:lang="en">A role that, when held by an agent, authorises that agent to issue regulations.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Resource -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Resource">
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+        <skos:definition xml:lang="en">A resource is a physical, digital, or conceptual asset that is allocated, used, or governed in a regulated activity.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#Role -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#Role">
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+        <skos:definition xml:lang="en">A role is a position held by an agent within a regulatory or compliance context.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3id.org/cco/cco#RoleHolding -->
+
+
+    <owl:Class rdf:about="https://www.w3id.org/cco/cco#RoleHolding">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasRole"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.w3id.org/cco/cco#Role"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasStartTime"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.w3id.org/cco/cco#hasEndTime"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Role Holding</rdfs:label>
+        <skos:definition xml:lang="en">RoleHolding is the time-bounded association through which an agent holds a role.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.w3id.org/cco/cco#Obligation"/>
+            <rdf:Description rdf:about="https://www.w3id.org/cco/cco#Permission"/>
+            <rdf:Description rdf:about="https://www.w3id.org/cco/cco#Prohibition"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
