@@ -3,6 +3,13 @@
 
 CCO is a domain-independent ontology for representing the regulatory structure of regulations. It provides a reusable scaffold for capturing recurring normative patterns across compliance domains, including obligations, permissions, prohibitions, conditions, exceptions, role-based applicability, and temporal scope.
 
+## Documentation
+
+Full ontology documentation is available at:
+**https://rgu-computing.github.io/CCO/**
+
+Permanent identifier: **https://www.w3id.org/cco/cco**
+
 ### CCO Conceptual Model
 <div align="center">
 <img src="docs/CCO-model.png" width="600" alt="CCO Conceptual Model"/>
