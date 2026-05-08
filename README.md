@@ -31,11 +31,9 @@ CCO/
   CCO.ttl                      # The core CCO ontology in OWL/Turtle format, defining all classes, properties, and axioms
   CCO.properties                # Protégé project properties file for the core ontology
 
-CCO-Grounded/
-  CCO_Grounded.ttl              # A version of CCO with foundational grounding via rdfs:subClassOf alignments to BFO and NRV
-  CCO_Grounded.properties       # Protégé project properties file for the grounded version
-  catalog-v001.xml              # Ontology catalog file mapping imported IRIs to local file paths
-  imports/                      # Directory containing imported ontology modules (e.g., BFO, NRV) used for foundational grounding
+CCO-BFO-Alignment/
+  CCO-BFO-Alignment.ttl        # Alignment ontology between CCO and BFO and NRV. 
+                               # Requires CCO to be imported alongside this ontology.
 
 Usecase/CCO-Education/
   CCO-Education.ttl             # The CCO education domain extension, defining education-specific role classes and alignments to EFRO
@@ -86,7 +84,5 @@ This ontology is licensed under the Creative Commons Attribution 4.0 Internation
 
 
 ```
-Arshad, U., Corsar, D., Nkisi-Orji, I.: CCO: A Core Compliance 
-Ontology for Modelling the Normative Structure of Regulations. 
-ISWC 2026.
+Arshad, U., Corsar, D., Nkisi-Orji, I.: CCO: A Core Compliance Ontology for Modelling the Normative Structure of Regulations. GitHub repository, 2026. Available at: [https://github.com/RGU-Computing/CCO]
 ```
