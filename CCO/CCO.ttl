@@ -1,13 +1,13 @@
-@prefix : <http://www.example.org/cco#> .
+@prefix : <https://www.w3id.org/cco/cco#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix cco: <http://www.example.org/cco#> .
+@prefix cco: <https://www.w3id.org/cco/cco#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@base <http://www.example.org/cco#> .
+@base <https://www.w3id.org/cco/cco#> .
 
 <http://www.example.org/cco> rdf:type owl:Ontology ;
                               dc:creator "Umair Arshad" ;
@@ -59,7 +59,7 @@ xsd:date rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  http://www.example.org/cco#allocatedTo
+###  https://www.w3id.org/cco/cco#allocatedTo
 cco:allocatedTo rdf:type owl:ObjectProperty ;
                 rdfs:domain cco:Resource ;
                 rdfs:range cco:Agent ;
@@ -67,7 +67,7 @@ cco:allocatedTo rdf:type owl:ObjectProperty ;
                 skos:definition "Relates a resource to the agent to whom that resource is allocated."@en .
 
 
-###  http://www.example.org/cco#appliesToRole
+###  https://www.w3id.org/cco/cco#appliesToRole
 cco:appliesToRole rdf:type owl:ObjectProperty ;
                   rdfs:domain cco:Norm ;
                   rdfs:range cco:Role ;
@@ -75,7 +75,7 @@ cco:appliesToRole rdf:type owl:ObjectProperty ;
                   skos:definition "Relates a norm to the role to which that norm applies."@en .
 
 
-###  http://www.example.org/cco#appliesUnder
+###  https://www.w3id.org/cco/cco#appliesUnder
 cco:appliesUnder rdf:type owl:ObjectProperty ;
                  rdfs:domain cco:Norm ;
                  rdfs:range cco:Condition ;
@@ -83,7 +83,7 @@ cco:appliesUnder rdf:type owl:ObjectProperty ;
                  skos:definition "Relates a norm to a condition under which that norm becomes applicable."@en .
 
 
-###  http://www.example.org/cco#hasAction
+###  https://www.w3id.org/cco/cco#hasAction
 cco:hasAction rdf:type owl:ObjectProperty ;
               rdfs:domain cco:Norm ;
               rdfs:range cco:Action ;
@@ -91,7 +91,7 @@ cco:hasAction rdf:type owl:ObjectProperty ;
               skos:definition "Relates a norm to the action that the norm requires, permits, or prohibit."@en .
 
 
-###  http://www.example.org/cco#hasCondition
+###  https://www.w3id.org/cco/cco#hasCondition
 cco:hasCondition rdf:type owl:ObjectProperty ;
                  rdfs:domain cco:Exception ;
                  rdfs:range cco:Condition ;
@@ -99,7 +99,7 @@ cco:hasCondition rdf:type owl:ObjectProperty ;
                  skos:definition "Relates an exception to a condition under which that exception applies to modify a norm."@en .
 
 
-###  http://www.example.org/cco#hasException
+###  https://www.w3id.org/cco/cco#hasException
 cco:hasException rdf:type owl:ObjectProperty ;
                  rdfs:domain cco:Norm ;
                  rdfs:range cco:Exception ;
@@ -107,7 +107,7 @@ cco:hasException rdf:type owl:ObjectProperty ;
                  skos:definition "Relates a norm to an exception that modifies the applicability or force of that norm in a particular case."@en .
 
 
-###  http://www.example.org/cco#hasObject
+###  https://www.w3id.org/cco/cco#hasObject
 cco:hasObject rdf:type owl:ObjectProperty ;
               rdfs:domain cco:Norm ;
               rdfs:range cco:Resource ;
@@ -115,7 +115,7 @@ cco:hasObject rdf:type owl:ObjectProperty ;
               skos:definition "Relates a norm to the resource that the norm’s action affects or targets."@en .
 
 
-###  http://www.example.org/cco#hasRole
+###  https://www.w3id.org/cco/cco#hasRole
 cco:hasRole rdf:type owl:ObjectProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain cco:RoleHolding ;
@@ -124,7 +124,7 @@ cco:hasRole rdf:type owl:ObjectProperty ,
             skos:definition "Relates a Role Holding association to the role held by the agent."@en .
 
 
-###  http://www.example.org/cco#holdsRole
+###  https://www.w3id.org/cco/cco#holdsRole
 cco:holdsRole rdf:type owl:ObjectProperty ;
               rdfs:domain cco:Agent ;
               rdfs:range cco:RoleHolding ;
@@ -132,7 +132,7 @@ cco:holdsRole rdf:type owl:ObjectProperty ;
               skos:definition "Relates an agent to the time-bounded association through which that agent holds a role."@en .
 
 
-###  http://www.example.org/cco#issues
+###  https://www.w3id.org/cco/cco#issues
 cco:issues rdf:type owl:ObjectProperty ;
            rdfs:domain cco:RegulatoryAuthorityAgent ;
            rdfs:range cco:Regulation ;
@@ -140,7 +140,7 @@ cco:issues rdf:type owl:ObjectProperty ;
            skos:definition "Relates a regulatory authority agent to a regulation that the agent issues."@en .
 
 
-###  http://www.example.org/cco#modifiesNorm
+###  https://www.w3id.org/cco/cco#modifiesNorm
 cco:modifiesNorm rdf:type owl:ObjectProperty ;
                  rdfs:domain cco:Exception ;
                  rdfs:range cco:Norm ;
@@ -148,7 +148,7 @@ cco:modifiesNorm rdf:type owl:ObjectProperty ;
                  skos:definition "Relates an exception to a norm whose applicability or force is modified by that exception."@en .
 
 
-###  http://www.example.org/cco#regulates
+###  https://www.w3id.org/cco/cco#regulates
 cco:regulates rdf:type owl:ObjectProperty ;
               rdfs:domain cco:Regulation ;
               rdfs:range cco:Resource ;
@@ -156,7 +156,7 @@ cco:regulates rdf:type owl:ObjectProperty ;
               skos:definition "Relates a regulation to a resource that falls within the regulatory scope of that regulation."@en .
 
 
-###  http://www.example.org/cco#specifiesNorm
+###  https://www.w3id.org/cco/cco#specifiesNorm
 cco:specifiesNorm rdf:type owl:ObjectProperty ;
                   rdfs:domain cco:Regulation ;
                   rdfs:range cco:Norm ;
@@ -164,7 +164,7 @@ cco:specifiesNorm rdf:type owl:ObjectProperty ;
                   skos:definition "Relates a regulation to a norm specified by that regulation."@en .
 
 
-###  http://www.example.org/cco#supersedes
+###  https://www.w3id.org/cco/cco#supersedes
 cco:supersedes rdf:type owl:ObjectProperty ,
                         owl:TransitiveProperty ;
                rdfs:domain cco:Regulation ;
@@ -177,7 +177,7 @@ cco:supersedes rdf:type owl:ObjectProperty ,
 #    Data properties
 #################################################################
 
-###  http://www.example.org/cco#hasActionExpression
+###  https://www.w3id.org/cco/cco#hasActionExpression
 cco:hasActionExpression rdf:type owl:DatatypeProperty ;
                         rdfs:domain cco:Action ;
                         rdfs:range xsd:string ;
@@ -185,7 +185,7 @@ cco:hasActionExpression rdf:type owl:DatatypeProperty ;
                         skos:definition "Relates an action to a plain text string that records the action description, preserving the wording of the regulatory source text."@en .
 
 
-###  http://www.example.org/cco#hasApplicabilityEnd
+###  https://www.w3id.org/cco/cco#hasApplicabilityEnd
 cco:hasApplicabilityEnd rdf:type owl:DatatypeProperty ,
                                  owl:FunctionalProperty ;
                         rdfs:domain cco:Norm ;
@@ -194,7 +194,7 @@ cco:hasApplicabilityEnd rdf:type owl:DatatypeProperty ,
                         skos:definition "Relates a norm to the date on which that norm ceases to be applicable."@en .
 
 
-###  http://www.example.org/cco#hasApplicabilityStart
+###  https://www.w3id.org/cco/cco#hasApplicabilityStart
 cco:hasApplicabilityStart rdf:type owl:DatatypeProperty ,
                                    owl:FunctionalProperty ;
                           rdfs:domain cco:Norm ;
@@ -203,7 +203,7 @@ cco:hasApplicabilityStart rdf:type owl:DatatypeProperty ,
                           skos:definition "Relates a norm to the date from which that norm becomes applicable."@en .
 
 
-###  http://www.example.org/cco#hasConditionExpression
+###  https://www.w3id.org/cco/cco#hasConditionExpression
 cco:hasConditionExpression rdf:type owl:DatatypeProperty ;
                            rdfs:domain cco:Condition ;
                            rdfs:range xsd:string ;
@@ -211,7 +211,7 @@ cco:hasConditionExpression rdf:type owl:DatatypeProperty ;
                            skos:definition "Relates a condition to a human-readable textual expression that describes the applicability criterion."@en .
 
 
-###  http://www.example.org/cco#hasEndTime
+###  https://www.w3id.org/cco/cco#hasEndTime
 cco:hasEndTime rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
                rdfs:domain cco:RoleHolding ;
@@ -220,7 +220,7 @@ cco:hasEndTime rdf:type owl:DatatypeProperty ,
                skos:definition "Relates a Role Holding association to the date on which it ends."@en .
 
 
-###  http://www.example.org/cco#hasStartTime
+###  https://www.w3id.org/cco/cco#hasStartTime
 cco:hasStartTime rdf:type owl:DatatypeProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain cco:RoleHolding ;
@@ -229,7 +229,7 @@ cco:hasStartTime rdf:type owl:DatatypeProperty ,
                  skos:definition "Relates a Role Holding association to the date on which it begins."@en .
 
 
-###  http://www.example.org/cco#hasValidityEnd
+###  https://www.w3id.org/cco/cco#hasValidityEnd
 cco:hasValidityEnd rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain cco:Regulation ;
@@ -238,7 +238,7 @@ cco:hasValidityEnd rdf:type owl:DatatypeProperty ,
                    skos:definition "Relates a regulation to the date on which its validity ends."@en .
 
 
-###  http://www.example.org/cco#hasValidityStart
+###  https://www.w3id.org/cco/cco#hasValidityStart
 cco:hasValidityStart rdf:type owl:DatatypeProperty ,
                               owl:FunctionalProperty ;
                      rdfs:domain cco:Regulation ;
@@ -251,25 +251,25 @@ cco:hasValidityStart rdf:type owl:DatatypeProperty ,
 #    Classes
 #################################################################
 
-###  http://www.example.org/cco#Action
+###  https://www.w3id.org/cco/cco#Action
 cco:Action rdf:type owl:Class ;
            rdfs:label "Action" ;
            skos:definition "An action is an activity or behaviour that a norm requires, permits, or prohibits."@en .
 
 
-###  http://www.example.org/cco#Agent
+###  https://www.w3id.org/cco/cco#Agent
 cco:Agent rdf:type owl:Class ;
           rdfs:label "Agent"@en ;
           skos:definition "An agent is an entity that can perform actions, hold roles, and be subject to regulatory or compliance requirements."@en .
 
 
-###  http://www.example.org/cco#Condition
+###  https://www.w3id.org/cco/cco#Condition
 cco:Condition rdf:type owl:Class ;
               rdfs:label "Condition"@en ;
               skos:definition "A condition is a criterion that determines the applicability of a norm or exception."@en .
 
 
-###  http://www.example.org/cco#Exception
+###  https://www.w3id.org/cco/cco#Exception
 cco:Exception rdf:type owl:Class ;
               rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                        owl:onProperty cco:hasCondition ;
@@ -289,7 +289,7 @@ cco:Exception rdf:type owl:Class ;
               skos:definition "An exception is a normative statement that modifies the applicability or force of a norm in a particular case."@en .
 
 
-###  http://www.example.org/cco#Norm
+###  https://www.w3id.org/cco/cco#Norm
 cco:Norm rdf:type owl:Class ;
          rdfs:subClassOf [ rdf:type owl:Restriction ;
                            owl:onProperty cco:hasApplicabilityEnd ;
@@ -305,14 +305,14 @@ cco:Norm rdf:type owl:Class ;
          skos:definition "A norm is a prescriptive rule that specifies what must, may, or must not be done in a regulatory or compliance context."@en .
 
 
-###  http://www.example.org/cco#Obligation
+###  https://www.w3id.org/cco/cco#Obligation
 cco:Obligation rdf:type owl:Class ;
                rdfs:subClassOf cco:Norm ;
                rdfs:label "Obligation"@en ;
                skos:definition "An obligation is a norm that specifies what must be done in a regulatory or compliance context."@en .
 
 
-###  http://www.example.org/cco#Organisation
+###  https://www.w3id.org/cco/cco#Organisation
 cco:Organisation rdf:type owl:Class ;
                  rdfs:subClassOf cco:Agent ;
                  owl:disjointWith cco:Person ;
@@ -320,28 +320,28 @@ cco:Organisation rdf:type owl:Class ;
                  skos:definition "An organisation is an institutional agent that can hold roles and participate in regulatory or compliance activities."@en .
 
 
-###  http://www.example.org/cco#Permission
+###  https://www.w3id.org/cco/cco#Permission
 cco:Permission rdf:type owl:Class ;
                rdfs:subClassOf cco:Norm ;
                rdfs:label "Permission"@en ;
                skos:definition "A permission is a norm that specifies what may be done in a regulatory or compliance context."@en .
 
 
-###  http://www.example.org/cco#Person
+###  https://www.w3id.org/cco/cco#Person
 cco:Person rdf:type owl:Class ;
            rdfs:subClassOf cco:Agent ;
            rdfs:label "Person"@en ;
            skos:definition "A person is an individual human agent."@en .
 
 
-###  http://www.example.org/cco#Prohibition
+###  https://www.w3id.org/cco/cco#Prohibition
 cco:Prohibition rdf:type owl:Class ;
                 rdfs:subClassOf cco:Norm ;
                 rdfs:label "Prohibition"@en ;
                 skos:definition "A prohibition is a norm that specifies what must not be done in a regulatory or compliance context."@en .
 
 
-###  http://www.example.org/cco#Regulation
+###  https://www.w3id.org/cco/cco#Regulation
 cco:Regulation rdf:type owl:Class ;
                rdfs:subClassOf [ rdf:type owl:Restriction ;
                                  owl:onProperty cco:specifiesNorm ;
@@ -362,7 +362,7 @@ cco:Regulation rdf:type owl:Class ;
                skos:definition "A regulation is a formal normative instrument that specifies obligations, permissions, or prohibitions in a regulatory or compliance context."@en .
 
 
-###  http://www.example.org/cco#RegulatoryAuthorityAgent
+###  https://www.w3id.org/cco/cco#RegulatoryAuthorityAgent
 cco:RegulatoryAuthorityAgent rdf:type owl:Class ;
                              rdfs:subClassOf [ owl:intersectionOf ( cco:Agent
                                                                     [ rdf:type owl:Restriction ;
@@ -383,26 +383,26 @@ cco:RegulatoryAuthorityAgent rdf:type owl:Class ;
                              skos:definition "An agent that holds a regulatory authority role and is thereby authorised to issue regulations."@en .
 
 
-###  http://www.example.org/cco#RegulatoryAuthorityRole
+###  https://www.w3id.org/cco/cco#RegulatoryAuthorityRole
 cco:RegulatoryAuthorityRole rdf:type owl:Class ;
                             rdfs:subClassOf cco:Role ;
                             rdfs:label "Regulatory Authority Role"@en ;
                             skos:definition "A role that, when held by an agent, authorises that agent to issue regulations."@en .
 
 
-###  http://www.example.org/cco#Resource
+###  https://www.w3id.org/cco/cco#Resource
 cco:Resource rdf:type owl:Class ;
              rdfs:label "Resource"@en ;
              skos:definition "A resource is a physical, digital, or conceptual asset that is allocated, used, or governed in a regulated activity."@en .
 
 
-###  http://www.example.org/cco#Role
+###  https://www.w3id.org/cco/cco#Role
 cco:Role rdf:type owl:Class ;
          rdfs:label "Role"@en ;
          skos:definition "A role is a position held by an agent within a regulatory or compliance context."@en .
 
 
-###  http://www.example.org/cco#RoleHolding
+###  https://www.w3id.org/cco/cco#RoleHolding
 cco:RoleHolding rdf:type owl:Class ;
                 rdfs:subClassOf [ rdf:type owl:Restriction ;
                                   owl:onProperty cco:hasRole ;
