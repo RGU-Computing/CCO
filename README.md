@@ -14,7 +14,7 @@ Permanent identifier: **https://www.w3id.org/cco/cco**
 
 ### CCO Conceptual Model
 <div align="center">
-<img src="docs/figures/emodel-diagram.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/figures/model-diagram.png" width="600" alt="CCO Conceptual Model"/>
 </div>
 *Figure 1: The Core Compliance Ontology (CCO) conceptual model. Beige nodes represent normative classes (regulations, norms, conditions, exceptions, and deontic types), blue nodes represent contextual classes (agents, roles, role holdings, actions, and resources), and green ellipses represent datatype values.*
 
