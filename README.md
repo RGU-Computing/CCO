@@ -6,10 +6,9 @@ CCO is a domain-independent ontology for representing the regulatory structure o
 ## Documentation
 
 Full ontology documentation is available at:
-[View Docs](ttps://rgu-computing.github.io/CCO/)
+**https://rgu-computing.github.io/CCO/**
 
-[Permanent identifier](https://www.w3id.org/cco/cco)
-
+Permanent identifier: **https://www.w3id.org/cco/cco**
 ---
 
 ### CCO Conceptual Model
