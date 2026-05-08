@@ -45,6 +45,26 @@ ASK {
 }
 ```
 
+** Replace ?regulation with IRI of regulation being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?agent {
+    
+    ?agent a cco:Agent.
+    ?agent cco:holdsRole ?roleHolding.
+	?roleHolding cco:hasRole ?role.
+	
+	?regulation a cco:Regulation.
+	?regulation cco:specifiesNorm ?norm.
+	?norm cco:appliesToRole ?role.
+
+}
+```
+
+
 ---
 
 ### CQ2: Which roles does a given agent hold?
@@ -76,6 +96,20 @@ ASK {
 }
 ```
 
+** Replace ?agent with IRI of agent being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?role {
+    ?agent a cco:Agent.
+    ?agent cco:holdsRole ?roleHolding.
+	?roleHolding cco:hasRole ?role.
+
+}
+```
+
 ---
 
 ### CQ3: Which regulatory authority agents have issued a given regulation?
@@ -99,6 +133,20 @@ ASK {
     # Domain and range checks
     cco:issues rdfs:domain cco:RegulatoryAuthorityAgent .
     cco:issues rdfs:range  cco:Regulation .
+}
+```
+
+** Replace ?regulation with IRI of regulation being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?raa {
+    # Class existence checks
+    ?raa a cco:RegulatoryAuthorityAgent.
+	?raa cco:issues ?regulation.
+	?regulation a cco:Regulation.
 }
 ```
 
@@ -136,6 +184,19 @@ ASK {
 }
 ```
 
+** Replace ?rar with IRI of regulatory authority role being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?agent {
+    ?agent a cco:Agent.
+    ?agent cco:holdsRole/cco:hasRole ?rar.
+	?rar a cco:RegulatoryAuthorityRole.
+}
+```
+
 ---
 
 ### CQ5: Which agents are allocated a given resource?
@@ -159,6 +220,19 @@ ASK {
     # Domain and range checks
     cco:allocatedTo rdfs:domain cco:Resource .
     cco:allocatedTo rdfs:range  cco:Agent .
+}
+```
+
+** Replace ?resource with IRI of resource being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?agent {
+	?resource a cco:Resource;
+		?cco:allocatedTo ?agent.
+	?agent a cco:Agent.
 }
 ```
 
@@ -189,6 +263,21 @@ ASK {
     cco:specifiesNorm rdfs:range  cco:Norm .
 }
 ```
+
+
+** Replace ?regulation with IRI of the regulation being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?norm {
+    ?regulation a cco:Regulation;
+		cco:specifiesNorm ?norm.
+	?norm a cco:Norm.
+}
+```
+
 
 ---
 
@@ -224,7 +313,19 @@ ASK {
     cco:appliesToRole rdfs:range  cco:Role .
 }
 ```
+** Replace ?regulation and ?role with IRI of the regulation and role being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
+SELECT ?obligation {
+    ?regulation a cco:Regulation;
+		cco:specifiesNorm ?obligation.
+	?obligation a cco:Obligation;
+		cco:appliesToRole ?role.
+}
+```
 ---
 
 ### CQ8: What permissions apply to a given role?
@@ -252,6 +353,18 @@ ASK {
     # Domain and range checks
     cco:appliesToRole rdfs:domain cco:Norm .
     cco:appliesToRole rdfs:range  cco:Role .
+}
+```
+
+** Replace ?role with IRI of the role being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?permission {
+	?permission a cco:Permission;
+		cco:appliesToRole ?role.
 }
 ```
 
@@ -285,6 +398,19 @@ ASK {
 }
 ```
 
+** Replace ?regulation with IRI of the regulation being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?prohibition {
+    ?regulation a cco:Regulation;
+		cco:specifiesNorm ?prohibition.
+	?prohibition a cco:Prohibition.
+}
+```
+---
 ---
 
 ### CQ10: Which regulation supersedes a given regulation?
@@ -310,6 +436,18 @@ ASK {
 
     # Transitivity check
     cco:supersedes a owl:TransitiveProperty .
+}
+```
+
+** Replace ?regulation with IRI of the regulation being superseeded**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?reg {
+	?reg a cco:Regulation;
+		cco:supersedes ?regulation.
 }
 ```
 
@@ -339,6 +477,17 @@ ASK {
 }
 ```
 
+** Replace ?regulation with IRI of the regulation being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?reg {
+	?regulation a cco:Regulation;
+		cco:regulates ?resource.
+}
+```
 ---
 
 ### CQ12: Which norms apply to a given agent through the roles that the agent holds?
@@ -372,6 +521,21 @@ ASK {
 
     cco:appliesToRole rdfs:domain cco:Norm .
     cco:appliesToRole rdfs:range  cco:Role .
+}
+```
+
+** Replace ?agent with IRI of the agent being queried about **                                                                                                                                                                                                                                    being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?norm {
+	?norm a cco:Norm;
+		cco:appliesToRole ?role.
+	?agent a cco:Agent;
+		cco:holdsRole/cco:hasRole ?role.
+		
 }
 ```
 
@@ -419,6 +583,23 @@ ASK {
 }
 ```
 
+** Replace ?agent with IRI of the agent being queried about **                                                                                                                                                                                                                                    being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?start ?end {
+
+	?agent a cco:Agent;
+		cco:holdsRole ?roleHolding.
+	?roleHolding cco:hasRole ?role;
+		cco:hasStartTime ?start;
+		cco:hadEndTime ?end.
+		
+}
+```
+
 ---
 
 ### CQ14: Which norms were applicable on a given date?
@@ -449,6 +630,21 @@ ASK {
 }
 ```
 
+** Replace ?targetDate with the date being queried about **                                                                                                                                                                                                                                    being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?norm {
+	?norm a cco:Norm;
+		cco:hasApplicabilityStart ?start;
+	
+	OPTIONAL { ?norm cco:hasApplicabilityEnd ?end }
+	FILTER (?targetDate >= ?start && (!BOUND(?end) || ?targetDate <= ?end))
+}
+```
+
 ---
 
 ### CQ15: Which regulations were valid during a given time period?
@@ -476,6 +672,22 @@ ASK {
 
     cco:hasValidityEnd   rdfs:domain cco:Regulation .
     cco:hasValidityEnd   rdfs:range  xsd:date .
+}
+```
+
+
+** Replace ?targetDate with the date being queried about **                                                                                                                                                                                                                                    being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?regulation {
+	?regulation a cco:Regulation;
+		cco:hasValidityStart ?start;
+	
+	OPTIONAL { ?regulation cco:hasValidityStart ?end }
+	FILTER (?targetDate >= ?start && (!BOUND(?end) || ?targetDate <= ?end))
 }
 ```
 
@@ -512,6 +724,21 @@ ASK {
 }
 ```
 
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?regulation {
+	?regulation a cco:Regulation;
+		cco:hasValidityEnd ?end.
+	?superceed cco:supersedes ?regulation.
+	?regulation a cco:Regulation.
+		
+	FILTER (now() >= ?end)
+}
+```
+
 ---
 
 ## Category: Exception and Condition
@@ -537,6 +764,19 @@ ASK {
     # Domain and range checks
     cco:appliesUnder rdfs:domain cco:Norm .
     cco:appliesUnder rdfs:range  cco:Condition .
+}
+```
+
+** Replace ?norm with the norm being queried about **                                                                                                                                                                                                                                    being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?condition {
+	?norm a cco:Norm;
+		cco:appliesUnder ?condition.
+	?condition a cco:Condition.
 }
 ```
 
@@ -573,6 +813,19 @@ ASK {
 }
 ```
 
+** Replace ?norm with the norm being queried about **                                                                                                                                                                                                                                    being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?exception {
+	?norm a cco:Norm;
+		cco:hasException ?exception.
+	?exception a cco:Exception.
+}
+```
+
 ---
 
 ### CQ19: Under what condition does a given exception apply?
@@ -596,6 +849,21 @@ ASK {
     # Domain and range checks
     cco:hasCondition rdfs:domain cco:Exception .
     cco:hasCondition rdfs:range  cco:Condition .
+}
+```
+
+
+** Replace ?exception with the exception being queried about **                                                                                                                                                                                                                                    being queried about**
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?condition {
+	?norm a cco:Norm;
+		cco:hasException ?exception.
+	?exception a cco:Exception;
+		cco:hasCondition ?condition.
 }
 ```
 
@@ -636,3 +904,17 @@ ASK {
     cco:hasCondition rdfs:range  cco:Condition .
 }
 ```
+
+```sparql
+PREFIX cco:  <http://www.example.org/cco#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?norm {
+	?norm a cco:Norm;
+		cco:hasException ?exception.
+	?exception a cco:Exception;
+		cco:hasCondition ?condition.
+}
+```
+
