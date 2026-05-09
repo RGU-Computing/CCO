@@ -116,5 +116,5 @@ This ontology is licensed under the Creative Commons Attribution 4.0 Internation
 ```
 Arshad, U., Corsar, D., Nkisi-Orji, I.: CCO: A Core Compliance 
 Ontology for Modelling the Normative Structure of Regulations. 
-ISWC 2026. Available at: https://github.com/RGU-Computing/CCO
+Available at: https://github.com/RGU-Computing/CCO
 ```
