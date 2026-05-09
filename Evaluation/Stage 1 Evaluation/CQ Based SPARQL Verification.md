@@ -12,7 +12,7 @@ Twenty competency questions (CQs) were defined to assess whether CCO provides th
 **Key Properties:** specifiesNorm, appliesToRole, holdsRole, hasRole
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -47,7 +47,7 @@ ASK {
 
 ** Replace ?regulation with IRI of regulation being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -73,7 +73,7 @@ SELECT ?agent {
 **Key Properties:** holdsRole, hasRole
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -98,7 +98,7 @@ ASK {
 
 ** Replace ?agent with IRI of agent being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -118,7 +118,7 @@ SELECT ?role {
 **Key Properties:** issues
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -138,7 +138,7 @@ ASK {
 
 ** Replace ?regulation with IRI of regulation being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -158,7 +158,7 @@ SELECT ?raa {
 **Key Properties:** holdsRole, hasRole
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -186,7 +186,7 @@ ASK {
 
 ** Replace ?rar with IRI of regulatory authority role being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -205,7 +205,7 @@ SELECT ?agent {
 **Key Properties:** allocatedTo
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -225,7 +225,7 @@ ASK {
 
 ** Replace ?resource with IRI of resource being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -246,7 +246,7 @@ SELECT ?agent {
 **Key Properties:** specifiesNorm
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -267,7 +267,7 @@ ASK {
 
 ** Replace ?regulation with IRI of the regulation being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -287,7 +287,7 @@ SELECT ?norm {
 **Key Properties:** specifiesNorm, appliesToRole
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -315,7 +315,7 @@ ASK {
 ```
 ** Replace ?regulation and ?role with IRI of the regulation and role being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -334,7 +334,7 @@ SELECT ?obligation {
 **Key Properties:** appliesToRole
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -358,7 +358,7 @@ ASK {
 
 ** Replace ?role with IRI of the role being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -376,7 +376,7 @@ SELECT ?permission {
 **Key Properties:** specifiesNorm
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -400,7 +400,7 @@ ASK {
 
 ** Replace ?regulation with IRI of the regulation being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -419,7 +419,7 @@ SELECT ?prohibition {
 **Key Properties:** supersedes
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -441,7 +441,7 @@ ASK {
 
 ** Replace ?regulation with IRI of the regulation being superseeded**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -459,7 +459,7 @@ SELECT ?reg {
 **Key Properties:** regulates
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -479,7 +479,7 @@ ASK {
 
 ** Replace ?regulation with IRI of the regulation being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -496,7 +496,7 @@ SELECT ?reg {
 **Key Properties:** holdsRole, hasRole, appliesToRole
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -526,7 +526,7 @@ ASK {
 
 ** Replace ?agent with IRI of the agent being queried about **                                                                                                                                                                                                                                    being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -549,7 +549,7 @@ SELECT ?norm {
 **Key Properties:** holdsRole, hasRole, hasStartTime, hasEndTime
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
@@ -585,7 +585,7 @@ ASK {
 
 ** Replace ?agent with IRI of the agent being queried about **                                                                                                                                                                                                                                    being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -608,7 +608,7 @@ SELECT ?start ?end {
 **Key Properties:** hasApplicabilityStart, hasApplicabilityEnd
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
@@ -632,7 +632,7 @@ ASK {
 
 ** Replace ?targetDate with the date being queried about **                                                                                                                                                                                                                                    being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -653,7 +653,7 @@ SELECT ?norm {
 **Key Properties:** hasValidityStart, hasValidityEnd
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
@@ -678,7 +678,7 @@ ASK {
 
 ** Replace ?targetDate with the date being queried about **                                                                                                                                                                                                                                    being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -699,7 +699,7 @@ SELECT ?regulation {
 **Key Properties:** supersedes, hasValidityEnd
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
@@ -725,7 +725,7 @@ ASK {
 ```
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -749,7 +749,7 @@ SELECT ?regulation {
 **Key Properties:** appliesUnder
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -769,7 +769,7 @@ ASK {
 
 ** Replace ?norm with the norm being queried about **                                                                                                                                                                                                                                    being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -788,7 +788,7 @@ SELECT ?condition {
 **Key Properties:** hasException, modifiesNorm
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -815,7 +815,7 @@ ASK {
 
 ** Replace ?norm with the norm being queried about **                                                                                                                                                                                                                                    being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -834,7 +834,7 @@ SELECT ?exception {
 **Key Properties:** hasCondition
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -855,7 +855,7 @@ ASK {
 
 ** Replace ?exception with the exception being queried about **                                                                                                                                                                                                                                    being queried about**
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -875,7 +875,7 @@ SELECT ?condition {
 **Key Properties:** hasException, modifiesNorm, hasCondition
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -906,7 +906,7 @@ ASK {
 ```
 
 ```sparql
-PREFIX cco:  <http://www.example.org/cco#>
+PREFIX cco:  <https://www.w3id.org/cco/cco#>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
