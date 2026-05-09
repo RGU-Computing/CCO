@@ -84,22 +84,6 @@ README.md                       # This file
 
 ---
 
-## Ontology Overview
-
-CCO captures the following core concepts:
-
-- **Regulation** — a formal normative instrument with validity dates and versioning links
-- **Norm** — a normative statement (Obligation, Permission, or Prohibition) specified by a regulation
-- **Condition** — an applicability criterion linked to a norm
-- **Exception** — a normative qualifier that modifies the applicability or force of a norm
-- **Action** — a regulated behaviour linked to a norm
-- **Resource** — an asset or object targeted by a norm
-- **Agent** — an entity that holds roles and is subject to norms
-- **Role** — a compliance-relevant position held by an agent
-- **RoleHolding** — a time-bounded association between an agent and a role
-- **RegulatoryAuthorityAgent** — an agent authorised to issue regulations
-
----
 
 ## Evaluation
 
