@@ -1,4 +1,3 @@
-
 # Core Compliance Ontology (CCO)
 
 CCO is a domain-independent ontology for representing the regulatory structure of regulations. It provides a reusable scaffold for capturing recurring normative patterns across compliance domains, including obligations, permissions, prohibitions, conditions, exceptions, role-based applicability, and temporal scope.
@@ -8,27 +7,29 @@ CCO is a domain-independent ontology for representing the regulatory structure o
 Full ontology documentation is available at:
 **https://rgu-computing.github.io/CCO/**
 
-Permanent identifier:**https://www.w3id.org/cco/cco**
+Permanent identifier: **https://www.w3id.org/cco/cco**
 
 ---
 
 ### CCO Conceptual Model
 <div align="center">
-<img src="docs/figures/model-diagram.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/figures/cco-model.png" width="600" alt="CCO Conceptual Model"/>
 </div>
+
 *Figure 1: The Core Compliance Ontology (CCO) conceptual model. Beige nodes represent normative classes (regulations, norms, conditions, exceptions, and deontic types), blue nodes represent contextual classes (agents, roles, role holdings, actions, and resources), and green ellipses represent datatype values.*
 
 ### CCO Layered Architecture
 <div align="center">
-<img src="docs/figures/cco-layers.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/figures/cco-layering.png" width="600" alt="CCO Layered Architecture"/>
 </div>
 
-*Figure 2: Intended layered use of CCO, showing domain-specific extensions grounded in CCO and instantiated with representative regulations from different compliance domains.*
+*Figure 2: Intended layered use of CCO, showing domain-specific extensions instantiated with representative regulations from different compliance domains.*
 
-### GDPR Article Instantiation Example
+### GDPR Article 33 Instantiation Example
 <div align="center">
-<img src="docs/figures/GDPR Example.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/figures/gdpr-example.png" width="600" alt="GDPR Example"/>
 </div>
+
 *Figure 3: CCO instantiation of selected requirements from GDPR Article 33, paragraphs 1 and 2. Beige nodes represent CCO individuals, green nodes represent plain text datatype values, and dashed arrows denote cco:modifiesNorm links.*
 
 ---
@@ -41,7 +42,7 @@ CCO/
   CCO.properties                # Protégé project properties file for the core ontology
 
 CCO-BFO-Alignment/
-  CCO-BFO-Alignment.ttl        # Alignment ontology between CCO and BFO and NRV. 
+  CCO-BFO-Alignment.ttl        # Alignment ontology between CCO and BFO and NRV.
                                # Requires CCO to be imported alongside this ontology.
 
 Usecase/CCO-Education/
@@ -54,9 +55,22 @@ Usecase/CCO-Education/
     efro_module.properties      # Properties file for the EFRO module
 
 Evaluation/
-  stage1-cqs.md                 # The 20 competency questions and corresponding SPARQL ASK queries used in Stage 1 evaluation
+  Stage 1 Evaluation/
+    CQ Based SPARQL Verification.md  # The 20 competency questions and corresponding SPARQL ASK and SELECT queries
+  Stage 2 Evaluation/
+    Step 1/
+      LLM generated CQs/       # Generated competency questions per domain
+      dataset/                 # Regulatory documents used for CQ generation
+      CQs Evaluation.csv       # LLM assessment results for all 1,587 CQs
+      Generation.ipynb         # CQ generation pipeline notebook
+    Step 2/                    # ABox generation and structural validation
 
-docs/
+Patterns/
+  design-patterns.md            # The seven CCO modelling patterns
+
+docs/                           # WIDOCO-generated ontology documentation
+  index-en.html                 # Main documentation page
+  index.html                    # Redirect to index-en.html
   figures/
     cco-model.png               # CCO conceptual model diagram (Figure 1)
     cco-layering.png            # CCO layered architecture diagram (Figure 2)
@@ -66,20 +80,26 @@ LICENSE.md                      # CC-BY 4.0 licence
 README.md                       # This file
 ```
 
+---
+
 
 ## Evaluation
 
 CCO was evaluated through a two-stage strategy:
 
-**Stage 1:** 20 competency questions were verified using SPARQL ASK queries against the CCO TBox, confirming correct implementation of classes, properties, and schema-level axioms across five categories: agent and role, norm and regulation, temporal scoping, exception and condition, and resource allocation. The full set of CQs and SPARQL queries is available in `Evaluation/stage1-cqs.md`.
+**Stage 1: Competency Question-Based SPARQL Verification**
 
-**Stage 2:** An LLM-assisted cross-domain evaluation was conducted across four compliance domains (education funding, finance, healthcare, data protection). Of 1,587 generated competency questions, 1,556 (98.1%) were assessed as supported by CCO. A 10% sample of 156 CQs was further validated: 154 (98.7%) passed SHACL validation and 142 (91.0%) returned a non-empty SPARQL result.
+Twenty competency questions (CQs) were defined to assess whether CCO provides the vocabulary required to represent its seven modelling patterns, organised into five categories: agent and role, norm and regulation, temporal scoping, exception and condition, and resource allocation. For each CQ, two SPARQL queries are provided: a SPARQL ASK query verifying schema-level axioms against the CCO TBox, and a SPARQL SELECT query demonstrating how the question can be answered against instance data. The full set of CQs and queries is available in `Evaluation/Stage 1 Evaluation/CQ Based SPARQL Verification.md`.
+
+**Stage 2: LLM-Assisted Cross-Domain Evaluation**
+
+An LLM-assisted cross-domain evaluation was conducted across four compliance domains (education funding, finance, healthcare, data protection). Of 1,587 generated competency questions, 1,556 (98.1%) were assessed as supported by CCO. A 10% sample of 156 CQs was further validated: 154 (98.7%) passed SHACL validation and 142 (91.0%) returned a non-empty SPARQL result.
 
 ---
 
 ## Domain Extension
 
-A lightweight education domain extension is provided in `Usecase/CCO-Education/`, demonstrating how CCO can be extended. Eleven EFRO classes are aligned to CCO via `rdfs:subClassOf` and thirteen education-specific role classes are defined as subclasses of `cco:Role`.
+A lightweight education domain extension is provided in `Usecase/CCO-Education/`, demonstrating how CCO can be extended using the MIREOT method. Eleven EFRO classes are aligned to CCO via `rdfs:subClassOf` and thirteen education-specific role classes are defined as subclasses of `cco:Role`.
 
 ---
 
@@ -91,7 +111,8 @@ This ontology is licensed under the Creative Commons Attribution 4.0 Internation
 
 ## Citation
 
-
 ```
-Arshad, U., Corsar, D., Nkisi-Orji, I.: CCO: A Core Compliance Ontology for Modelling the Normative Structure of Regulations. GitHub repository, 2026. Available at: [https://github.com/RGU-Computing/CCO]
+Arshad, U., Corsar, D., Nkisi-Orji, I.: CCO: A Core Compliance 
+Ontology for Modelling the Normative Structure of Regulations. 
+Available at: https://github.com/RGU-Computing/CCO
 ```
