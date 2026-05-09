@@ -595,7 +595,7 @@ SELECT ?start ?end {
 		cco:holdsRole ?roleHolding.
 	?roleHolding cco:hasRole ?role;
 		cco:hasStartTime ?start;
-		cco:hadEndTime ?end.
+		ccco:hasEndTime ?end.
 		
 }
 ```
