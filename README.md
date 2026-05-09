@@ -13,22 +13,24 @@ Permanent identifier: **https://www.w3id.org/cco/cco**
 
 ### CCO Conceptual Model
 <div align="center">
-<img src="docs/figures/cco-model.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/figures/model-diagram.png" width="600" alt="CCO Conceptual Model"/>
 </div>
 
 *Figure 1: The Core Compliance Ontology (CCO) conceptual model. Beige nodes represent normative classes (regulations, norms, conditions, exceptions, and deontic types), blue nodes represent contextual classes (agents, roles, role holdings, actions, and resources), and green ellipses represent datatype values.*
 
 ### CCO Layered Architecture
 <div align="center">
-<img src="docs/figures/cco-layering.png" width="600" alt="CCO Layered Architecture"/>
+<img src="docs/figures/cco-layers.png" width="600" alt="CCO Conceptual Model"/>
 </div>
+
 
 *Figure 2: Intended layered use of CCO, showing domain-specific extensions instantiated with representative regulations from different compliance domains.*
 
 ### GDPR Article 33 Instantiation Example
 <div align="center">
-<img src="docs/figures/gdpr-example.png" width="600" alt="GDPR Example"/>
+<img src="docs/figures/GDPR Example.png" width="600" alt="CCO Conceptual Model"/>
 </div>
+
 
 *Figure 3: CCO instantiation of selected requirements from GDPR Article 33, paragraphs 1 and 2. Beige nodes represent CCO individuals, green nodes represent plain text datatype values, and dashed arrows denote cco:modifiesNorm links.*
 
