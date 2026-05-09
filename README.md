@@ -101,7 +101,7 @@ An LLM-assisted cross-domain evaluation was conducted across four compliance dom
 
 ## Domain Extension
 
-A lightweight education domain extension is provided in `Usecase/CCO-Education/`, demonstrating how CCO can be extended using the MIREOT method. Eleven EFRO classes are aligned to CCO via `rdfs:subClassOf` and thirteen education-specific role classes are defined as subclasses of `cco:Role`.
+A lightweight education domain extension is provided in `Usecase/CCO-Education/`, demonstrating how CCO can be extended. EFRO classes are aligned to CCO via `rdfs:subClassOf` and thirteen education-specific role classes are defined as subclasses of `cco:Role`.
 
 ---
 
