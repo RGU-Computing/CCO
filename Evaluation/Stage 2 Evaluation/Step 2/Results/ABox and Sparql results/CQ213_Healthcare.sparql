@@ -1,0 +1,4 @@
+SELECT ?regulation
+WHERE {
+  ?regulation cco:specifiesNorm abox:EstablishCommitteeObligation .
+}

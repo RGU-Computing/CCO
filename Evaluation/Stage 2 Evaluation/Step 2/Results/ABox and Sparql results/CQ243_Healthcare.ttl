@@ -1,0 +1,14 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:HealthcareRegulation a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:ReservationObligation .
+
+abox:ReservationObligation a cco:Obligation, cco:Norm ;
+    cco:appliesUnder abox:ReservationCondition .
+
+abox:ReservationCondition a cco:Condition ;
+    cco:hasConditionExpression "if the reservation was made after the entry into force of these Regulations, request States Parties... within six months" .

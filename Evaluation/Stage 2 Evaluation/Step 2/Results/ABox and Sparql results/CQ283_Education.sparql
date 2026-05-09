@@ -1,0 +1,8 @@
+SELECT ?evidenceAction ?resource
+WHERE {
+  abox:EvidenceObligation cco:hasAction ?evidenceAction ;
+                          cco:hasObject abox:FinancialSystemResource .
+  abox:FinancialSystemResource a cco:Resource .
+  abox:EducationRegulation cco:regulates abox:FinancialSystemResource ;
+                           cco:specifiesNorm abox:EvidenceObligation .
+}

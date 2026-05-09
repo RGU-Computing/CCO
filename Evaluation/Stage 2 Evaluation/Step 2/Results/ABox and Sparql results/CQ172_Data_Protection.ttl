@@ -1,0 +1,25 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPRRegulation a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:Article59Permission ;
+    cco:regulates abox:ProcessingActivityResource .
+
+abox:Article59Permission a cco:Permission, cco:Norm ;
+    cco:hasApplicabilityStart "2018-05-25"^^xsd:date ;
+    cco:appliesUnder abox:LeadAuthorityCondition ;
+    cco:appliesToRole abox:SupervisoryAuthorityRole ;
+    cco:hasAction abox:SeekSettlementAction ;
+    cco:hasObject abox:ProcessingActivityResource .
+
+abox:LeadAuthorityCondition a cco:Condition ;
+    cco:hasConditionExpression "Where another supervisory authority should act as a lead supervisory authority but the concrete subject matter concerns only processing activities in the Member State where the complaint has been lodged" .
+
+abox:SupervisoryAuthorityRole a cco:RegulatoryAuthorityRole .
+
+abox:SeekSettlementAction a cco:Action .
+
+abox:ProcessingActivityResource a cco:Resource .

@@ -1,0 +1,5 @@
+SELECT ?condition WHERE {
+  ?condition a cco:Condition .
+  ?condition cco:hasConditionExpression ?expression .
+  FILTER(REGEX(?expression, "request States Parties", "i"))
+}

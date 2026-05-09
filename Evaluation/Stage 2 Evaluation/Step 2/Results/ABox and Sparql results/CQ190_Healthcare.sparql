@@ -1,0 +1,8 @@
+SELECT ?support
+WHERE {
+  abox:Obligation1 cco:hasAction ?action .
+  abox:Obligation1 cco:hasObject ?resource .
+  abox:Obligation1 cco:appliesUnder ?condition .
+  ?condition cco:hasConditionExpression "upon request"^^xsd:string .
+  BIND(CONCAT(STR(?action), " ", STR(?resource)) AS ?support)
+}

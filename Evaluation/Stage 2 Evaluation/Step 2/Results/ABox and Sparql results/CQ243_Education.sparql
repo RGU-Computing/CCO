@@ -1,0 +1,6 @@
+SELECT ?obligation WHERE {
+  ?obligation a cco:Obligation .
+  ?obligation cco:hasAction ?action .
+  ?obligation cco:appliesUnder ?condition .
+  ?condition cco:hasConditionExpression "end-point assessment itself must be independent" .
+}

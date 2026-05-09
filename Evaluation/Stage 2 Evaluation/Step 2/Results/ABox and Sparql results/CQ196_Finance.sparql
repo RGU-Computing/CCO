@@ -1,0 +1,6 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation ;
+              cco:hasAction abox:NotRelySolelyOnQuantitativeModels ;
+              cco:hasObject abox:QuantitativeModelsForRiskAssessment .
+}

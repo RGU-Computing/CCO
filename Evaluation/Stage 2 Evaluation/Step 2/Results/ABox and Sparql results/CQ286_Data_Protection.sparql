@@ -1,0 +1,6 @@
+SELECT ?conditionExpression WHERE {
+  abox:GDPR cco:specifiesNorm ?norm .
+  ?norm a cco:Permission ;
+         cco:appliesUnder ?condition .
+  ?condition cco:hasConditionExpression ?conditionExpression .
+}

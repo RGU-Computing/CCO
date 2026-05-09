@@ -1,0 +1,23 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation_Article40.3 a cco:Regulation ;
+    cco:hasValidityStart "2024-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation_Article40.3 .
+
+abox:Obligation_Article40.3 a cco:Obligation, cco:Norm ;
+    cco:appliesUnder abox:Condition_Article40.3_a, abox:Condition_Article40.3_b, abox:Condition_Article40.3_c ;
+    cco:hasAction abox:Action_levy_charges .
+
+abox:Condition_Article40.3_a a cco:Condition ;
+    cco:hasConditionExpression "conform to this tariff" .
+
+abox:Condition_Article40.3_b a cco:Condition ;
+    cco:hasConditionExpression "not exceed the actual cost" .
+
+abox:Condition_Article40.3_c a cco:Condition ;
+    cco:hasConditionExpression "be levied without distinction" .
+
+abox:Action_levy_charges a cco:Action .

@@ -1,0 +1,6 @@
+SELECT ?resource
+WHERE {
+  abox:Regulation1 cco:regulates ?resource .
+  abox:Norm1 cco:hasObject ?resource .
+  abox:Norm1 a cco:Permission .
+}

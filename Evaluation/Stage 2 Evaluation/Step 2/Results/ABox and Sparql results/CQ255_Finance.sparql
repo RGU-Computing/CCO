@@ -1,0 +1,5 @@
+SELECT ?conditionExpression
+WHERE {
+    abox:Obligation_MaintainBusinessActivities cco:appliesUnder ?condition .
+    ?condition cco:hasConditionExpression ?conditionExpression .
+}

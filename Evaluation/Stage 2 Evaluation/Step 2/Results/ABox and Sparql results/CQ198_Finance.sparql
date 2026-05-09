@@ -1,0 +1,7 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation .
+  ?obligation cco:hasAction abox:EstablishAction .
+  ?obligation cco:hasObject abox:NPAPolicy .
+  ?obligation cco:appliesToRole abox:InstitutionRole .
+}

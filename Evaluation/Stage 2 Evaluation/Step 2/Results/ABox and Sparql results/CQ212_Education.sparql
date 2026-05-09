@@ -1,0 +1,8 @@
+PREFIX cco: <http://www.example.org/cco#>
+PREFIX abox: <http://www.example.org/abox#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?validityStartDate WHERE {
+  ?regulation a cco:Regulation ;
+              cco:hasValidityStart ?validityStartDate ;
+              cco:specifiesNorm abox:Obligation99 .
+}

@@ -1,0 +1,9 @@
+SELECT ?isLawful
+WHERE {
+    abox:GDPR cco:specifiesNorm ?norm .
+    ?norm a cco:Permission ;
+          cco:appliesUnder abox:LegitimateInterestsCondition .
+    abox:LegitimateInterestsCondition a cco:Condition ;
+          cco:hasConditionExpression ?condition .
+    BIND(IF(CONTAINS(?condition, "legitimate interests pursued by the controller or by a third party"), "true"^^xsd:boolean, "false"^^xsd:boolean) AS ?isLawful)
+}
