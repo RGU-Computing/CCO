@@ -1,0 +1,21 @@
+@prefix cco: <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPRRegulation a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:GDPRObligation138b ;
+    cco:regulates abox:ConfidentialInformation .
+
+abox:GDPRObligation138b a cco:Obligation, cco:Norm ;
+    cco:hasAction abox:EnsureConfidentialityAction ;
+    cco:hasObject abox:ConfidentialInformation ;
+    cco:appliesUnder abox:ReportingCondition .
+
+abox:ReportingCondition a cco:Condition ;
+    cco:hasConditionExpression "Reporting and reported persons information" .
+
+abox:EnsureConfidentialityAction a cco:Action .
+
+abox:ConfidentialInformation a cco:Resource .

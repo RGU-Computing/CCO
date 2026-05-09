@@ -1,0 +1,18 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:ConsolidatingInstitution a cco:Organisation .
+abox:GovernanceArrangements a cco:Resource .
+abox:Directive2013_36_EU a cco:Regulation ;
+    cco:hasValidityStart "2013-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation83 .
+abox:Obligation83 a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2013-01-01"^^xsd:date ;
+    cco:hasAction abox:ImplementAction ;
+    cco:hasObject abox:GovernanceArrangements ;
+    cco:appliesUnder abox:NotSubjectCondition .
+abox:ImplementAction a cco:Action .
+abox:NotSubjectCondition a cco:Condition ;
+    cco:hasConditionExpression "not subject to Directive 2013/36/EU" .

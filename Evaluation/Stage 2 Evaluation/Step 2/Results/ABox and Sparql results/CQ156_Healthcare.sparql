@@ -1,0 +1,11 @@
+SELECT ?subject ?object
+WHERE {
+  abox:Obligation_Article38_3 cco:hasAction ?action .
+  ?action cco:hasObject abox:HealthPartResource .
+  abox:StateParty cco:holdsRole ?roleHolding .
+  ?roleHolding cco:hasRole abox:AircraftOperator .
+  abox:Obligation_Article38_3 cco:appliesToRole abox:AircraftOperator .
+  abox:Obligation_Article38_3 cco:hasAction abox:Action_Inform .
+  abox:Action_Inform cco:hasSubject ?subject .
+  abox:Action_Inform cco:hasObject ?object .
+}

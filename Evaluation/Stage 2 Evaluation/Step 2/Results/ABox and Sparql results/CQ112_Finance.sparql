@@ -1,0 +1,6 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation ;
+              cco:hasObject abox:GovernanceArrangements ;
+              cco:appliesUnder abox:NotSubjectCondition .
+}

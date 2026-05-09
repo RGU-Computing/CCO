@@ -1,0 +1,10 @@
+SELECT ?obligation
+WHERE {
+  ?regulation a cco:Regulation ;
+              cco:regulates abox:ConfidentialInformation ;
+              cco:specifiesNorm ?obligation .
+  ?obligation a cco:Obligation ;
+              cco:hasAction abox:EnsureConfidentialityAction ;
+              cco:appliesUnder ?condition .
+  ?condition cco:hasConditionExpression "Reporting and reported persons information" .
+}

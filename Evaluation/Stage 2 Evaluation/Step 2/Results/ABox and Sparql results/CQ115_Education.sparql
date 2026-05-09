@@ -1,0 +1,12 @@
+PREFIX cco: <http://www.example.org/cco#>
+PREFIX abox: <http://www.example.org/abox#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?prohibition
+WHERE {
+  ?prohibition a cco:Prohibition ;
+               cco:hasAction abox:SigningAction ;
+               cco:hasObject abox:ApprenticeshipAgreement ;
+               cco:appliesUnder abox:DualRoleCondition .
+}

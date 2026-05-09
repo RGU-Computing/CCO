@@ -1,0 +1,7 @@
+SELECT ?obligation
+WHERE {
+  ?condition a cco:Condition ;
+             cco:hasConditionExpression "staff have other or previous employment in the recent past (e.g. five years)" .
+  ?obligation a cco:Obligation ;
+              cco:appliesUnder ?condition .
+}

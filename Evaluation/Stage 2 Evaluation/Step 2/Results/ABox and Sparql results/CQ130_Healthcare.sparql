@@ -1,0 +1,13 @@
+PREFIX cco: <http://www.example.org/cco#>
+PREFIX abox: <http://www.example.org/abox#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?result
+WHERE {
+  abox:IHR cco:specifiesNorm ?norm .
+  ?norm cco:appliesUnder abox:GoodsInTransitCondition ;
+        cco:hasAction abox:SubjectToHealthMeasuresAction ;
+        cco:hasObject abox:GoodsInTransitResource .
+  BIND("yes" AS ?result)
+}

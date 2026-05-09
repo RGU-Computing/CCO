@@ -1,0 +1,8 @@
+SELECT ?conditionExpression
+WHERE {
+  abox:Norm1 a cco:Obligation ;
+             cco:hasException ?exception .
+  ?exception a cco:Exception ;
+             cco:hasCondition ?condition .
+  ?condition cco:hasConditionExpression ?conditionExpression .
+}

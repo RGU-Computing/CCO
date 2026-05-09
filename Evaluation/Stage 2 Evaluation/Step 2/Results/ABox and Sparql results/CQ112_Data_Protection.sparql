@@ -1,0 +1,5 @@
+SELECT ?resource WHERE {
+  ?obligation a cco:Obligation ;
+              cco:hasObject ?resource ;
+              cco:hasAction abox:ImplementMeasuresAction .
+}
