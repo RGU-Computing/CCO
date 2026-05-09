@@ -1,0 +1,5 @@
+SELECT ?role WHERE {
+    abox:Article4Norm a cco:Permission ;
+        cco:appliesToRole ?role .
+    abox:PublicAuthorityRole a cco:Role .
+}

@@ -1,0 +1,3 @@
+SELECT ?resource WHERE {
+  abox:InformObligation cco:hasObject ?resource .
+}

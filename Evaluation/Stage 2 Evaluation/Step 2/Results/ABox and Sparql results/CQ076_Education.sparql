@@ -1,0 +1,7 @@
+SELECT ?apprentice
+WHERE {
+  abox:Permission_49 cco:hasObject abox:Funding ;
+                     cco:appliesUnder abox:Condition_49 .
+  abox:Condition_49 cco:hasConditionExpression ?condition .
+  FILTER (CONTAINS(?condition, "apprentice has not previously attained GCSE grade A* to C (or 9 to 4) in English and/or maths"))
+}

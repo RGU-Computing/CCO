@@ -1,0 +1,5 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation ;
+              cco:grants abox:ObjectionPermission .
+}

@@ -1,0 +1,7 @@
+SELECT ?obligation
+WHERE {
+  abox:CompetentAuthorityRole cco:appliesToRole ?obligation .
+  ?obligation a cco:Obligation ;
+              cco:hasAction abox:MonitorAction ;
+              cco:hasObject abox:Baggage, abox:Cargo, abox:Conveyances .
+}

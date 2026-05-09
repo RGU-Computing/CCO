@@ -1,0 +1,17 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPRArticle4 a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:ConsentPermission .
+
+abox:ConsentPermission a cco:Permission, cco:Norm ;
+    cco:hasAction abox:ConsentAction ;
+    cco:appliesUnder abox:EthicalCondition .
+
+abox:ConsentAction a cco:Action .
+
+abox:EthicalCondition a cco:Condition ;
+    cco:hasConditionExpression "in keeping with recognised ethical standards" .

@@ -1,0 +1,6 @@
+SELECT ?norm WHERE {
+  ?norm cco:specifiesNorm ?permission .
+  ?permission a cco:Permission .
+  ?permission cco:appliesUnder ?condition .
+  ?condition cco:hasConditionExpression "apprentice meets all criteria in paragraph 55" .
+}

@@ -1,0 +1,1217 @@
+PART I - DEFINITIONS, PURPOSE AND SCOPE, PRINCIPLES AND
+
+RESPONSIBLE AUTHORITIES
+
+Article 1 Definitions
+
+1. For the purposes of the International Health Regulations (hereinafter "the IHR" or "Regulations"):
+
+"affected" means persons, baggage, cargo, containers, conveyances, goods, postal parcels or human remains that are infected or contaminated, or carry sources of infection or contamination, so as to constitute a public health risk;
+
+"affected area" means a geographical location specifically for which health measures have been recommended by WHO under these Regulations;
+
+"aircraft" means an aircraft making an international voyage;
+
+"airport" means any airport where international flights arrive or depart;
+
+"arrival" of a conveyance means:
+
+(a) in the case of a seagoing vessel, arrival or anchoring in the defined area of a port;
+
+(b) in the case of an aircraft, arrival at an airport;
+
+(c) in the case of an inland navigation vessel on an international voyage, arrival at a point of entry;
+
+(d) in the case of a train or road vehicle, arrival at a point of entry;
+
+"baggage" means the personal effects of a traveller;
+
+"cargo" means goods carried on a conveyance or in a container;
+
+"competent authority" means an authority responsible for the implementation and application of health measures under these Regulations;
+
+"container" means an article of transport equipment:
+
+(a) of a permanent character and accordingly strong enough to be suitable for repeated use;
+
+(b) specially designed to facilitate the carriage of goods by one or more modes of transport, without intermediate reloading;
+
+(c) fitted with devices permitting its ready handling, particularly its transfer from one mode of transport to another; and
+
+(d) specially designed as to be easy to fill and empty;
+
+"container loading area" means a place or facility set aside for containers used in international traffic;
+
+"contamination" means the presence of an infectious or toxic agent or matter on a human or animal body surface, in or on a product prepared for consumption or on other inanimate objects, including conveyances, that may constitute a public health risk;
+
+"conveyance" means an aircraft, ship, train, road vehicle or other means of transport on an international voyage;
+
+"conveyance operator" means a natural or legal person in charge of a conveyance or their agent;
+
+"crew" means persons on board a conveyance who are not passengers;
+
+"decontamination" means a procedure whereby health measures are taken to eliminate an infectious or toxic agent or matter on a human or animal body surface, in or on a product prepared for consumption or on other inanimate objects, including conveyances, that may constitute a public health risk;
+
+"departure" means, for persons, baggage, cargo, conveyances or goods, the act of leaving a territory;
+
+"deratting" means the procedure whereby health measures are taken to control or kill rodent vectors of human disease present in baggage, cargo, containers, conveyances, facilities, goods and postal parcels at the point of entry;
+
+"Director-General" means the Director-General of the World Health Organization;
+
+"disease" means an illness or medical condition, irrespective of origin or source, that presents or could present significant harm to humans;
+
+"disinfection" means the procedure whereby health measures are taken to control or kill infectious agents on a human or animal body surface or in or on baggage, cargo, containers, conveyances, goods and postal parcels by direct exposure to chemical or physical agents;
+
+"disinsection" means the procedure whereby health measures are taken to control or kill the insect vectors of human diseases present in baggage, cargo, containers, conveyances, goods and postal parcels;
+
+"event" means a manifestation of disease or an occurrence that creates a potential for disease;
+
+"free pratique" means permission for a ship to enter a port, embark or disembark, discharge or load cargo or stores; permission for an aircraft, after landing, to embark or disembark, discharge or load cargo or stores; and permission for a ground transport vehicle, upon arrival, to embark or disembark, discharge or load cargo or stores;
+
+"goods" mean tangible products, including animals and plants, transported on an international voyage, including for utilization on board a conveyance;
+
+"ground crossing" means a point of land entry in a State Party, including one utilized by road vehicles and trains;
+
+"ground transport vehicle" means a motorized conveyance for overland transport on an international voyage, including trains, coaches, lorries and automobiles;
+
+"health measure" means procedures applied to prevent the spread of disease or contamination; a health measure does not include law enforcement or security measures;
+
+"ill person" means an individual suffering from or affected with a physical ailment that may pose a public health risk;
+
+"infection" means the entry and development or multiplication of an infectious agent in the body of humans and animals that may constitute a public health risk;
+
+"inspection" means the examination, by the competent authority or under its supervision, of areas, baggage, containers, conveyances, facilities, goods or postal parcels, including relevant data and documentation, to determine if a public health risk exists;
+
+"international traffic" means the movement of persons, baggage, cargo, containers, conveyances, goods or postal parcels across an international border, including international trade;
+
+"international voyage" means:
+
+(a) in the case of a conveyance, a voyage between points of entry in the territories of more than one State, or a voyage between points of entry in the territory or territories of the same State if the conveyance has contacts with the territory of any other State on its voyage but only as regards those contacts;
+
+(b) in the case of a traveller, a voyage involving entry into the territory of a State other than the territory of the State in which that traveller commences the voyage;
+
+"intrusive" means possibly provoking discomfort through close or intimate contact or questioning;
+
+"invasive" means the puncture or incision of the skin or insertion of an instrument or foreign material into the body or the examination of a body cavity. For the purposes of these Regulations, medical examination of the ear, nose and mouth, temperature assessment using an ear, oral or cutaneous thermometer, or thermal imaging; medical inspection; auscultation; external palpation; retinoscopy; external collection of urine, faeces or saliva samples; external measurement of blood pressure; and electrocardiography shall be considered to be non-invasive;
+
+"isolation" means separation of ill or contaminated persons or affected baggage, containers, conveyances, goods or postal parcels from others in such a manner as to prevent the spread of infection or contamination;
+
+"medical examination" means the preliminary assessment of a person by an authorized health worker or by a person under the direct supervision of the competent authority, to determine the person's health status and potential public health risk to others, and may include the scrutiny of health documents, and a physical examination when justified by the circumstances of the individual case;
+
+"National IHR Authority" means the entity designated or established by the State Party at the national level to coordinate the implementation of these Regulations within the jurisdiction of the State Party;
+
+"National IHR Focal Point" means the national centre, designated by each State Party, which shall be accessible at all times for communications with WHO IHR Contact Points under these Regulations;
+
+"Organization" or "WHO" means the World Health Organization;
+
+"pandemic emergency" means a public health emergency of international concern that is caused by a communicable disease and:
+
+(i) has, or is at high risk of having, wide geographical spread to and within multiple States; and
+
+(ii) is exceeding, or is at high risk of exceeding, the capacity of health systems to respond in those States; and
+
+(iii) is causing, or is at high risk of causing, substantial social and/or economic disruption, including disruption to international traffic and trade; and
+
+(iv) requires rapid, equitable and enhanced coordinated international action, with whole-of-government and whole-of-society approaches;
+
+"permanent residence" has the meaning as determined in the national law of the State Party concerned;
+
+"personal data" means any information relating to an identified or identifiable natural person;
+
+"point of entry" means a passage for international entry or exit of travellers, baggage, cargo, containers, conveyances, goods and postal parcels as well as agencies and areas providing services to them on entry or exit;
+
+"port" means a seaport or a port on an inland body of water where ships on an international voyage arrive or depart;
+
+"postal parcel" means an addressed article or package carried internationally by postal or courier services;
+
+"public health emergency of international concern" means an extraordinary event which is determined, as provided in these Regulations:
+
+(i) to constitute a public health risk to other States through the international spread of disease; and
+
+(ii) to potentially require a coordinated international response;
+
+"public health observation" means the monitoring of the health status of a traveller over time for the purpose of determining the risk of disease transmission;
+
+"public health risk" means a likelihood of an event that may affect adversely the health of human populations, with an emphasis on one which may spread internationally or may present a serious and direct danger;
+
+"quarantine" means the restriction of activities and/or separation from others of suspect persons who are not ill or of suspect baggage, containers, conveyances or goods in such a manner as to prevent the possible spread of infection or contamination;
+
+"recommendation" and "recommended" refer to temporary or standing recommendations issued under these Regulations;
+
+"relevant health products" means those health products needed to respond to public health emergencies of international concern, including pandemic emergencies, which may include medicines, vaccines, diagnostics, medical devices, vector control products, personal protective equipment, decontamination products, assistive products, antidotes, cell- and gene-based therapies, and other health technologies;
+
+"reservoir" means an animal, plant or substance in which an infectious agent normally lives and whose presence may constitute a public health risk;
+
+"road vehicle" means a ground transport vehicle other than a train;
+
+"scientific evidence" means information furnishing a level of proof based on the established and accepted methods of science;
+
+"scientific principles" means the accepted fundamental laws and facts of nature known through the methods of science;
+
+"ship" means a seagoing or inland navigation vessel on an international voyage;
+
+"standing recommendation" means non-binding advice issued by WHO for specific ongoing public health risks pursuant to Article 16 regarding appropriate health measures for routine or periodic application needed to prevent or reduce the international spread of disease and minimize interference with international traffic;
+
+"surveillance" means the systematic ongoing collection, collation and analysis of data for public health purposes and the timely dissemination of public health information for assessment and public health response as necessary;
+
+"suspect" means those persons, baggage, cargo, containers, conveyances, goods or postal parcels considered by a State Party as having been exposed, or possibly exposed, to a public health risk and that could be a possible source of spread of disease;
+
+"temporary recommendation" means non-binding advice issued by WHO pursuant to Article 15 for application on a time-limited, risk-specific basis, in response to a public health emergency of international concern, so as to prevent or reduce the international spread of disease and minimize interference with international traffic;
+
+"temporary residence" has the meaning as determined in the national law of the State Party concerned;
+
+"traveller" means a natural person undertaking an international voyage;
+
+"vector" means an insect or other animal which normally transports an infectious agent that constitutes a public health risk;
+
+"verification" means the provision of information by a State Party to WHO confirming the status of an event within the territory or territories of that State Party;
+
+"WHO IHR Contact Point" means the unit within WHO which shall be accessible at all times for communications with the National IHR Focal Point.
+
+2. Unless otherwise specified or determined by the context, reference to these Regulations includes the annexes thereto.
+
+Article 2 Purpose and scope
+
+The purpose and scope of these Regulations are to prevent, prepare for, protect against, control and provide a public health response to the international spread of disease in ways that are commensurate with and restricted to public health risk and which avoid unnecessary interference with international traffic and trade.
+
+Article 3 Principles
+
+1. The implementation of these Regulations shall be with full respect for the dignity, human rights and fundamental freedoms of persons, and shall promote equity and solidarity.
+
+2. The implementation of these Regulations shall be guided by the Charter of the United Nations and the Constitution of the World Health Organization.
+
+3. The implementation of these Regulations shall be guided by the goal of their universal application for the protection of all people of the world from the international spread of disease.
+
+4. States have, in accordance with the Charter of the United Nations and the principles of international law, the sovereign right to legislate and to implement legislation in pursuance of their health policies. In doing so, they should uphold the purpose of these Regulations.
+
+Article 4 Responsible authorities
+
+1. Each State Party shall designate or establish, in accordance with its national law and context, one or two entities to serve as National IHR Authority and National IHR Focal Point, as well as the authorities responsible within its respective jurisdiction for the implementation of health measures under these Regulations. 1 bis. The National IHR Authority shall coordinate the implementation of these Regulations within the jurisdiction of the State Party.
+
+2. National IHR Focal Points shall be accessible at all times for communications with the WHO IHR Contact Points provided for in paragraph 3 of this Article. The functions of National IHR Focal Points shall include:
+
+(a) sending to WHO IHR Contact Points, on behalf of the State Party concerned, urgent communications concerning the implementation of these Regulations, in particular under Articles 6 to 12; and
+
+(b) disseminating information to, and consolidating input from, relevant sectors of the administration of the State Party concerned, including those responsible for surveillance and reporting, points of entry, public health services, clinics and hospitals and other government departments. 2 bis. States Parties shall take measures to implement paragraphs 1, 1 bis and 2 of this Article, including, as appropriate, adjusting their domestic legislative and/or administrative arrangements.
+
+3. WHO shall designate IHR Contact Points, which shall be accessible at all times for communications with National IHR Focal Points. WHO IHR Contact Points shall send urgent communications concerning the implementation of these Regulations, in particular under Articles 6 to 12, to the National IHR Focal Point of the States Parties concerned. WHO IHR Contact Points may be designated by WHO at the headquarters or at the regional level of the Organization.
+
+4. States Parties shall provide WHO with contact details of their National IHR Authority and their National IHR Focal Point and WHO shall provide States Parties with contact details of WHO IHR Contact Points. These contact details shall be continuously updated and annually confirmed. WHO shall make the contact details available to all States Parties.
+
+PART II - INFORMATION AND PUBLIC HEALTH RESPONSE
+
+Article 5 Surveillance
+
+1. Each State Party shall develop, strengthen and maintain, as soon as possible but no later than five years from the entry into force of these Regulations for that State Party, the core capacities to prevent, detect, assess, notify and report events in accordance with these Regulations, as specified in Part A of
+
+Annex 1.
+
+2. Following the assessment referred to in paragraph 2 of Annex 1, a State Party may report to WHO on the basis of a justified need and an implementation plan and, in so doing, obtain an extension of two years in which to fulfil the obligation in paragraph 1 of this Article. In exceptional circumstances, and supported by a new implementation plan, the State Party may request a further extension not exceeding two years from the Director-General, who shall make the decision, taking into account the technical advice of the Committee established under Article 50 (hereinafter the "Review Committee"). After the period mentioned in paragraph 1 of this Article, the State Party that has obtained an extension shall report annually to WHO on progress made towards the full implementation.
+
+3. WHO shall assist States Parties, upon request, to develop, strengthen and maintain the core capacities referred to in paragraph 1 of this Article.
+
+4. WHO shall collect information regarding events through its surveillance activities and assess their potential to cause international disease spread and possible interference with international traffic. Information received by WHO under this paragraph shall be handled in accordance with Articles 11 and 45 where appropriate.
+
+Article 6 Notification
+
+1. Each State Party shall assess events occurring within its territory by using the decision instrument in Annex 2. Each State Party shall notify WHO, by the most efficient means of communication available, by way of the National IHR Focal Point, and within 24 hours of assessment of public health information, of all events which may constitute a public health emergency of international concern within its territory in accordance with the decision instrument, as well as any health measure implemented in response to those events. If the notification received by WHO involves the competency of the International Atomic Energy Agency (IAEA) or other intergovernmental organization(s), WHO shall, pursuant to paragraph 1 of Article 14, immediately notify the IAEA or, as appropriate, the other competent intergovernmental organization(s).
+
+2. Following a notification, a State Party shall continue to communicate to WHO timely, accurate and sufficiently detailed public health information available to it on the notified event, where possible including case definitions, laboratory results, source and type of the risk, number of cases and deaths, conditions affecting the spread of the disease and the health measures employed; and report, when necessary, the difficulties faced and support needed in responding to the potential public health emergency of international concern.
+
+Article 7 Information-sharing during unexpected or unusual public health events
+
+If a State Party has evidence of an unexpected or unusual public health event within its territory, irrespective of origin or source, which may constitute a public health emergency of international concern, it shall provide to WHO all relevant public health information. In such a case, the provisions of Article 6 shall apply in full.
+
+Article 8 Consultation
+
+In the case of events occurring within its territory not requiring notification as provided in
+
+Article 6, in particular those events for which there is insufficient information available to complete the
+
+decision instrument, a State Party should nevertheless keep WHO advised thereof through the National IHR Focal Point and consult with WHO on appropriate health measures in a timely manner. Such communications shall be treated in accordance with paragraphs 2 to 4 of Article 11. The State Party in whose territory the event has occurred may request WHO assistance to assess any epidemiological evidence obtained by that State Party.
+
+Article 9 Other reports
+
+1. WHO may take into account reports from sources other than notifications or consultations and shall assess these reports according to established epidemiological principles and then communicate information on the event to the State Party in whose territory the event is allegedly occurring. Before taking any action based on such reports, WHO shall consult with and attempt to obtain verification from the State Party in whose territory the event is allegedly occurring in accordance with the procedure set forth in Article 10. To this end, WHO shall make the information received available to the States Parties and only where it is duly justified may WHO maintain the confidentiality of the source. This information will be used in accordance with the procedure set forth in Article 11.
+
+2. States Parties shall, as far as practicable, inform WHO within 24 hours of receipt of evidence of a public health risk identified outside their territory that may cause international disease spread, as manifested by exported or imported:
+
+(a) human cases;
+
+(b) vectors which carry infection or contamination; or
+
+(c) goods that are contaminated.
+
+Article 10 Verification
+
+1. WHO shall request, in accordance with Article 9, verification from a State Party of reports from sources other than notifications or consultations of events which may constitute a public health emergency of international concern allegedly occurring in the State's territory. In such cases, WHO shall inform the State Party concerned regarding the reports it is seeking to verify.
+
+2. Pursuant to the foregoing paragraph and to Article 9, each State Party, when requested by WHO, shall verify and provide:
+
+(a) within 24 hours, an initial reply to, or acknowledgement of, the request from WHO;
+
+(b) within 24 hours, available public health information on the status of events referred to in WHO's request; and
+
+(c) information to WHO in the context of an assessment under Article 6, including relevant information as described in that Article.
+
+3. Upon receiving information of an event that may constitute a public health emergency of international concern, WHO shall offer to collaborate with the State Party concerned in assessing the potential for international disease spread, possible interference with international traffic and the adequacy of control measures. Such activities may include collaboration with other standard-setting organizations and the offer to mobilize international assistance in order to support the national authorities in conducting and coordinating on-site assessments. When requested by the State Party, WHO shall provide information supporting such an offer.
+
+4. If the State Party does not accept the offer of collaboration, and when justified by the magnitude of the public health risk, WHO should share with other States Parties the information about the event available to it, whilst encouraging the State Party to accept the offer of collaboration by WHO, taking into account the views of the State Party concerned.
+
+Article 11 Provision of information by WHO
+
+1. Subject to paragraph 2 of this Article, WHO shall send to all States Parties and, as appropriate, to relevant intergovernmental organizations, as soon as possible and by the most efficient means available, in confidence, such public health information which it has received under Articles 5 to 10 inclusive and which is necessary to enable States Parties to respond to a public health risk. WHO should communicate information to other States Parties that might help them in preventing the occurrence of similar incidents.
+
+2. WHO shall use information received under Articles 6 and 8 and paragraph 2 of Article 9 for verification, assessment and assistance purposes under these Regulations and, unless otherwise agreed with the States Parties referred to in those provisions, shall not make this information generally available to other States Parties, until such time as:
+
+(a) the event is determined to constitute a public health emergency of international concern, including a pandemic emergency, in accordance with Article 12; or
+
+(b) information evidencing the international spread of the infection or contamination has been confirmed by WHO in accordance with established epidemiological principles; or
+
+(c) there is evidence that:
+
+(i) control measures against the international spread are unlikely to succeed because of the nature of the contamination, disease agent, vector or reservoir; or
+
+(ii) the State Party lacks sufficient operational capacity to carry out necessary measures to prevent further spread of disease; or
+
+(d) the nature and scope of the international movement of travellers, baggage, cargo, containers, conveyances, goods or postal parcels that may be affected by the infection or contamination requires the immediate application of international control measures.
+
+3. WHO shall consult with the State Party in whose territory the event is occurring as to its intent to make information available under this Article.
+
+4. When information received by WHO under paragraph 2 of this Article is made available to States Parties in accordance with these Regulations, WHO may also make it available to the public if other information about the same event has already become publicly available and there is a need for the dissemination of authoritative and independent information.
+
+Article 12 Determination of a public health emergency of international
+
+concern, including a pandemic emergency
+
+1. The Director-General shall determine, on the basis of the information received, in particular from the State(s) Party(ies) within whose territory(ies) an event is occurring, whether an event constitutes a public health emergency of international concern, including, when appropriate, a pandemic emergency, in accordance with the criteria and the procedure set out in these Regulations.
+
+2. If the Director-General considers, based on an assessment under these Regulations, that a public health emergency of international concern is occurring, the Director-General shall consult with the State(s) Party(ies) in whose territory(ies) the event is occurring regarding this preliminary determination.
+
+If the Director-General and the State(s) Party(ies) are in agreement regarding this determination, the Director-General shall, in accordance with the procedure set forth in Article 49, seek the views of the Committee established under Article 48 (hereinafter the "Emergency Committee") on appropriate temporary recommendations.
+
+3. If, following the consultation in paragraph 2 above, the Director-General and the State(s) Party(ies) in whose territory(ies) the event is occurring do not come to a consensus within 48 hours on whether the event constitutes a public health emergency of international concern, a determination shall be made in accordance with the procedure set forth in Article 49.
+
+4. In determining whether an event constitutes a public health emergency of international concern, including, when appropriate, a pandemic emergency, the Director-General shall consider:
+
+(a) information provided by the State(s) Party(ies);
+
+(b) the decision instrument contained in Annex 2;
+
+(c) the advice of the Emergency Committee;
+
+(d) scientific principles as well as the available scientific evidence and other relevant information; and
+
+(e) an assessment of the risk to human health, of the risk of international spread of disease and of the risk of interference with international traffic. 4 bis. If the Director-General determines that an event constitutes a public health emergency of international concern, the Director-General shall further determine, having considered the matters contained in paragraph 4, whether the public health emergency of international concern also constitutes a pandemic emergency.
+
+5. If the Director-General, having considered the matters contained in subparagraphs (a), (c), (d) and
+
+(e) of paragraph 4 of this Article, and following consultations with the State(s) Party(ies) within whose territory(ies) a public health emergency of international concern, including a pandemic emergency, has occurred, considers that a public health emergency of international concern, including a pandemic emergency, has ended, because it no longer meets the relevant definition in Article 1, the Director- General shall take a decision in accordance with the procedure set out in Article 49.
+
+Article 13 Public health response, including equitable access to relevant health products
+
+1. Each State Party shall develop, strengthen and maintain, as soon as possible but no later than five years from the entry into force of these Regulations for that State Party, the core capacities to prevent, prepare for, and respond promptly and effectively to public health risks and public health emergencies of international concern, including a pandemic emergency, including in fragile and humanitarian settings, as set out in Part A of Annex 1. WHO shall publish, in consultation with Member States, guidelines to support States Parties in the development of public health response core capacities.
+
+2. Following the assessment referred to in paragraph 2 of Annex 1, a State Party may report to WHO on the basis of a justified need and an implementation plan and, in so doing, obtain an extension of two years in which to fulfil the obligation in paragraph 1 of this Article. In exceptional circumstances and supported by a new implementation plan, the State Party may request a further extension not exceeding two years from the Director-General, who shall make the decision, taking into account the technical advice of the Review Committee. After the period mentioned in paragraph 1 of this Article, the State Party that has obtained an extension shall report annually to WHO on progress made towards the full implementation.
+
+3. At the request of a State Party or following its acceptance of an offer by WHO, WHO shall collaborate in the response to public health risks and events by providing technical guidance and assistance and by assessing the effectiveness of the control measures in place, including the mobilization of international teams of experts for on-site assistance, when necessary.
+
+4. If WHO, in consultation with the State(s) Party(ies) concerned as provided in Article 12, determines that a public health emergency of international concern, including a pandemic emergency, is occurring, it may offer, in addition to the support indicated in paragraph 3 of this Article, further
+
+assistance to the State(s) Party(ies), including an assessment of the severity of the international risk and the adequacy of control measures. Such collaboration may include the offer to mobilize international assistance in order to support the national authorities in conducting and coordinating on-site assessments. When requested by the State Party, WHO shall provide information supporting such an offer.
+
+5. When requested by WHO, States Parties should provide, to the extent possible, support to WHO-coordinated response activities.
+
+6. When requested, WHO shall provide appropriate guidance and assistance to other States Parties affected or threatened by the public health emergency of international concern, including a pandemic emergency.
+
+7. WHO shall support States Parties, upon their request or following acceptance of an offer from WHO, and coordinate international response activities during public health emergencies of international concern, including pandemic emergencies, after their determination pursuant to Article 12 of these Regulations.
+
+8. WHO shall facilitate, and work to remove barriers to, timely and equitable access by States Parties to relevant health products after the determination of and during a public health emergency of international concern, including a pandemic emergency, based on public health risks and needs. To that effect, the Director-General shall:
+
+(a) conduct, and periodically review and update, assessments of the public health needs, as well as of the availability and accessibility including affordability of relevant health products for the public health response; publish such assessments; and consider the available assessments while issuing, modifying, extending or terminating recommendations pursuant to Articles 15, 16, 17, 18, and 49 of these Regulations;
+
+(b) make use of WHO-coordinated mechanism(s), or facilitate, in consultation with States Parties, their establishment as needed, and coordinate, as appropriate, with other allocation and distribution mechanisms and networks that facilitate timely and equitable access to relevant health products based on public health needs;
+
+(c) support States Parties, upon their request, in scaling up and geographically diversifying the production of relevant health products, as appropriate, through relevant WHO-coordinated and other networks and mechanisms, subject to Article 2 of these Regulations, and in accordance with relevant international law;
+
+(d) share with a State Party, upon its request, the product dossier related to a specific relevant health product, as provided to WHO by the manufacturer for approval and where the manufacturer has consented, within 30 days of receiving such request, for the purpose of facilitating regulatory evaluation and authorization by the State Party; and
+
+(e) support States Parties, upon their request, and, as appropriate, through relevant WHO-coordinated and other networks and mechanisms, pursuant to subparagraph 8(c) of this Article, to promote research and development and strengthen local production of quality, safe and effective relevant health products, and facilitate other measures relevant for the full implementation of this provision.
+
+9. Pursuant to paragraph 5 of this Article and paragraph 1 of Article 44 of these Regulations, and upon request of other States Parties or WHO, States Parties shall undertake, subject to applicable law and available resources, to collaborate with, and assist each other and to support WHO-coordinated response activities, including through:
+
+(a) supporting WHO in implementing actions outlined in this Article;
+
+(b) engaging with and encouraging relevant stakeholders operating in their respective jurisdictions to facilitate equitable access to relevant health products for responding to a public health emergency of international concern, including a pandemic emergency; and
+
+(c) making available, as appropriate, relevant terms of their research and development agreements for relevant health products related to promoting equitable access to such products during a public health emergency of international concern, including a pandemic emergency.
+
+Article 14 Cooperation of WHO with intergovernmental organizations and international bodies
+
+1. WHO shall cooperate and coordinate its activities, as appropriate, with other competent intergovernmental organizations or international bodies in the implementation of these Regulations, including through the conclusion of agreements and other similar arrangements.
+
+2. In cases in which notification or verification of, or response to, an event is primarily within the competence of other intergovernmental organizations or international bodies, WHO shall coordinate its activities with such organizations or bodies in order to ensure the application of adequate measures for the protection of public health.
+
+3. Notwithstanding the foregoing, nothing in these Regulations shall preclude or limit the provision by WHO of advice, support, or technical or other assistance for public health purposes.
+
+PART III - RECOMMENDATIONS
+
+Article 15 Temporary recommendations
+
+1. If it has been determined in accordance with Article 12 that a public health emergency of international concern, including a pandemic emergency, is occurring, the Director-General shall issue temporary recommendations in accordance with the procedure set out in Article 49. Such temporary recommendations may be modified or extended as appropriate, including after it has been determined that a public health emergency of international concern, including a pandemic emergency, has ended, at which time other temporary recommendations may be issued as necessary for the purpose of preventing or promptly detecting its recurrence.
+
+2. Temporary recommendations may include health measures to be implemented by the State(s) Party(ies) experiencing the public health emergency of international concern, including a pandemic emergency, or by other States Parties, regarding persons, baggage, cargo, containers, conveyances, goods, including relevant health products, and/or postal parcels to prevent or reduce the international spread of disease and avoid unnecessary interference with international traffic. 2 bis. The Director-General, when communicating to States Parties the issuance, modification or extension of temporary recommendations, should provide available information on any
+
+WHO-coordinated mechanism(s) concerning access to, and allocation of, relevant health products, as well as on any other allocation and distribution mechanisms and networks.
+
+3. Temporary recommendations may be terminated in accordance with the procedure set out in
+
+Article 49 at any time and shall automatically expire three months after their issuance. They may be
+
+modified or extended for additional periods of up to three months. Temporary recommendations may not continue beyond the second World Health Assembly after the determination of the public health emergency of international concern, including a pandemic emergency, to which they relate.
+
+Article 16 Standing recommendations
+
+1. WHO may make standing recommendations of appropriate health measures in accordance with
+
+Article 53 for routine or periodic application. Such measures may be applied by States Parties regarding
+
+persons, baggage, cargo, containers, conveyances, goods, including relevant health products, and/or postal parcels for specific, ongoing public health risks in order to prevent or reduce the international spread of disease and avoid unnecessary interference with international traffic. WHO may, in accordance with Article 53, modify or terminate such recommendations, as appropriate.
+
+2. The Director-General, when communicating to States Parties the issuance, modification or extension of standing recommendations, should provide available information on any WHO-coordinated mechanism(s) concerning access to, and allocation of, relevant health products as well as on any other allocation and distribution mechanisms and networks.
+
+Article 17 Criteria for recommendations
+
+When issuing, modifying or terminating temporary or standing recommendations, the Director-General shall consider:
+
+(a) the views of the States Parties directly concerned;
+
+(b) the advice of the Emergency Committee or the Review Committee, as the case may be;
+
+(c) scientific principles as well as available scientific evidence and information;
+
+(d) health measures that, on the basis of a risk assessment appropriate to the circumstances, are not more restrictive of international traffic and trade and are not more intrusive to persons than reasonably available alternatives that would achieve the appropriate level of health protection; (d bis) availability of, and accessibility to relevant health products;
+
+(e) relevant international standards and instruments;
+
+(f) activities undertaken by other relevant intergovernmental organizations and international bodies; and
+
+(g) other appropriate and specific information relevant to the event. With respect to temporary recommendations, the consideration by the Director-General of subparagraphs (e) and (f) of this Article may be subject to limitations imposed by urgent circumstances.
+
+Article 18 Recommendations with respect to persons, baggage, cargo,
+
+containers, conveyances, goods and postal parcels
+
+1. Recommendations issued by WHO to States Parties with respect to persons may include the following advice:
+
+- no specific health measures are advised;
+
+- review travel history in affected areas;
+
+- review proof of medical examination and any laboratory analysis;
+
+- require medical examinations;
+
+- review proof of vaccination or other prophylaxis;
+
+- require vaccination or other prophylaxis;
+
+- place suspect persons under public health observation;
+
+- implement quarantine or other health measures for suspect persons;
+
+- implement isolation and treatment where necessary of affected persons;
+
+- implement tracing of contacts of suspect or affected persons;
+
+- refuse entry of suspect and affected persons;
+
+- refuse entry of unaffected persons to affected areas;
+
+- implement exit screening and/or restrictions on persons from affected areas.
+
+2. Recommendations issued by WHO to States Parties with respect to baggage, cargo, containers, conveyances, goods and postal parcels may include the following advice:
+
+- no specific health measures are advised;
+
+- review manifest and routing;
+
+- implement inspections;
+
+- review proof of measures taken on departure or in transit to eliminate infection or contamination;
+
+- implement treatment of the baggage, cargo, containers, conveyances, goods, postal parcels or human remains to remove infection or contamination, including vectors and reservoirs;
+
+- the use of specific health measures to ensure the safe handling and transport of human remains;
+
+- implement isolation or quarantine;
+
+- seizure and destruction of infected or contaminated or suspect baggage, cargo, containers, conveyances, goods or postal parcels under controlled conditions if no available treatment or process will otherwise be successful;
+
+- refuse departure or entry.
+
+3. Recommendations issued by WHO to State Parties shall, as appropriate, take into account the need to:
+
+(a) facilitate international travel, particularly of health and care workers and persons in lifethreatening or humanitarian situations. This provision is without prejudice to Article 23 of these Regulations; and
+
+(b) maintain international supply chains, including for relevant health products and food supplies.
+
+PART IV - POINTS OF ENTRY
+
+Article 19 General obligations
+
+Each State Party shall, in addition to the other obligations provided for under these Regulations:
+
+(a) ensure that the core capacities set forth in Part B of Annex 1 for designated points of entry are developed within the time frame provided in paragraph 1 of Article 5 and paragraph 1 of
+
+Article 13;
+
+(b) identify the competent authorities at each designated point of entry in its territory; and
+
+(c) furnish to WHO, as far as practicable, when requested in response to a specific potential public health risk, relevant data concerning sources of infection or contamination, including vectors and reservoirs, at its points of entry, which could result in international disease spread.
+
+Article 20 Airports and ports
+
+1. States Parties shall designate the airports and ports that shall develop the core capacities provided in Part B of Annex 1.
+
+2. States Parties shall ensure that Ship Sanitation Control Exemption Certificates and Ship Sanitation Control Certificates are issued in accordance with the requirements in Article 39 and the model provided in Annex 3.
+
+3. Each State Party shall send to WHO a list of ports authorized to offer:
+
+(a) the issuance of Ship Sanitation Control Certificates and the provision of the services referred to in Annexes 1 and 3; or
+
+(b) the issuance of Ship Sanitation Control Exemption Certificates only; and
+
+(c) extension of the Ship Sanitation Control Exemption Certificate for a period of one month until the arrival of the ship in the port at which the Certificate may be received.
+
+Each State Party shall inform WHO of any changes which may occur to the status of the listed ports. WHO shall publish the information received under this paragraph.
+
+4. WHO may, at the request of the State Party concerned, arrange to certify, after an appropriate investigation, that an airport or port in its territory meets the requirements referred to in paragraphs 1 and 3 of this Article. These certifications may be subject to periodic review by WHO, in consultation with the State Party.
+
+5. WHO, in collaboration with competent intergovernmental organizations and international bodies, shall develop and publish the certification guidelines for airports and ports under this Article. WHO shall also publish a list of certified airports and ports.
+
+Article 21 Ground crossings
+
+1. Where justified for public health reasons, a State Party may designate ground crossings that shall develop the core capacities provided in Part B of Annex 1, taking into consideration:
+
+(a) the volume and frequency of the various types of international traffic, as compared to other points of entry, at a State Party's ground crossings which might be designated; and
+
+(b) the public health risks existing in areas in which the international traffic originates, or through which it passes, prior to arrival at a particular ground crossing.
+
+2. States Parties sharing common borders should consider:
+
+(a) entering into bilateral or multilateral agreements or arrangements concerning prevention or control of international transmission of disease at ground crossings in accordance with Article 57; and
+
+(b) joint designation of adjacent ground crossings for the core capacities in Part B of Annex 1 in accordance with paragraph 1 of this Article.
+
+Article 22 Role of competent authorities
+
+1. The competent authorities shall:
+
+(a) be responsible for monitoring baggage, cargo, containers, conveyances, goods, postal parcels and human remains departing and arriving from affected areas, so that they are maintained in such a condition that they are free of sources of infection or contamination, including vectors and reservoirs;
+
+(b) ensure, as far as practicable, that facilities used by travellers at points of entry are maintained in a sanitary condition and are kept free of sources of infection or contamination, including vectors and reservoirs;
+
+(c) be responsible for the supervision of any deratting, disinfection, disinsection or decontamination of baggage, cargo, containers, conveyances, goods, postal parcels and human remains or sanitary measures for persons, as appropriate under these Regulations;
+
+(d) advise conveyance operators, as far in advance as possible, of their intent to apply control measures to a conveyance, and shall provide, where available, written information concerning the methods to be employed;
+
+(e) be responsible for the supervision of the removal and safe disposal of any contaminated water or food, human or animal dejecta, wastewater and any other contaminated matter from a conveyance;
+
+(f) take all practicable measures consistent with these Regulations to monitor and control the discharge by ships of sewage, refuse, ballast water and other potentially disease-causing matter which might contaminate the waters of a port, river, canal, strait, lake or other international waterway;
+
+(g) be responsible for supervision of service providers for services concerning travellers, baggage, cargo, containers, conveyances, goods, postal parcels and human remains at points of entry, including the conduct of inspections and medical examinations as necessary;
+
+(h) have effective contingency arrangements to deal with an unexpected public health event; and
+
+(i) communicate with the National IHR Focal Point on the relevant public health measures taken pursuant to these Regulations.
+
+2. Health measures recommended by WHO for travellers, baggage, cargo, containers, conveyances, goods, postal parcels and human remains arriving from an affected area may be reapplied on arrival, if there are verifiable indications and/or evidence that the measures applied on departure from the affected area were unsuccessful.
+
+3. Disinsection, deratting, disinfection, decontamination and other sanitary procedures shall be carried out so as to avoid injury and as far as possible discomfort to persons, or damage to the environment in a way which impacts on public health, or damage to baggage, cargo, containers, conveyances, goods and postal parcels.
+
+PART V - PUBLIC HEALTH MEASURES
+
+Chapter I - General provisions
+
+Article 23 Health measures on arrival and departure
+
+1. Subject to applicable international agreements and relevant articles of these Regulations, a State Party may require for public health purposes, on arrival or departure:
+
+(a) with regard to travellers:
+
+(i) information concerning the traveller's destination so that the traveller may be contacted;
+
+(ii) information concerning the traveller's itinerary to ascertain if there was any travel in or near an affected area or other possible contacts with infection or contamination prior to
+
+arrival, as well as review of the traveller's health documents if they are required under these Regulations; and/or
+
+(iii) a non-invasive medical examination which is the least intrusive examination that would achieve the public health objective; and
+
+(b) inspection of baggage, cargo, containers, conveyances, goods, postal parcels and human remains.
+
+2. On the basis of evidence of a public health risk obtained through the measures provided in paragraph 1 of this Article, or through other means, States Parties may apply additional health measures, in accordance with these Regulations, in particular, with regard to a suspect or affected traveller, on a case-by-case basis, the least intrusive and invasive medical examination that would achieve the public health objective of preventing the international spread of disease.
+
+3. No medical examination, vaccination, prophylaxis or health measure under these Regulations shall be carried out on travellers without their prior express informed consent or that of their parents or guardians, except as provided in paragraph 2 of Article 31, and in accordance with the law and international obligations of the State Party.
+
+4. Travellers to be vaccinated or offered prophylaxis pursuant to these Regulations, or their parents or guardians, shall be informed of any risk associated with vaccination or with non-vaccination and with the use or non-use of prophylaxis, in accordance with the law and international obligations of the State Party. States Parties shall inform medical practitioners of these requirements in accordance with the law of the State Party.
+
+5. Any medical examination, medical procedure, vaccination or other prophylaxis which involves a risk of disease transmission shall only be performed on, or administered to, a traveller in accordance with established national or international safety guidelines and standards so as to minimize such a risk.
+
+Chapter II - Special provisions for conveyances and conveyance operators
+
+Article 24 Conveyance operators
+
+1. States Parties shall take all practicable measures consistent with these Regulations to ensure that conveyance operators:
+
+(a) comply with the health measures recommended by WHO and adopted by the State Party, including for application on board as well as during embarkation and disembarkation;
+
+(b) inform travellers of the health measures recommended by WHO and adopted by the State Party, including for application on board as well as during embarkation and disembarkation; and
+
+(c) permanently keep conveyances for which they are responsible free of sources of infection or contamination, including vectors and reservoirs. The application of measures to control sources of infection or contamination may be required if evidence is found.
+
+2. Specific provisions pertaining to conveyances and conveyance operators under this Article are provided in Annex 4. Specific measures applicable to conveyances and conveyance operators with regard to vector-borne diseases are provided in Annex 5.
+
+Article 25 Ships and aircraft in transit
+
+Subject to Articles 27 and 43 or unless authorized by applicable international agreements, no health measure shall be applied by a State Party to:
+
+(a) a ship not coming from an affected area which passes through a maritime canal or waterway in the territory of that State Party on its way to a port in the territory of another State. Any such ship shall be permitted to take on, under the supervision of the competent authority, fuel, water, food and supplies;
+
+(b) a ship which passes through waters within its jurisdiction without calling at a port or on the coast; and
+
+(c) an aircraft in transit at an airport within its jurisdiction, except that the aircraft may be restricted to a particular area of the airport, with no embarking and disembarking or loading and discharging. However, any such aircraft shall be permitted to take on, under the supervision of the competent authority, fuel, water, food and supplies.
+
+Article 26 Civilian lorries, trains and coaches in transit
+
+Subject to Articles 27 and 43 or unless authorized by applicable international agreements, no health measure shall be applied to a civilian lorry, train or coach not coming from an affected area which passes through a territory without embarking, disembarking, loading or discharging.
+
+Article 27 Affected conveyances
+
+1. If clinical signs or symptoms and information based on fact or evidence of a public health risk, including sources of infection and contamination, are found on board a conveyance, the competent authority shall consider the conveyance as affected and may:
+
+(a) disinfect, decontaminate, disinsect or derat the conveyance, as appropriate, or cause these measures to be carried out under its supervision; and
+
+(b) decide in each case the technique employed to secure an adequate level of control of the public health risk as provided in these Regulations. Where there are methods or materials advised by WHO for these procedures, these should be employed, unless the competent authority determines that other methods are as safe and reliable.
+
+The competent authority may implement additional health measures, including isolation and quarantine of the conveyances, as necessary, to prevent the spread of disease. Such additional measures should be reported to the National IHR Focal Point.
+
+2. If the competent authority for the point of entry is not able to carry out the control measures required under this Article, the affected conveyance may nevertheless be allowed to depart, subject to the following conditions:
+
+(a) the competent authority shall, at the time of departure, inform the competent authority for the next known point of entry of the type of information referred to under subparagraph (b); and
+
+(b) in the case of a ship, the evidence found and the control measures required shall be noted in the Ship Sanitation Control Certificate.
+
+Any such conveyance shall be permitted to take on, under the supervision of the competent authority, fuel, water, food and supplies.
+
+3. A conveyance that has been considered as affected shall cease to be regarded as such when the competent authority is satisfied that:
+
+(a) the measures provided in paragraph 1 of this Article have been effectively carried out; and
+
+(b) there are no conditions on board that could constitute a public health risk.
+
+Article 28 Ships and aircraft at points of entry
+
+1. Subject to Article 43 or as provided in applicable international agreements, a ship or an aircraft shall not be prevented for public health reasons from calling at any point of entry. However, if the point of entry is not equipped for applying health measures under these Regulations, the ship or aircraft may be ordered to proceed at its own risk to the nearest suitable point of entry available to it, unless the ship or aircraft has an operational problem which would make this diversion unsafe.
+
+2. Subject to Article 43 or as provided in applicable international agreements, ships or aircraft shall not be refused free pratique by States Parties for public health reasons; in particular, they shall not be prevented from embarking or disembarking, discharging or loading cargo or stores, or taking on fuel, water, food and supplies. States Parties may subject the granting of free pratique to inspection and, if a source of infection or contamination is found on board, the carrying out of necessary disinfection, decontamination, disinsection or deratting, or other measures necessary to prevent the spread of the infection or contamination.
+
+3. Whenever practicable and subject to paragraph 2 of this Article, a State Party shall authorize the granting of free pratique by radio or other communication means to a ship or an aircraft when, on the basis of information received from it prior to its arrival, the State Party is of the opinion that the arrival of the ship or aircraft will not result in the introduction or spread of disease.
+
+4. Officers in command of ships or pilots in command of aircraft, or their agents, shall make known to the port or airport control, as early as possible before arrival at the port or airport of destination, any cases of illness indicative of a disease of an infectious nature or evidence of a public health risk on board, as soon as such illnesses or public health risks are made known to the officer or pilot. This information must be immediately relayed to the competent authority for the port or airport. In urgent circumstances, such information should be communicated directly by the officers or pilots to the relevant port or airport authority.
+
+5. The following shall apply if a suspect or affected aircraft or ship, for reasons beyond the control of the pilot in command of the aircraft or the officer in command of the ship, lands elsewhere than at the airport at which the aircraft was due to land or berths elsewhere than at the port at which the ship was due to berth:
+
+(a) the pilot in command of the aircraft or the officer in command of the ship or other person in charge shall make every effort to communicate without delay with the nearest competent authority;
+
+(b) as soon as the competent authority has been informed of the landing, it may apply health measures recommended by WHO or other health measures provided in these Regulations;
+
+(c) unless required for emergency purposes or for communication with the competent authority, no traveller on board the aircraft or ship shall leave its vicinity and no cargo shall be removed from that vicinity, unless authorized by the competent authority; and
+
+(d) when all health measures required by the competent authority have been completed, the aircraft or ship may, so far as such health measures are concerned, proceed either to the airport or port at which it was due to land or berth, or, if for technical reasons it cannot do so, to a conveniently situated airport or port.
+
+6. Notwithstanding the provisions contained in this Article, the officer in command of a ship or pilot in command of an aircraft may take such emergency measures as may be necessary for the health and safety of travellers on board. He or she shall inform the competent authority as early as possible concerning any measures taken pursuant to this paragraph.
+
+Article 29 Civilian lorries, trains and coaches at points of entry
+
+WHO, in consultation with States Parties, shall develop guiding principles for applying health measures to civilian lorries, trains and coaches at points of entry and passing through ground crossings.
+
+Chapter III - Special provisions for travellers
+
+Article 30 Travellers under public health observation
+
+Subject to Article 43 or as authorized in applicable international agreements, a suspect traveller who on arrival is placed under public health observation may continue an international voyage, if the traveller does not pose an imminent public health risk and the State Party informs the competent authority of the point of entry at destination, if known, of the traveller's expected arrival. On arrival, the traveller shall report to that authority.
+
+Article 31 Health measures relating to entry of travellers
+
+1. Invasive medical examination, vaccination or other prophylaxis shall not be required as a condition of entry of any traveller to the territory of a State Party, except that, subject to Articles 32, 42 and 45, these Regulations do not preclude States Parties from requiring medical examination, vaccination or other prophylaxis or proof of vaccination or other prophylaxis:
+
+(a) when necessary to determine whether a public health risk exists;
+
+(b) as a condition of entry for any travellers seeking temporary or permanent residence;
+
+(c) as a condition of entry for any travellers pursuant to Article 43 or Annexes 6 and 7; or
+
+(d) which may be carried out pursuant to Article 23.
+
+2. If a traveller for whom a State Party may require a medical examination, vaccination or other prophylaxis under paragraph 1 of this Article fails to consent to any such measure, or refuses to provide the information or the documents referred to in paragraph 1(a) of Article 23, the State Party concerned
+
+may, subject to Articles 32, 42 and 45, deny entry to that traveller. If there is evidence of an imminent public health risk, the State Party may, in accordance with its national law and to the extent necessary to control such a risk, compel the traveller to undergo or advise the traveller, pursuant to paragraph 3 of
+
+Article 23, to undergo:
+
+(a) the least invasive and intrusive medical examination that would achieve the public health objective;
+
+(b) vaccination or other prophylaxis; or
+
+(c) additional established health measures that prevent or control the spread of disease, including isolation, quarantine or placing the traveller under public health observation.
+
+Article 32 Treatment of travellers
+
+In implementing health measures under these Regulations, States Parties shall treat travellers with respect for their dignity, human rights and fundamental freedoms and minimize any discomfort or distress associated with such measures, including by:
+
+(a) treating all travellers with courtesy and respect;
+
+(b) taking into consideration the gender, sociocultural, ethnic or religious concerns of travellers; and
+
+(c) providing or arranging for adequate food and water, appropriate accommodation and clothing, protection for baggage and other possessions, appropriate medical treatment, means of necessary communication if possible in a language that they can understand, and other appropriate assistance for travellers who are quarantined, isolated or subject to medical examinations or other procedures for public health purposes.
+
+Chapter IV - Special provisions for goods, containers and container loading areas
+
+Article 33 Goods in transit
+
+Subject to Article 43 or unless authorized by applicable international agreements, goods, other than live animals, in transit without transhipment shall not be subject to health measures under these Regulations or detained for public health purposes.
+
+Article 34 Container and container loading areas
+
+1. States Parties shall ensure, as far as practicable, that container shippers use international traffic containers that are kept free from sources of infection or contamination, including vectors and reservoirs, particularly during the course of packing.
+
+2. States Parties shall ensure, as far as practicable, that container loading areas are kept free from sources of infection or contamination, including vectors and reservoirs.
+
+3. Whenever, in the opinion of a State Party, the volume of international container traffic is sufficiently large, the competent authorities shall take all practicable measures consistent with these Regulations, including carrying out inspections, to assess the sanitary condition of container loading
+
+areas and containers in order to ensure that the obligations contained in these Regulations are implemented.
+
+4. Facilities for the inspection and isolation of containers shall, as far as practicable, be available at container loading areas.
+
+5. Container consignees and consignors shall make every effort to avoid cross-contamination when multiple-use loading of containers is employed.
+
+PART VI - HEALTH DOCUMENTS
+
+Article 35 General rule
+
+1. No health documents, other than those provided for under these Regulations or in recommendations issued by WHO, shall be required in international traffic, provided however that this Article shall not apply to travellers seeking temporary or permanent residence, nor shall it apply to document requirements concerning the public health status of goods or cargo in international trade pursuant to applicable international agreements. The competent authority may request travellers to complete contact information forms and questionnaires on the health of travellers, provided that they meet the requirements set out in Article 23.
+
+2. Health documents under these Regulations may be issued in non-digital format or digital format, subject to the obligations of any State Party regarding the format of such documents deriving from other international agreements.
+
+3. Regardless of the format in which health documents under these Regulations have been issued, said health documents shall conform to the Annexes, referred to in Articles 36 to 39, as applicable, and their authenticity shall be ascertainable.
+
+4. WHO, in consultation with States Parties, shall develop and update, as necessary, technical guidance, including specifications or standards related to the issuance and ascertainment of authenticity of health documents, both in digital format and non-digital format. Such specifications or standards shall be in accordance with Article 45 regarding treatment of personal data.
+
+Article 36 Certificates of vaccination or other prophylaxis
+
+1. Vaccines and prophylaxis for travellers administered pursuant to these Regulations, or to recommendations and certificates relating thereto, shall conform to the provisions of Annex 6 and, when applicable, Annex 7 with regard to specific diseases.
+
+2. A traveller in possession of a certificate of vaccination or other prophylaxis issued in conformity with Annex 6 and, when applicable, Annex 7, shall not be denied entry as a consequence of the disease to which the certificate refers, even if coming from an affected area, unless the competent authority has verifiable indications and/or evidence that the vaccination or other prophylaxis was not effective.
+
+Article 37 Ship Declaration of Health
+
+1. The master of a ship, before arrival at its first port of call in the territory of a State Party, shall ascertain the state of health on board, and, except when that State Party does not require it, the master shall, on arrival, or in advance of the vessel's arrival if the vessel is so equipped and the State Party
+
+requires such advance delivery, complete and deliver to the competent authority for that port a Ship Declaration of Health, which shall be countersigned by the ship's surgeon, if one is carried.
+
+2. The master of a ship, or the ship's surgeon if one is carried, shall supply any information required by the competent authority as to health conditions on board during an international voyage.
+
+3. A Ship Declaration of Health shall conform to the model provided in Annex 8.
+
+4. A State Party may decide:
+
+(a) to dispense with the submission of the Ship Declaration of Health by all arriving ships; or
+
+(b) to require the submission of the Ship Declaration of Health under a recommendation concerning ships arriving from affected areas or to require it from ships which might otherwise carry infection or contamination.
+
+The State Party shall inform shipping operators or their agents of these requirements.
+
+Article 38 Health Part of the Aircraft General Declaration
+
+1. The pilot in command of an aircraft or the pilot's agent, in flight or upon landing at the first airport in the territory of a State Party, shall, to the best of his or her ability, except when that State Party does not require it, complete and deliver to the competent authority for that airport the Health Part of the Aircraft General Declaration which shall conform to the model specified in Annex 9.
+
+2. The pilot in command of an aircraft or the pilot's agent shall supply any information required by the State Party as to health conditions on board during an international voyage and any health measure applied to the aircraft.
+
+3. A State Party may decide:
+
+(a) to dispense with the submission of the Health Part of the Aircraft General Declaration by all arriving aircraft; or
+
+(b) to require the submission of the Health Part of the Aircraft General Declaration under a recommendation concerning aircraft arriving from affected areas or to require it from aircraft which might otherwise carry infection or contamination.
+
+The State Party shall inform aircraft operators or their agents of these requirements.
+
+Article 39 Ship sanitation certificates
+
+1. Ship Sanitation Control Exemption Certificates and Ship Sanitation Control Certificates shall be valid for a maximum period of six months. This period may be extended by one month if the inspection or control measures required cannot be accomplished at the port.
+
+2. If a valid Ship Sanitation Control Exemption Certificate or Ship Sanitation Control Certificate is not produced or evidence of a public health risk is found on board a ship, the State Party may proceed as provided in paragraph 1 of Article 27.
+
+3. The certificates referred to in this Article shall conform to the model in Annex 3.
+
+4. Whenever possible, control measures shall be carried out when the ship and holds are empty. In the case of a ship in ballast, they shall be carried out before loading.
+
+5. When control measures are required and have been satisfactorily completed, the competent authority shall issue a Ship Sanitation Control Certificate, noting the evidence found and the control measures taken.
+
+6. The competent authority may issue a Ship Sanitation Control Exemption Certificate at any port specified under Article 20 if it is satisfied that the ship is free of infection and contamination, including vectors and reservoirs. Such a certificate shall normally be issued only if the inspection of the ship has been carried out when the ship and holds are empty or when they contain only ballast or other material, of such a nature or so disposed as to make a thorough inspection of the holds possible.
+
+7. If the conditions under which control measures are carried out are such that, in the opinion of the competent authority for the port where the operation was performed, a satisfactory result cannot be obtained, the competent authority shall make a note to that effect on the Ship Sanitation Control Certificate.
+
+PART VII - CHARGES
+
+Article 40 Charges for health measures regarding travellers
+
+1. Except for travellers seeking temporary or permanent residence, and subject to paragraph 2 of this Article, no charge shall be made by a State Party pursuant to these Regulations for the following measures for the protection of public health:
+
+(a) any medical examination provided for in these Regulations, or any supplementary examination which may be required by that State Party to ascertain the health status of the traveller examined;
+
+(b) any vaccination or other prophylaxis provided to a traveller on arrival that is not a published requirement or is a requirement published less than 10 days prior to provision of the vaccination or other prophylaxis;
+
+(c) appropriate isolation or quarantine requirements of travellers;
+
+(d) any certificate issued to the traveller specifying the measures applied and the date of application; or
+
+(e) any health measures applied to baggage accompanying the traveller.
+
+2. States Parties may charge for health measures other than those referred to in paragraph 1 of this Article, including those primarily for the benefit of the traveller.
+
+3. Where charges are made for applying such health measures to travellers under these Regulations, there shall be in each State Party only one tariff for such charges and every charge shall:
+
+(a) conform to this tariff;
+
+(b) not exceed the actual cost of the service rendered; and
+
+(c) be levied without distinction as to the nationality, domicile or residence of the traveller concerned.
+
+4. The tariff, and any amendment thereto, shall be published at least 10 days in advance of any levy thereunder.
+
+5. Nothing in these Regulations shall preclude States Parties from seeking reimbursement for expenses incurred in providing the health measures in paragraph 1 of this Article:
+
+(a) from conveyance operators or owners with regard to their employees; or
+
+(b) from applicable insurance sources.
+
+6. Under no circumstances shall travellers or conveyance operators be denied the ability to depart from the territory of a State Party pending payment of the charges referred to in paragraphs 1 or 2 of this Article.
+
+Article 41 Charges for baggage, cargo, containers, conveyances, goods or postal parcels
+
+1. Where charges are made for applying health measures to baggage, cargo, containers, conveyances, goods or postal parcels under these Regulations, there shall be in each State Party only one tariff for such charges and every charge shall:
+
+(a) conform to this tariff;
+
+(b) not exceed the actual cost of the service rendered; and
+
+(c) be levied without distinction as to the nationality, flag, registry or ownership of the baggage, cargo, containers, conveyances, goods or postal parcels concerned. In particular, there shall be no distinction made between national and foreign baggage, cargo, containers, conveyances, goods or postal parcels.
+
+2. The tariff, and any amendment thereto, shall be published at least 10 days in advance of any levy thereunder.
+
+PART VIII - GENERAL PROVISIONS
+
+Article 42 Implementation of health measures
+
+Health measures taken pursuant to these Regulations shall be initiated and completed without delay, and applied in a transparent and non-discriminatory manner.
+
+Article 43 Additional health measures
+
+1. These Regulations shall not preclude States Parties from implementing health measures, in accordance with their relevant national law and obligations under international law, in response to specific public health risks or public health emergencies of international concern, which:
+
+(a) achieve the same or greater level of health protection than WHO recommendations; or
+
+(b) are otherwise prohibited under Article 25, Article 26, paragraphs 1 and 2 of Article 28,
+
+Article 30, paragraph 1(c) of Article 31 and Article 33,
+
+provided such measures are otherwise consistent with these Regulations. Such measures shall not be more restrictive of international traffic and not more invasive or intrusive to persons than reasonably available alternatives that would achieve the appropriate level of health protection.
+
+2. In determining whether to implement the health measures referred to in paragraph 1 of this Article or additional health measures under paragraph 2 of Article 23, paragraph 1 of Article 27, paragraph 2 of
+
+Article 28 and paragraph 2(c) of Article 31, States Parties shall base their determinations upon:
+
+(a) scientific principles;
+
+(b) available scientific evidence of a risk to human health, or where such evidence is insufficient, the available information, including from WHO and other relevant intergovernmental organizations and international bodies; and
+
+(c) any available specific guidance or advice from WHO.
+
+3. A State Party implementing additional health measures referred to in paragraph 1 of this Article which significantly interfere with international traffic shall provide to WHO the public health rationale and relevant scientific information for it. WHO shall share this information with other States Parties and shall share information regarding the health measures implemented. For the purpose of this Article, significant interference generally means refusal of entry or departure of international travellers, baggage, cargo, containers, conveyances, goods, and the like, or their delay, for more than 24 hours.
+
+4. After assessing information provided pursuant to paragraphs 3 and 5 of this Article and other relevant information, WHO may request that the State Party concerned reconsider the application of the measures.
+
+5. A State Party implementing additional health measures referred to in paragraphs 1 and 2 of this Article that significantly interfere with international traffic shall inform WHO, within 48 hours of implementation, of such measures and their health rationale unless these are covered by a temporary or standing recommendation.
+
+6. A State Party implementing a health measure pursuant to paragraph 1 or 2 of this Article shall within three months review such a measure taking into account the advice of WHO and the criteria in paragraph 2 of this Article.
+
+7. Without prejudice to its rights under Article 56, any State Party impacted by a measure taken pursuant to paragraph 1 or 2 of this Article may request the State Party implementing such a measure to consult with it, either directly, or through the Director-General, who may also facilitate consultations between the States Parties concerned. The purpose of such consultations is to clarify the scientific information and public health rationale underlying the measure and to find a mutually acceptable solution. Unless otherwise agreed with the State Parties involved in the consultation, information shared during the consultation must be kept confidential.
+
+8. The provisions of this Article may apply to implementation of measures concerning travellers taking part in mass congregations.
+
+Article 44 Collaboration, assistance and financing
+
+1. States Parties shall undertake to collaborate with each other, to the extent possible, in:
+
+(a) the detection and assessment of, preparedness for and response to events as provided under these Regulations;
+
+(b) the provision or facilitation of technical cooperation and logistical support, particularly in the development, strengthening and maintenance of the core capacities required under Annex 1 of these Regulations;
+
+(c) the mobilization of financial resources, including through relevant sources and funding mechanisms to facilitate the implementation of their obligations under these Regulations, in particular to address the needs of developing countries; and
+
+(d) the formulation of proposed laws and other legal and administrative provisions for the implementation of these Regulations.
+
+2. WHO shall collaborate with, and assist, States Parties, upon their request, to the extent possible, in:
+
+(a) the evaluation and assessment of their core capacities in order to facilitate the effective implementation of these Regulations;
+
+(b) the provision or facilitation of technical cooperation and logistical support to States Parties;
+
+(c) the mobilization of financial resources to support developing countries in developing, strengthening and maintaining the core capacities provided for in Annex 1; and
+
+(d) the facilitation of access to relevant health products, in accordance with paragraph 8 of
+
+Article 13.
+
+2 bis. States Parties, subject to applicable law and available resources, shall maintain or increase domestic funding, as necessary, and collaborate, including through international cooperation and assistance, as appropriate, to strengthen sustainable financing to support the implementation of these Regulations. 2 ter. Pursuant to subparagraph (c) of paragraph 1 of this Article, States Parties shall undertake to collaborate, to the extent possible, to:
+
+(a) encourage governance and operating models of existing financing entities and funding mechanisms to be regionally representative and responsive to the needs and national priorities of developing countries in the implementation of these Regulations;
+
+(b) identify and enable access to financial resources, including through the Coordinating Financial Mechanism, established pursuant to Article 44 bis, necessary to equitably address the
+
+needs and priorities of developing countries, including for developing, strengthening and maintaining core capacities. 2 quater. The Director-General shall support the collaboration work in paragraph 2 bis of this Article, as appropriate. States Parties and the Director-General shall report on its outcomes as part of the reporting to the Health Assembly.
+
+3. Collaboration under this Article may be implemented through multiple channels, including bilaterally, through regional networks and the WHO regional offices, and through intergovernmental organizations and international bodies.
+
+Article 44 bis Coordinating Financial Mechanism
+
+1. A Coordinating Financial Mechanism (hereinafter "the Mechanism") is hereby established to:
+
+(a) promote the provision of timely, predictable, and sustainable financing for the implementation of these Regulations in order to develop, strengthen, and maintain core capacities as set out in Annex 1 of these Regulations, including those relevant for pandemic emergencies;
+
+(b) seek to maximize the availability of financing for the implementation needs and priorities of States Parties, in particular of developing countries; and
+
+(c) work to mobilize new and additional financial resources, and increase the efficient utilization of existing financing instruments, relevant to the effective implementation of these Regulations.
+
+2. In support of the objectives set out in paragraph 1 of this Article, the Mechanism shall, inter alia:
+
+(a) use or conduct relevant needs and funding gap analyses;
+
+(b) promote harmonization, coherence and coordination of existing financing instruments;
+
+(c) identify all sources of financing that are available for implementation support and make this information available to States Parties;
+
+(d) provide advice and support, upon request, to States Parties in identifying and applying for financial resources for strengthening core capacities, including those relevant for pandemic emergencies; and
+
+(e) leverage voluntary monetary contributions for organizations and other entities supporting States Parties to develop, strengthen and maintain their core capacities, including those relevant for pandemic emergencies.
+
+3. The Mechanism shall function, in relation to the implementation of these Regulations, under the authority and guidance of the Health Assembly and be accountable to it.
+
+Article 45 Treatment of personal data
+
+1. Health information collected or received by a State Party pursuant to these Regulations from another State Party or from WHO which refers to an identified or identifiable person shall be kept confidential and processed anonymously, as required by national law.
+
+2. Notwithstanding paragraph 1, States Parties may process and disclose personal data where essential for the purposes of assessing and managing a public health risk, but State Parties, in accordance with national law, and WHO must ensure that the personal data are:
+
+(a) processed fairly and lawfully, and not further processed in a way incompatible with that purpose;
+
+(b) adequate, relevant and not excessive in relation to that purpose;
+
+(c) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that data which are inaccurate or incomplete are erased or rectified; and
+
+(d) not kept longer than necessary.
+
+3. Upon request, WHO shall as far as practicable provide an individual with his or her personal data referred to in this Article in an intelligible form, without undue delay or expense and, when necessary, allow for correction.
+
+Article 46 Transport and handling of biological substances, reagents
+
+and materials for diagnostic purposes States Parties shall, subject to national law and taking into account relevant international guidelines, facilitate the transport, entry, exit, processing and disposal of biological substances and diagnostic specimens, reagents and other diagnostic materials for verification and public health response purposes under these Regulations.
+
+PART IX - THE IHR ROSTER OF EXPERTS, THE EMERGENCY COMMITTEE AND THE
+
+REVIEW COMMITTEE
+
+Chapter I - The IHR Roster of Experts
+
+Article 47 Composition
+
+The Director-General shall establish a roster composed of experts in all relevant fields of expertise (hereinafter the "IHR Expert Roster"). The Director-General shall appoint the members of the IHR Expert Roster in accordance with the WHO Regulations for Expert Advisory Panels and Committees (hereinafter the "WHO Advisory Panel Regulations"), unless otherwise provided in these Regulations.
+
+In addition, the Director-General shall appoint one member at the request of each State Party and, where appropriate, experts proposed by relevant intergovernmental and regional economic integration organizations. Interested States Parties shall notify the Director-General of the qualifications and fields of expertise of each of the experts they propose for membership. The Director-General shall periodically inform the States Parties, and relevant intergovernmental and regional economic integration organizations, of the composition of the IHR Expert Roster.
+
+Chapter II - The Emergency Committee
+
+Article 48 Terms of reference and composition
+
+1. The Director-General shall establish an Emergency Committee that at the request of the Director-General shall provide its views on:
+
+(a) whether an event constitutes a public health emergency of international concern, including a pandemic emergency;
+
+(b) the termination of a public health emergency of international concern, including a pandemic emergency; and
+
+(c) the proposed issuance, modification, extension or termination of temporary recommendations. 1 bis. The Emergency Committee shall be considered an expert committee and shall be subject to the WHO Advisory Panel Regulations, unless otherwise provided for in this Article.
+
+2. The Emergency Committee shall be composed of experts selected by the Director-General from the IHR Expert Roster and, when appropriate, other expert advisory panels of the Organization. The Director-General shall determine the duration of membership with a view to ensuring its continuity in the consideration of a specific event and its consequences. The Director-General shall select the members of the Emergency Committee on the basis of the expertise and experience required for any particular session and with due regard to the principles of equitable geographical representation. Members of the Emergency Committee should include at least one expert nominated by State(s) Party(ies) within whose territory the event is occurring.
+
+3. The Director-General may, on his or her own initiative or at the request of the Emergency Committee, appoint one or more technical experts to advise the Committee.
+
+Article 49 Procedure
+
+1. The Director-General shall convene meetings of the Emergency Committee by selecting a number of experts from among those referred to in paragraph 2 of Article 48, according to the fields of expertise and experience most relevant to the specific event that is occurring. For the purpose of this Article, "meetings" of the Emergency Committee may include teleconferences, videoconferences or electronic communications.
+
+2. The Director-General shall provide the Emergency Committee with the agenda and any relevant information concerning the event, including information provided by the States Parties, as well as any temporary recommendation that the Director-General proposes for issuance.
+
+3. The Emergency Committee shall elect its Chairperson and prepare following each meeting a brief summary report of its proceedings and deliberations, including any advice on recommendations.
+
+4. The Director-General shall invite the State(s) Party(ies) in whose territory the event is occurring to present its (their) views to the Emergency Committee. To that effect, the Director-General shall notify to it the dates and the agenda of the meeting of the Emergency Committee with as much advance notice
+
+as necessary. The State(s) Party(ies) concerned, however, may not seek a postponement of the meeting of the Emergency Committee for the purpose of presenting its views thereto.
+
+5. The views of the Emergency Committee shall be forwarded to the Director-General for consideration. The Director-General shall make the final determination on these matters.
+
+6. The Director-General shall communicate to all States Parties the determination and the termination of a public health emergency of international concern, including a pandemic emergency, any health measure taken by the State(s) Party(ies) concerned, any temporary recommendations, including the supporting evidence, and the modification, extension and termination of such recommendations, together with the composition and views of the Emergency Committee. The Director- General shall inform conveyance operators through States Parties and the relevant international agencies of such temporary recommendations, including their modification, extension or termination. The Director-General shall subsequently make such information and recommendations available to the general public.
+
+7. States Parties in whose territories the event has occurred may propose to the Director-General the termination of a public health emergency of international concern, including a pandemic emergency, and/or the temporary recommendations, and may make a presentation to that effect to the Emergency Committee.
+
+Chapter III - The Review Committee
+
+Article 50 Terms of reference and composition
+
+1. The Director-General shall establish a Review Committee, which shall carry out the following functions:
+
+(a) make technical recommendations to the Director-General regarding amendments to these Regulations;
+
+(b) provide technical advice to the Director-General with respect to standing recommendations, and any modifications or termination thereof; and
+
+(c) provide technical advice to the Director-General on any matter referred to it by the Director-General regarding the functioning of these Regulations.
+
+2. The Review Committee shall be considered an expert committee and shall be subject to the WHO Advisory Panel Regulations, unless otherwise provided in this Article.
+
+3. The members of the Review Committee shall be selected and appointed by the Director-General from among the persons serving on the IHR Expert Roster and, when appropriate, other expert advisory panels of the Organization.
+
+4. The Director-General shall establish the number of members to be invited to a meeting of the Review Committee, determine its date and duration, and convene the Committee.
+
+5. The Director-General shall appoint members to the Review Committee for the duration of the work of a session only.
+
+6. The Director-General shall select the members of the Review Committee on the basis of the principles of equitable geographical representation, gender balance, a balance of experts from developed and developing countries, representation of a diversity of scientific opinion, approaches and practical experience in various parts of the world, and an appropriate interdisciplinary balance.
+
+Article 51 Conduct of business
+
+1. Decisions of the Review Committee shall be taken by a majority of the members present and voting.
+
+2. The Director-General shall invite Member States, the United Nations and its specialized agencies and other relevant intergovernmental organizations or nongovernmental organizations in official relations with WHO to designate representatives to attend the Committee sessions. Such representatives may submit memoranda and, with the consent of the Chairperson, make statements on the subjects under discussion. They shall not have the right to vote.
+
+Article 52 Reports
+
+1. For each session, the Review Committee shall draw up a report setting forth the Committee's views and advice. This report shall be approved by the Review Committee before the end of the session. Its views and advice shall not commit the Organization and shall be formulated as advice to the Director-General. The text of the report may not be modified without the Committee's consent.
+
+2. If the Review Committee is not unanimous in its findings, any member shall be entitled to express his or her dissenting professional views in an individual or group report, which shall state the reasons why a divergent opinion is held and shall form part of the Committee's report.
+
+3. The Review Committee's report shall be submitted to the Director-General, who shall communicate its views and advice to the Health Assembly or the Executive Board for their consideration and action.
+
+Article 53 Procedures for standing recommendations
+
+When the Director-General considers that a standing recommendation is necessary and appropriate for a specific public health risk, the Director-General shall seek the views of the Review Committee. In addition to the relevant paragraphs of Articles 50 to 52, the following provisions shall apply:
+
+(a) proposals for standing recommendations, their modification or termination may be submitted to the Review Committee by the Director-General or by States Parties through the Director-General;
+
+(b) any State Party may submit relevant information for consideration by the Review Committee;
+
+(c) the Director-General may request any State Party, intergovernmental organization or nongovernmental organization in official relations with WHO to place at the disposal of the Review Committee information in its possession concerning the subject of the proposed standing recommendation as specified by the Review Committee;
+
+(d) the Director-General may, at the request of the Review Committee or on the Director-General's own initiative, appoint one or more technical experts to advise the Review Committee. They shall not have the right to vote;
+
+(e) any report containing the views and advice of the Review Committee regarding standing recommendations shall be forwarded to the Director-General for consideration and decision. The Director-General shall communicate the Review Committee's views and advice to the Health Assembly;
+
+(f) the Director-General shall communicate to States Parties any standing recommendation, as well as the modifications or termination of such recommendations, together with the views of the Review Committee; and
+
+(g) standing recommendations shall be submitted by the Director-General to the subsequent Health Assembly for its consideration.
+
+PART X - FINAL PROVISIONS
+
+Article 54 Reporting and review
+
+1. States Parties and the Director-General shall report to the Health Assembly on the implementation of these Regulations as decided by the Health Assembly.
+
+2. The Health Assembly shall periodically review the functioning of these Regulations, including financing for their effective implementation. To that end it may request the advice of the Review Committee, through the Director-General. The first such review shall take place no later than five years after the entry into force of these Regulations.
+
+3. WHO shall periodically conduct studies to review and evaluate the functioning of Annex 2. The first such review shall commence no later than one year after the entry into force of these Regulations.
+
+The results of such reviews shall be submitted to the Health Assembly for its consideration, as appropriate.
+
+Article 54 bis States Parties Committee for the Implementation of
+
+the International Health Regulations (2005)
+
+1. The States Parties Committee for the Implementation of the International Health Regulations (2005) is hereby established to facilitate the effective implementation of these Regulations, in particular of Article 44 and 44 bis. The Committee shall be facilitative and consultative in nature only, and function in a non-adversarial, non-punitive, assistive and transparent manner, guided by the principles set out in
+
+Article 3. To this effect:
+
+(a) the Committee shall have the aim of promoting and supporting learning, exchange of best practices, and cooperation among States Parties for the effective implementation of these Regulations;
+
+(b) the Committee shall establish a Subcommittee to provide technical advice and report to the Committee.
+
+2. The Committee shall be comprised of all States Parties and shall meet at least once every two years. Terms of reference for the Committee, including the way that the Committee conducts its business, and for the Subcommittee shall be adopted at the first meeting of the Committee by consensus.
+
+3. The Committee shall have a Chair and a Vice-Chair, elected by the Committee from among its State Party members, who shall serve for two years and rotate on a regional basis.1
+
+4. The Committee shall adopt, at its first meeting, by consensus, terms of reference for the Coordinating Financial Mechanism, established in Article 44 bis, and modalities for its operationalization and governance and may adopt necessary working arrangements with relevant international bodies, which may support its operation as appropriate.
+
+Article 55 Amendments
+
+1. Amendments to these Regulations may be proposed by any State Party or by the Director-General. Such proposals for amendments shall be submitted to the Health Assembly for its consideration.
+
+2. The text of any proposed amendment shall be communicated to all States Parties by the Director-General at least four months before the Health Assembly at which it is proposed for consideration.
+
+3. Amendments to these Regulations adopted by the Health Assembly pursuant to this Article shall come into force for all States Parties on the same terms, and subject to the same rights and obligations, as provided for in Article 22 of the Constitution of the World Health Organization and Articles 59 to 64 of these Regulations, subject to the periods provided for in those Articles with respect to amendments to these Regulations.
+
+Article 56 Settlement of disputes
+
+1. In the event of a dispute between two or more States Parties concerning the interpretation or application of these Regulations, the States Parties concerned shall seek in the first instance to settle the dispute through negotiation or any other peaceful means of their own choice, including good offices, mediation or conciliation. Failure to reach agreement shall not absolve the parties to the dispute from the responsibility of continuing to seek to resolve it.
+
+2. In the event that the dispute is not settled by the means described under paragraph 1 of this Article, the States Parties concerned may agree to refer the dispute to the Director-General, who shall make every effort to settle it.
+
+3. A State Party may at any time declare in writing to the Director-General that it accepts arbitration as compulsory with regard to all disputes concerning the interpretation or application of these Regulations to which it is a party or with regard to a specific dispute in relation to any other State Party accepting the same obligation. The arbitration shall be conducted in accordance with the Permanent Court of Arbitration Optional Rules for Arbitrating Disputes between Two States applicable at the time a request for arbitration is made. The States Parties that have agreed to accept arbitration as compulsory 1 For the purposes of this provision, the Holy See and Liechtenstein shall be regarded as belonging to the European Region of WHO, it being understood that this arrangement is without prejudice to their status as States Parties to the International Health Regulations (2005) that are not Members of WHO.
+
+shall accept the arbitral award as binding and final. The Director-General shall inform the Health Assembly regarding such action as appropriate.
+
+4. Nothing in these Regulations shall impair the rights of States Parties under any international agreement to which they may be parties to resort to the dispute settlement mechanisms of other intergovernmental organizations or established under any international agreement.
+
+5. In the event of a dispute between WHO and one or more States Parties concerning the interpretation or application of these Regulations, the matter shall be submitted to the Health Assembly.
+
+Article 57 Relationship with other international agreements
+
+1. States Parties recognize that the IHR and other relevant international agreements should be interpreted so as to be compatible. The provisions of the IHR shall not affect the rights and obligations of any State Party deriving from other international agreements.
+
+2. Subject to paragraph 1 of this Article, nothing in these Regulations shall prevent States Parties having certain interests in common owing to their health, geographical, social or economic conditions, from concluding special treaties or arrangements in order to facilitate the application of these Regulations, and in particular with regard to:
+
+(a) the direct and rapid exchange of public health information between neighbouring territories of different States;
+
+(b) the health measures to be applied to international coastal traffic and to international traffic in waters within their jurisdiction;
+
+(c) the health measures to be applied in contiguous territories of different States at their common frontier;
+
+(d) arrangements for carrying affected persons or affected human remains by means of transport specially adapted for the purpose; and
+
+(e) deratting, disinsection, disinfection, decontamination or other treatment designed to render goods free of disease-causing agents.
+
+3. Without prejudice to their obligations under these Regulations, States Parties that are members of a regional economic integration organization shall apply in their mutual relations the common rules in force in that regional economic integration organization.
+
+Article 58 International sanitary agreements and regulations
+
+1. These Regulations, subject to the provisions of Article 62 and the exceptions hereinafter provided, shall replace as between the States bound by these Regulations and as between these States and WHO, the provisions of the following international sanitary agreements and regulations:
+
+(a) International Sanitary Convention, signed in Paris, 21 June 1926;
+
+(b) International Sanitary Convention for Aerial Navigation, signed at The Hague, 12 April 1933;
+
+(c) International Agreement for dispensing with Bills of Health, signed in Paris, 22 December 1934;
+
+(d) International Agreement for dispensing with Consular Visas on Bills of Health, signed in Paris, 22 December 1934;
+
+(e) Convention modifying the International Sanitary Convention of 21 June 1926, signed in Paris, 31 October 1938;
+
+(f) International Sanitary Convention, 1944, modifying the International Sanitary Convention of 21 June 1926, opened for signature in Washington, 15 December 1944;
+
+(g) International Sanitary Convention for Aerial Navigation, 1944, modifying the International Sanitary Convention of 12 April 1933, opened for signature in Washington, 15 December 1944;
+
+(h) Protocol of 23 April 1946 to prolong the International Sanitary Convention, 1944, signed in Washington;
+
+(i) Protocol of 23 April 1946 to prolong the International Sanitary Convention for Aerial Navigation, 1944, signed in Washington;
+
+(j) International Sanitary Regulations, 1951, and the Additional Regulations of 1955, 1956, 1960, 1963 and 1965; and
+
+(k) the International Health Regulations of 1969 and the amendments of 1973 and 1981.
+
+2. The Pan American Sanitary Code, signed at Havana, 14 November 1924, shall remain in force with the exception of Articles 2, 9, 10, 11, 16 to 53 inclusive, 61 and 62, to which the relevant part of paragraph 1 of this Article shall apply.
+
+Article 59 Entry into force; period for rejection or reservations
+
+1. The period provided in execution of Article 22 of the Constitution of the World Health Organization for rejection of, or reservation to, these Regulations shall be 18 months from the date of the notification by the Director-General of the adoption of these Regulations by the Health Assembly.
+
+Any rejection or reservation received by the Director-General after the expiry of that period shall have no effect. 1 bis. The period provided in execution of Article 22 of the Constitution of the World Health Organization for rejection of, or reservation to, an amendment to these Regulations shall be 10 months from the date of the notification by the Director-General of the adoption of an amendment to these Regulations by the Health Assembly. Any rejection or reservation received by the Director-General after the expiry of that period shall have no effect.
+
+2. These Regulations shall enter into force 24 months after the date of notification referred to in paragraph 1 of this Article, and amendments to these Regulations shall enter into force 12 months after the date of notification referred to in paragraph 1bis of this Article, except for:
+
+(a) a State that has rejected these Regulations or an amendment thereto in accordance with
+
+Article 61;
+
+(b) a State that has made a reservation, for which these Regulations or an amendment thereto shall enter into force as provided in Article 62;
+
+(c) a State that becomes a Member of WHO after the date of the notification by the Director-General referred to in paragraph 1 of this Article, and which is not already a party to these Regulations, for which these Regulations shall enter into force as provided in Article 60; and
+
+(d) a State not a Member of WHO that accepts these Regulations, for which they shall enter into force in accordance with paragraph 1 of Article 64.
+
+3. If a State is not able to adjust its domestic legislative and administrative arrangements fully with these Regulations or an amendment thereto within the period set out in paragraph 2 of this Article, as applicable, that State shall submit within the applicable period specified in paragraph 1 or 1 bis of this Article a declaration to the Director-General regarding the outstanding adjustments and achieve them no later than 12 months after the entry into force of these Regulations or an amendment thereto for that State Party.
+
+Article 60 New Member States of WHO
+
+Any State which becomes a Member of WHO after the date of the notification by the Director-General referred to in paragraph 1 of Article 59, and which is not already a party to these Regulations, may communicate its rejection of, or any reservation to, these Regulations within a period of 12 months from the date of the notification to it by the Director-General after becoming a Member of WHO. Unless rejected, these Regulations shall enter into force with respect to that State, subject to the provisions of Articles 62 and 63, upon expiry of that period. In no case shall these Regulations enter into force in respect to that State earlier than 24 months after the date of notification referred to in paragraph 1 of Article 59.
+
+Article 61 Rejection
+
+If a State notifies the Director-General of its rejection of these Regulations or of an amendment thereto within the applicable period provided in paragraph 1 or 1 bis of Article 59, these Regulations or the amendment concerned shall not enter into force with respect to that State. Any international sanitary agreement or regulations listed in Article 58 to which such State is already a party shall remain in force as far as such State is concerned.
+
+Article 62 Reservations
+
+1. States may make reservations to these Regulations or an amendment thereto in accordance with this Article. Such reservations shall not be incompatible with the object and purpose of these Regulations.
+
+2. Reservations to these Regulations or an amendment thereto shall be notified to the Director-General in accordance with paragraphs 1 and 1 bis of Article 59 and Article 60, paragraph 1 of
+
+Article 63 or paragraph 1 of Article 64, as the case may be. A State not a Member of WHO shall notify
+
+the Director-General of any reservation with its notification of acceptance of these Regulations. States formulating reservations should provide the Director-General with reasons for the reservations.
+
+3. A rejection in part of these Regulations or an amendment thereto shall be considered as a reservation.
+
+4. The Director-General shall, in accordance with paragraph 2 of Article 65, issue notification of each reservation received pursuant to paragraph 2 of this Article. The Director-General shall:
+
+(a) if the reservation was made before the entry into force of these Regulations, request those Member States that have not rejected these Regulations to notify him or her within six months of any objection to the reservation; or
+
+(b) if the reservation was made after the entry into force of these Regulations, request States Parties to notify him or her within six months of any objection to the reservation; or
+
+(c) if the reservation was made to an amendment to these Regulations, request States Parties to notify him or her within three months of any objection to the reservation.
+
+States Parties objecting to a reservation to an amendment to these Regulations should provide the Director-General with reasons for the objection.
+
+5. After this period, the Director-General shall notify all States Parties of the objections he or she has received with regard to reservations. In the case of a reservation made to these Regulations, unless by the end of six months from the date of the notification referred to in paragraph 4 of this Article a reservation has been objected to by one third of the States referred to in paragraph 4 of this Article, it shall be deemed to be accepted and these Regulations shall enter into force for the reserving State, subject to the reservation. In the case of a reservation made to an amendment to these Regulations, unless by the end of three months from the date of the notification referred to in paragraph 4 of this Article, a reservation has been objected to by one third of the States referred to in paragraph 4 of this Article, it shall be deemed to be accepted and the amendment shall enter into force for the reserving State, subject to the reservation.
+
+6. If at least one third of the States referred to in paragraph 4 of this Article object to the reservation to these Regulations by the end of six months from the date of the notification referred to in paragraph 4 of this Article or, in the case of a reservation to an amendment to these Regulations, by the end of three months from the date of the notification referred to in paragraph 4 of this Article, the Director- General shall notify the reserving State with a view to its considering withdrawing the reservation within three months from the date of the notification by the Director-General.
+
+7. The reserving State shall continue to fulfil any obligations corresponding to the subject matter of the reservation, which the State has accepted under any of the international sanitary agreements or regulations listed in Article 58.
+
+8. If the reserving State does not withdraw the reservation within three months from the date of the notification by the Director-General referred to in paragraph 6 of this Article, the Director-General shall seek the view of the Review Committee if the reserving State so requests. The Review Committee shall advise the Director-General as soon as possible and in accordance with Article 50 on the practical impact of the reservation on the operation of these Regulations.
+
+9. The Director-General shall submit the reservation, and the views of the Review Committee if applicable, to the Health Assembly for its consideration. If the Health Assembly, by a majority vote, objects to the reservation on the ground that it is incompatible with the object and purpose of these Regulations, the reservation shall not be accepted and these Regulations or an amendment thereto shall enter into force for the reserving State only after it withdraws its reservation pursuant to Article 63. If the Health Assembly accepts the reservation, these Regulations or an amendment thereto shall enter into force for the reserving State, subject to its reservation.
+
+Article 63 Withdrawal of rejection and reservation
+
+1. A rejection made under Article 61 may at any time be withdrawn by a State by notifying the Director-General. In such cases, these Regulations or an amendment thereto, as applicable, shall enter
+
+into force with regard to that State upon receipt by the Director-General of the notification, except where the State makes a reservation when withdrawing its rejection, in which case these Regulations or an amendment thereto, as applicable, shall enter into force as provided in Article 62. In no case shall these Regulations enter into force in respect to that State earlier than 24 months after the date of notification referred to in paragraph 1 of Article 59 and in no case shall an amendment to these Regulations enter into force in respect to that State earlier than 12 months after the date of notification referred to in paragraph 1 bis of Article 59.
+
+2. The whole or part of any reservation may at any time be withdrawn by the State Party concerned by notifying the Director-General. In such cases, the withdrawal will be effective from the date of receipt by the Director-General of the notification.
+
+Article 64 States not Members of WHO
+
+1. Any State not a Member of WHO, which is a party to any international sanitary agreement or regulations listed in Article 58 or to which the Director-General has notified the adoption of these Regulations by the World Health Assembly, may become a party hereto by notifying its acceptance to the Director-General and, subject to the provisions of Article 62, such acceptance shall become effective upon the date of entry into force of these Regulations, or, if such acceptance is notified after that date, three months after the date of receipt by the Director-General of the notification of acceptance.
+
+2. Any State not a Member of WHO which has become a party to these Regulations may at any time withdraw from participation in these Regulations, by means of a notification addressed to the Director-General which shall take effect six months after the Director-General has received it. The State which has withdrawn shall, as from that date, resume application of the provisions of any international sanitary agreement or regulations listed in Article 58 to which it was previously a party.
+
+Article 65 Notifications by the Director-General
+
+1. The Director-General shall notify all States Members and Associate Members of WHO, and also other parties to any international sanitary agreement or regulations listed in Article 58, of the adoption by the Health Assembly of these Regulations.
+
+2. The Director-General shall also notify these States, as well as any other State which has become a party to these Regulations or to any amendment to these Regulations, of any notification received by WHO under Articles 60 to 64 respectively, as well as of any decision taken by the Health Assembly under Article 62.
+
+Article 66 Authentic texts
+
+1. The Arabic, Chinese, English, French, Russian and Spanish texts of these Regulations shall be equally authentic. The original texts of these Regulations shall be deposited with WHO.
+
+2. The Director-General shall send, with the notification provided in paragraph 1 of Article 59, certified copies of these Regulations to all Members and Associate Members, and also to other parties to any of the international sanitary agreements or regulations listed in Article 58.
+
+3. Upon the entry into force of these Regulations, the Director-General shall deliver certified copies thereof to the Secretary-General of the United Nations for registration in accordance with Article 102 of the Charter of the United Nations.
+
+

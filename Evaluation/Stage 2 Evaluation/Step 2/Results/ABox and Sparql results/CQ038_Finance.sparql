@@ -1,0 +1,6 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation .
+  ?obligation cco:appliesToRole abox:SupervisoryRole .
+  ?obligation cco:hasAction abox:IncludeIndependentMembersAction .
+}

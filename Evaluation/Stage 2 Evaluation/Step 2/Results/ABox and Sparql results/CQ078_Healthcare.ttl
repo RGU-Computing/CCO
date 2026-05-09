@@ -1,0 +1,24 @@
+@prefix cco: <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:IHR a cco:Regulation ;
+    cco:hasValidityStart "2005-05-23"^^xsd:date ;
+    cco:specifiesNorm abox:Article20_4Permission ;
+    cco:regulates abox:AirportPortResource .
+
+abox:Article20_4Permission a cco:Permission, cco:Norm ;
+    cco:hasAction abox:InvestigateAndCertifyAction ;
+    cco:appliesToRole abox:WHORole ;
+    cco:appliesUnder abox:RequestCondition ;
+    cco:hasObject abox:AirportPortResource .
+
+abox:RequestCondition a cco:Condition ;
+    cco:hasConditionExpression "At the request of the State Party concerned" .
+
+abox:InvestigateAndCertifyAction a cco:Action .
+
+abox:AirportPortResource a cco:Resource .
+
+abox:WHORole a cco:RegulatoryAuthorityRole .

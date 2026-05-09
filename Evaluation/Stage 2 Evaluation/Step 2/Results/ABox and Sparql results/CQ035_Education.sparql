@@ -1,0 +1,5 @@
+SELECT ?regulation
+WHERE {
+  ?regulation a cco:Regulation ;
+              cco:specifiesNorm abox:InitialAssessmentObligation .
+}

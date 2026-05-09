@@ -1,0 +1,9 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation ;
+              cco:appliesToRole abox:ManagementRole ;
+              cco:hasAction abox:DisclosureOversightAction ;
+              cco:hasObject abox:DisclosureResource ;
+              cco:appliesUnder ?condition .
+  ?condition cco:hasConditionExpression "oversight of disclosure and communications with external stakeholders and competent authorities"^^xsd:string .
+}

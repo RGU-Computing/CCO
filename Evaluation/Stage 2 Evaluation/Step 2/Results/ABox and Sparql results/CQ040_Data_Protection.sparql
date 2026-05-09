@@ -1,0 +1,10 @@
+SELECT ?regulation
+WHERE {
+  ?regulation a cco:Regulation .
+  ?regulation cco:specifiesNorm ?obligation .
+  ?obligation a cco:Obligation .
+  ?obligation cco:hasAction ?action .
+  ?obligation cco:appliesUnder ?condition .
+  ?condition cco:hasConditionExpression "processing of personal data" .
+  ?action a cco:Action .
+}

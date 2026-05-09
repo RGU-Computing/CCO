@@ -1,0 +1,18 @@
+@prefix cco: <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation_Clause40 a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation_Clause40 .
+
+abox:Obligation_Clause40 a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2023-01-01"^^xsd:date ;
+    cco:appliesToRole abox:SignificantInstitutionRole ;
+    cco:hasAction abox:EstablishCommitteesAction ;
+    cco:hasObject abox:CommitteesResource .
+
+abox:SignificantInstitutionRole a cco:Role .
+abox:EstablishCommitteesAction a cco:Action .
+abox:CommitteesResource a cco:Resource .

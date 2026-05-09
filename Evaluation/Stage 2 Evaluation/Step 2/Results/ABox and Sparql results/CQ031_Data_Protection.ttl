@@ -1,0 +1,20 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPRRegulation a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:ProhibitAnonymousProcessing .
+
+abox:ProhibitAnonymousProcessing a cco:Prohibition, cco:Norm ;
+    cco:hasAction abox:ProcessingAction ;
+    cco:appliesUnder abox:AnonymousCondition ;
+    cco:hasObject abox:AnonymousInformation .
+
+abox:ProcessingAction a cco:Action .
+
+abox:AnonymousInformation a cco:Resource .
+
+abox:AnonymousCondition a cco:Condition ;
+    cco:hasConditionExpression "information which does not relate to an identified or identifiable natural person" .
