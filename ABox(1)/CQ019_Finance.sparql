@@ -1,9 +1,0 @@
-SELECT ?resource
-WHERE {
-    abox:CapitalObligation cco:hasObject ?resource .
-    abox:CapitalObligation a cco:Obligation .
-    abox:CapitalRegulation cco:specifiesNorm abox:CapitalObligation .
-    abox:CapitalRegulation cco:regulates ?resource .
-    abox:CapitalResource a cco:Resource .
-    FILTER (?resource = abox:CapitalResource)
-}
