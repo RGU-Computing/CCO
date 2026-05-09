@@ -13,26 +13,26 @@ Permanent identifier: **https://www.w3id.org/cco/cco**
 
 ### CCO Conceptual Model
 <div align="center">
-<img src="docs/figures/model-diagram.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/figures/cco-model.png" width="600" alt="CCO Conceptual Model"/>
 </div>
+
 *Figure 1: The Core Compliance Ontology (CCO) conceptual model. Beige nodes represent normative classes (regulations, norms, conditions, exceptions, and deontic types), blue nodes represent contextual classes (agents, roles, role holdings, actions, and resources), and green ellipses represent datatype values.*
 
 ### CCO Layered Architecture
 <div align="center">
-<img src="docs/figures/cco-layers.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/figures/cco-layering.png" width="600" alt="CCO Layered Architecture"/>
 </div>
 
-*Figure 2: Intended layered use of CCO, showing domain-specific extensions grounded in CCO and instantiated with representative regulations from different compliance domains.*
+*Figure 2: Intended layered use of CCO, showing domain-specific extensions instantiated with representative regulations from different compliance domains.*
 
-### GDPR Article Instantiation Example
+### GDPR Article 33 Instantiation Example
 <div align="center">
-<img src="docs/figures/GDPR Example.png" width="600" alt="CCO Conceptual Model"/>
+<img src="docs/figures/gdpr-example.png" width="600" alt="GDPR Example"/>
 </div>
+
 *Figure 3: CCO instantiation of selected requirements from GDPR Article 33, paragraphs 1 and 2. Beige nodes represent CCO individuals, green nodes represent plain text datatype values, and dashed arrows denote cco:modifiesNorm links.*
 
 ---
-<img width="451" height="677" alt="image" src="https://github.com/user-attachments/assets/22ce57d2-5ffb-43f4-a713-ce23b1700e48" />
-
 
 ## Repository Structure
 
@@ -51,7 +51,7 @@ Usecase/CCO-Education/
   CCO_V1.ttl                   # Local copy of the core CCO ontology used as a dependency in the education extension
   catalog-v001.xml              # Ontology catalog file mapping imported IRIs to local file paths for the education extension
   imports/
-    efro_module.owl             # A lightweight EFRO module containing selected EFRO terms
+    efro_module.owl             # A lightweight EFRO module extracted using the MIREOT method via the ROBOT tool, containing selected EFRO terms
     efro_module.properties      # Properties file for the EFRO module
 
 Evaluation/
@@ -82,6 +82,22 @@ README.md                       # This file
 
 ---
 
+## Ontology Overview
+
+CCO captures the following core concepts:
+
+- **Regulation** — a formal normative instrument with validity dates and versioning links
+- **Norm** — a normative statement (Obligation, Permission, or Prohibition) specified by a regulation
+- **Condition** — an applicability criterion linked to a norm
+- **Exception** — a normative qualifier that modifies the applicability or force of a norm
+- **Action** — a regulated behaviour linked to a norm
+- **Resource** — an asset or object targeted by a norm
+- **Agent** — an entity that holds roles and is subject to norms
+- **Role** — a compliance-relevant position held by an agent
+- **RoleHolding** — a time-bounded association between an agent and a role
+- **RegulatoryAuthorityAgent** — an agent authorised to issue regulations
+
+---
 
 ## Evaluation
 
@@ -114,5 +130,5 @@ This ontology is licensed under the Creative Commons Attribution 4.0 Internation
 ```
 Arshad, U., Corsar, D., Nkisi-Orji, I.: CCO: A Core Compliance 
 Ontology for Modelling the Normative Structure of Regulations. 
-Available at: https://github.com/RGU-Computing/CCO
+ISWC 2026. Available at: https://github.com/RGU-Computing/CCO
 ```
