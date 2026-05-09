@@ -1,0 +1,18 @@
+@prefix cco: <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPR a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:StandardizedIconsPermission .
+
+abox:StandardizedIconsPermission a cco:Permission, cco:Norm ;
+    cco:hasAction abox:ProvideInformationWithIcons ;
+    cco:appliesUnder abox:Articles13And14Condition ;
+    cco:hasObject abox:StandardizedIconsResource .
+
+abox:ProvideInformationWithIcons a cco:Action .
+abox:Articles13And14Condition a cco:Condition ;
+    cco:hasConditionExpression "Information provision under Articles 13 and 14" .
+abox:StandardizedIconsResource a cco:Resource .

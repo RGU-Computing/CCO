@@ -1,0 +1,13 @@
+PREFIX cco: <http://www.example.org/cco#>
+PREFIX abox: <http://www.example.org/abox#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?obligation WHERE {
+  ?norm a cco:Norm ;
+        cco:appliesToRole abox:EmployerRole ;
+        cco:hasAction ?action ;
+        cco:appliesUnder ?condition .
+  ?condition cco:hasConditionExpression "Third party authorising payments through apprenticeship service account"^^xsd:string .
+  ?obligation cco:specifiesNorm ?norm .
+}

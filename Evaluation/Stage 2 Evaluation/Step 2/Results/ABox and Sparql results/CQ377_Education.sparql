@@ -1,0 +1,7 @@
+SELECT ?obligation
+WHERE {
+  abox:OfstedRegulation cco:specifiesNorm ?obligation .
+  ?obligation a cco:Obligation .
+  ?obligation cco:appliesToRole abox:SubcontractorRole .
+  ?obligation cco:hasAction abox:ProvideEvidenceAction .
+}

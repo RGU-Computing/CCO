@@ -1,0 +1,6 @@
+SELECT ?action
+WHERE {
+  abox:GDPR cco:specifiesNorm ?norm .
+  ?norm cco:hasAction ?action .
+  ?norm a cco:Obligation .
+}

@@ -1,0 +1,11 @@
+PREFIX cco: <http://www.example.org/cco#>
+PREFIX abox: <http://www.example.org/abox#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?conditionExpression
+WHERE {
+  abox:TransferPermission cco:appliesUnder ?condition .
+  ?condition a cco:Condition ;
+             cco:hasConditionExpression ?conditionExpression .
+}

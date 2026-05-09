@@ -1,0 +1,7 @@
+SELECT ?obligation
+WHERE {
+  ?condition a cco:Condition ;
+             cco:hasConditionExpression "apprentice is made redundant after completing at least 75% of their practical period" .
+  ?obligation a cco:Obligation ;
+              cco:appliesUnder ?condition .
+}

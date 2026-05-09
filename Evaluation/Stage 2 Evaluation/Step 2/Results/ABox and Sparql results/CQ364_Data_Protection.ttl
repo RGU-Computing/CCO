@@ -1,0 +1,19 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPR a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:NotifyBreachObligation .
+
+abox:NotifyBreachObligation a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2018-05-25"^^xsd:date ;
+    cco:hasException abox:BreachException .
+
+abox:BreachException a cco:Exception ;
+    cco:modifiesNorm abox:NotifyBreachObligation ;
+    cco:hasCondition abox:BreachCondition .
+
+abox:BreachCondition a cco:Condition ;
+    cco:hasConditionExpression "unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons" .

@@ -1,0 +1,8 @@
+SELECT ?obligation WHERE {
+  ?obligation a cco:Obligation ;
+              cco:appliesToRole abox:ProviderRole ;
+              cco:hasAction ?action .
+  ?action a cco:Action ;
+          cco:funds abox:ExtremistOrganisation ;
+          cco:viaSubcontracting "true"^^xsd:boolean .
+}

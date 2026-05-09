@@ -1,0 +1,10 @@
+SELECT ?obligation
+WHERE {
+  abox:Article29Prohibition cco:appliesToRole abox:ProcessorRole ;
+                           cco:appliesUnder abox:AccessCondition ;
+                           cco:hasAction abox:ProcessDataAction ;
+                           cco:hasObject abox:PersonalDataResource .
+  abox:AccessCondition cco:hasConditionExpression "has access to personal data" .
+  abox:Article29Prohibition a cco:Norm .
+  BIND(abox:Article29Prohibition AS ?obligation)
+}

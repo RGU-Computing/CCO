@@ -1,0 +1,24 @@
+@prefix cco: <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation215 a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation215 .
+
+abox:Obligation215 a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2023-01-01"^^xsd:date ;
+    cco:appliesToRole abox:ReceivingEmployerRole ;
+    cco:appliesUnder abox:Condition215 ;
+    cco:hasAction abox:PayCoInvestmentAction ;
+    cco:hasObject abox:MainProviderResource .
+
+abox:Condition215 a cco:Condition ;
+    cco:hasConditionExpression "sending employer lacks sufficient funds for training" .
+
+abox:ReceivingEmployerRole a cco:Role .
+
+abox:PayCoInvestmentAction a cco:Action .
+
+abox:MainProviderResource a cco:Resource .

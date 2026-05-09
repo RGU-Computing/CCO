@@ -1,0 +1,18 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation_272 a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation_RepayOverpayments .
+
+abox:Obligation_RepayOverpayments a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2023-01-01"^^xsd:date ;
+    cco:hasAction abox:Action_Repay ;
+    cco:appliesUnder abox:Condition_ChangeOfCircumstance .
+
+abox:Condition_ChangeOfCircumstance a cco:Condition ;
+    cco:hasConditionExpression "change of circumstance results in over-payment of funds" .
+
+abox:Action_Repay a cco:Action .

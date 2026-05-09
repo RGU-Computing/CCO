@@ -1,0 +1,18 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPR a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:ErasureRightObligation .
+
+abox:ErasureRightObligation a cco:Obligation, cco:Norm ;
+    cco:hasException abox:FreeSpeechException .
+
+abox:FreeSpeechException a cco:Exception ;
+    cco:modifiesNorm abox:ErasureRightObligation ;
+    cco:hasCondition abox:FreeSpeechCondition .
+
+abox:FreeSpeechCondition a cco:Condition ;
+    cco:hasConditionExpression "processing is necessary for exercising the right of freedom of expression and information" .

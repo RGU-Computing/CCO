@@ -1,0 +1,16 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:EducationRegulation251 a cco:Regulation ;
+    cco:hasValidityStart "2024-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation251_1 .
+
+abox:Obligation251_1 a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2024-01-01"^^xsd:date ;
+    cco:hasAction abox:SupplyReportAction ;
+    cco:hasObject abox:AuditorReportResource .
+
+abox:SupplyReportAction a cco:Action .
+abox:AuditorReportResource a cco:Resource .

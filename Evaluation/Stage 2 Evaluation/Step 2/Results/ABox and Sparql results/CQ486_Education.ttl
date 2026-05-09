@@ -1,0 +1,18 @@
+@prefix cco:  <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation_308 a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation_308 .
+
+abox:Obligation_308 a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2023-01-01"^^xsd:date ;
+    cco:hasAction abox:PayDifferenceAction ;
+    cco:appliesUnder abox:Condition_308 .
+
+abox:Condition_308 a cco:Condition ;
+    cco:hasConditionExpression "if the overall cost is more than the funding band maximum" .
+
+abox:PayDifferenceAction a cco:Action .

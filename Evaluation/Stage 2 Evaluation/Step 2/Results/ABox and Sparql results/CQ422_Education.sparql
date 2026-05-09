@@ -1,0 +1,8 @@
+PREFIX cco: <http://www.example.org/cco#>
+PREFIX abox: <http://www.example.org/abox#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?startDate WHERE {
+    abox:ExemptionObligation cco:hasApplicabilityStart ?startDate .
+    abox:ExemptionObligation cco:appliesUnder abox:NeededCondition .
+    abox:NeededCondition cco:hasConditionExpression "Where needed" .
+}

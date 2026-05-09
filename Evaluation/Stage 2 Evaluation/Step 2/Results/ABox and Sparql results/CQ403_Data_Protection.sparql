@@ -1,0 +1,6 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation .
+  ?obligation cco:hasAction abox:DemonstrateIndependenceExpertise .
+  ?obligation cco:hasObject abox:MonitoringBody .
+}

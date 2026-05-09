@@ -1,0 +1,6 @@
+SELECT ?conditionExpression
+WHERE {
+    abox:Article86 cco:specifiesNorm ?norm .
+    ?norm cco:appliesUnder ?condition .
+    ?condition cco:hasConditionExpression ?conditionExpression .
+}

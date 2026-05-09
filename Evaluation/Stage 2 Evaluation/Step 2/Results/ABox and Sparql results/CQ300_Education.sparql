@@ -1,0 +1,7 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation ;
+              cco:appliesToRole abox:ProviderRole ;
+              cco:hasObject abox:TNP1_TNP2_PriceFields ;
+              cco:hasAction abox:Action_DocumentChanges .
+}

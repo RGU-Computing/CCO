@@ -1,0 +1,14 @@
+@prefix cco: <http://www.example.org/cco#> .
+@prefix abox: <http://www.example.org/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Article86 a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:DisclosurePermission .
+
+abox:DisclosurePermission a cco:Permission, cco:Norm ;
+    cco:appliesUnder abox:LegalCondition .
+
+abox:LegalCondition a cco:Condition ;
+    cco:hasConditionExpression "in accordance with Union or Member State law to reconcile public access with data protection" .

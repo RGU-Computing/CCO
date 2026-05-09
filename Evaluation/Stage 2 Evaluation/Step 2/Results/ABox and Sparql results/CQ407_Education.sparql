@@ -1,0 +1,6 @@
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation ;
+              cco:hasAction abox:IncludeContactPoint ;
+              cco:hasObject abox:WrittenAgreement, abox:TrainingPlan .
+}

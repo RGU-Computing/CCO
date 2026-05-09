@@ -1,0 +1,7 @@
+SELECT ?obligation
+WHERE {
+    ?obligation a cco:Obligation .
+    ?obligation cco:appliesToRole abox:SupervisoryAuthorityRole .
+    ?obligation cco:hasAction abox:InformAction .
+    ?obligation cco:hasObject abox:ComplaintProgressAndOutcomeInfo .
+}

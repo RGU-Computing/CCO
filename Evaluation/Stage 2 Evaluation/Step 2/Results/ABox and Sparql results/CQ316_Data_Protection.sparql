@@ -1,0 +1,5 @@
+SELECT ?exception WHERE {
+  ?exception a cco:Exception ;
+             cco:hasCondition ?condition .
+  ?condition cco:hasConditionExpression "for the establishment, exercise or defence of legal claims" .
+}

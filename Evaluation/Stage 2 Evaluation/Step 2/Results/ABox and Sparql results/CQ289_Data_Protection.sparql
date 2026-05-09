@@ -1,0 +1,8 @@
+SELECT ?obligation
+WHERE {
+  abox:StandardizedIconsPermission a cco:Permission ;
+    cco:hasAction abox:ProvideInformationWithIcons ;
+    cco:appliesUnder abox:Articles13And14Condition ;
+    cco:hasObject abox:StandardizedIconsResource .
+  abox:StandardizedIconsPermission cco:isObligationOf ?obligation .
+}

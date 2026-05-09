@@ -1,0 +1,5 @@
+SELECT ?conditionExpression
+WHERE {
+    abox:Article14_5 cco:hasCondition ?condition .
+    ?condition cco:hasConditionExpression ?conditionExpression .
+}
