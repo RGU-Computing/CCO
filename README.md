@@ -1,6 +1,6 @@
 # Core Compliance Ontology (CCO)
 
-CCO is a domain-independent ontology for representing the regulatory structure of regulations. It provides a reusable scaffold for capturing recurring normative patterns across compliance domains, including obligations, permissions, prohibitions, conditions, exceptions, role-based applicability, and temporal scope.
+Regulatory compliance applications increasingly combine Semantic Web representations with large language model (LLM)-based workflows; however, transforming regulatory text into structured models that support reliable querying and reasoning remains challenging. Formal ontologies and policy languages for modelling regulations often require domain-specific vocabularies and formal encodings of conditions and actions, which can make reuse across compliance domains challenging. CCO is a domain-independent OWL ontology that provides a lightweight vocabulary for representing the obligations, permissions, and prohibitions defined in regulations, together with their applicability conditions, exceptions, role-based scope, and temporal validity. CCO models regulatory instruments and the agents and roles involved in issuing and complying with regulations, recording condition and action descriptions as plain text strings to support structured querying and retrieval-augmented generation workflows.
 
 ## Documentation
 
