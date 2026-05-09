@@ -1,4 +1,4 @@
-# CCO Modelling Patterns
+# CCO Design Patterns
 CCO is organised around seven modelling patterns that capture how regulations structure compliance requirements.
 
 ---
