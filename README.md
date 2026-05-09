@@ -32,7 +32,7 @@ Permanent identifier: **https://www.w3id.org/cco/cco**
 </div>
 
 
-*Figure 3: CCO instantiation of selected requirements from GDPR Article 33, paragraphs 1 and 2. Beige nodes represent CCO individuals, green nodes represent plain text datatype values, and dashed arrows denote cco:modifiesNorm links.*
+*Figure 3: CCO instantiation of selected requirements from GDPR Article 33 Nodes represent CCO individuals, with their types shown in brackets. Literal text values represent datatype values. Italic labels denote CCO properties. Dashed arrows denote cco:modifiesNorm links from exceptions to the norms they modify. *
 
 ---
 
