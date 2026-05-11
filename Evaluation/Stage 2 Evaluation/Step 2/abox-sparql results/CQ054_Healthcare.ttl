@@ -1,0 +1,19 @@
+@prefix cco:  <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:WHO a cco:RegulatoryAuthorityAgent .
+abox:WHO_Regulation a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:AnnualReportObligation .
+abox:AnnualReportObligation a cco:Obligation, cco:Norm ;
+    cco:hasAction abox:ReportAction ;
+    cco:appliesToRole abox:StatePartyRole ;
+    cco:hasApplicabilityStart "2023-01-01"^^xsd:date .
+abox:ReportAction a cco:Action .
+abox:StatePartyRole a cco:Role .
+abox:StatePartyRoleHolding a cco:RoleHolding ;
+    cco:hasRole abox:StatePartyRole ;
+    cco:hasStartTime "2023-01-01"^^xsd:date .
+abox:WHO cco:holdsRole abox:StatePartyRoleHolding .

@@ -1,0 +1,11 @@
+PREFIX cco: <https://www.w3id.org/cco/cco#>
+PREFIX abox: <https://www.w3id.org/cco/abox#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?cessationDate WHERE {
+    abox:CessationNorm cco:appliesUnder abox:CessationCondition .
+    abox:CessationCondition cco:hasConditionExpression "the measures have been effectively carried out" .
+    abox:CessationNorm cco:hasApplicabilityStart ?cessationDate .
+}

@@ -1,0 +1,15 @@
+PREFIX cco: <https://www.w3id.org/cco/cco#>
+PREFIX abox: <https://www.w3id.org/cco/abox#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?obligation WHERE {
+  abox:WHO_ConsultationObligation a cco:Obligation .
+  abox:WHO_ConsultationObligation cco:hasAction abox:ConsultationAction .
+  abox:WHO_Regulation cco:specifiesNorm abox:WHO_ConsultationObligation .
+  abox:WHO a cco:RegulatoryAuthorityAgent .
+  abox:WHO_Regulation cco:hasValidityStart "2023-01-01"^^xsd:date .
+  abox:WHO_ConsultationObligation cco:hasApplicabilityStart "2023-01-01"^^xsd:date .
+  BIND(abox:WHO_ConsultationObligation AS ?obligation)
+}

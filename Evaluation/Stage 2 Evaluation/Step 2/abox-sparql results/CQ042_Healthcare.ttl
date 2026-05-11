@@ -1,0 +1,26 @@
+@prefix cco: <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:WHO a cco:Organisation, cco:Agent .
+abox:WHO_RoleHolding a cco:RoleHolding ;
+    cco:hasRole abox:WHO_Role ;
+    cco:hasStartTime "2023-01-01"^^xsd:date .
+abox:WHO_Role a cco:RegulatoryAuthorityRole, cco:Role .
+abox:WHO_Agent a cco:RegulatoryAuthorityAgent ;
+    cco:holdsRole abox:WHO_RoleHolding .
+abox:Regulation_WHO a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation_Article11_2 ;
+    cco:regulates abox:InformationResource .
+abox:Obligation_Article11_2 a cco:Obligation, cco:Norm ;
+    cco:appliesToRole abox:WHO_Role ;
+    cco:hasException abox:Exception_Article11_2 ;
+    cco:hasObject abox:InformationResource .
+abox:Exception_Article11_2 a cco:Exception ;
+    cco:modifiesNorm abox:Obligation_Article11_2 ;
+    cco:hasCondition abox:Condition_PHEC .
+abox:Condition_PHEC a cco:Condition ;
+    cco:hasConditionExpression "event is determined to constitute a public health emergency" .
+abox:InformationResource a cco:Resource .

@@ -1,0 +1,20 @@
+PREFIX cco: <https://www.w3id.org/cco/cco#>
+PREFIX abox: <https://www.w3id.org/cco/abox#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?isRequired
+WHERE {
+  abox:AnnualReportObligation a cco:Obligation ;
+      cco:appliesToRole abox:StatePartyRole .
+  abox:StatePartyRoleHolding a cco:RoleHolding ;
+      cco:hasRole abox:StatePartyRole .
+  abox:WHO cco:holdsRole abox:StatePartyRoleHolding .
+  BIND(EXISTS {
+      abox:WHO_Regulation cco:specifiesNorm abox:AnnualReportObligation ;
+          cco:hasValidityStart ?validityStart .
+      abox:AnnualReportObligation cco:hasApplicabilityStart ?applicabilityStart .
+      abox:StatePartyRoleHolding cco:hasStartTime ?roleStartTime .
+      FILTER(?validityStart <= ?roleStartTime && ?applicabilityStart <= ?roleStartTime)
+  } AS ?isRequired)
+}

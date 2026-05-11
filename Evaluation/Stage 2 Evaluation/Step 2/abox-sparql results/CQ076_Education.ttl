@@ -1,0 +1,17 @@
+@prefix cco:  <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation_49 a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Permission_49 .
+
+abox:Permission_49 a cco:Permission, cco:Norm ;
+    cco:hasObject abox:Funding ;
+    cco:appliesUnder abox:Condition_49 .
+
+abox:Condition_49 a cco:Condition ;
+    cco:hasConditionExpression "apprentice has not previously attained GCSE grade A* to C (or 9 to 4) in English and/or maths"^^xsd:string .
+
+abox:Funding a cco:Resource .
