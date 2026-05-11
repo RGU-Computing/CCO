@@ -1,7 +1,0 @@
-SELECT ?obligation
-WHERE {
-  ?obligation a cco:Obligation .
-  ?obligation cco:hasAction abox:RegisterAndPublishAction .
-  ?obligation cco:appliesUnder abox:ApprovedAndNotMultiStateCondition .
-  ?obligation cco:hasObject abox:CodeOfConductResource .
-}

@@ -1,6 +1,0 @@
-SELECT ?obligation
-WHERE {
-  abox:ConveyanceOperatorRole cco:appliesToRole ?obligation .
-  ?obligation a cco:Obligation .
-  ?obligation cco:hasAction abox:Action_MaintainFreeInfection .
-}

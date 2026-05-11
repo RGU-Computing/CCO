@@ -1,6 +1,0 @@
-SELECT ?startDate
-WHERE {
-  abox:HealthcareRegulation cco:specifiesNorm ?norm .
-  ?norm cco:hasApplicabilityStart ?startDate ;
-        cco:hasAction abox:InspectContainerLoadingAreasAction .
-}

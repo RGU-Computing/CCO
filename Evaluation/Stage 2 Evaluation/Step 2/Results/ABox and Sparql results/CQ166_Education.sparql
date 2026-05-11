@@ -1,5 +1,0 @@
-SELECT ?deadline
-WHERE {
-  abox:Obligation94 cco:hasAction ?action .
-  ?action cco:hasDeadline ?deadline .
-}

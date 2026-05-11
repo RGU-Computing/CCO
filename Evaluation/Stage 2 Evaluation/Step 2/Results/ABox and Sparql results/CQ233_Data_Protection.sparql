@@ -1,5 +1,0 @@
-SELECT ?conditionExpression
-WHERE {
-  abox:GDPR_Article89_1_Permission cco:appliesUnder ?condition .
-  ?condition cco:hasConditionExpression ?conditionExpression .
-}

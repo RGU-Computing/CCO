@@ -1,6 +1,0 @@
-SELECT ?resource
-WHERE {
-  abox:GDPR cco:specifiesNorm ?obligation .
-  ?obligation cco:hasObject ?resource .
-  ?obligation a cco:Obligation .
-}

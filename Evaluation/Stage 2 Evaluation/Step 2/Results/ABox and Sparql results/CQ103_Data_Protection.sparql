@@ -1,5 +1,0 @@
-SELECT ?normType WHERE {
-  abox:Article25Obligation a ?normType .
-  abox:Article25Obligation cco:hasAction abox:MinimiseProcessingAction .
-  abox:Article25Obligation cco:hasObject abox:PersonalDataResource .
-}

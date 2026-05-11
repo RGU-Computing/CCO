@@ -1,5 +1,0 @@
-SELECT ?action WHERE {
-    abox:Obligation262 cco:hasAction ?action .
-    abox:Obligation262 cco:appliesUnder abox:ConditionNotPossible .
-    abox:ConditionNotPossible cco:hasConditionExpression "active learning is not possible during a FJAA placement gap" .
-}

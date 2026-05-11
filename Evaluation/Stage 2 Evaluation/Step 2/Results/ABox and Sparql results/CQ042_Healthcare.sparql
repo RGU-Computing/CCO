@@ -1,9 +1,0 @@
-SELECT ?conditionExpression
-WHERE {
-  abox:WHO_Role a cco:RegulatoryAuthorityRole .
-  abox:Obligation_Article11_2 a cco:Obligation ;
-    cco:appliesToRole abox:WHO_Role ;
-    cco:hasException abox:Exception_Article11_2 .
-  abox:Exception_Article11_2 cco:hasCondition abox:Condition_PHEC .
-  abox:Condition_PHEC cco:hasConditionExpression ?conditionExpression .
-}

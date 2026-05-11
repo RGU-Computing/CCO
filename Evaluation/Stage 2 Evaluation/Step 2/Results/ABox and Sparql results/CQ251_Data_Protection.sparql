@@ -1,7 +1,0 @@
-SELECT ?norm
-WHERE {
-  ?regulation a cco:Regulation ;
-              cco:specifiesNorm ?norm .
-  ?norm a cco:Obligation ;
-        cco:hasAction abox:LawfulFairTransparentProcessingAction .
-}

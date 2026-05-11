@@ -1,6 +1,0 @@
-SELECT ?obligation
-WHERE {
-  ?obligation a cco:Obligation .
-  ?obligation cco:appliesToRole abox:RiskManagementRole .
-  ?obligation cco:hasAction abox:MonitorRiskProfileAction .
-}

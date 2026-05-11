@@ -1,6 +1,0 @@
-SELECT ?role WHERE {
-    abox:GDPR cco:specifiesNorm ?norm .
-    ?norm cco:appliesToRole ?role .
-    abox:RegAuthorityAgent cco:holdsRole ?roleHolding .
-    ?roleHolding cco:hasRole ?role .
-}

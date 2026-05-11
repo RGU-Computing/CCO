@@ -1,7 +1,0 @@
-SELECT ?resource
-WHERE {
-  abox:ReceivingEmployerRole cco:appliesToRole ?obligation .
-  ?obligation a cco:Obligation ;
-              cco:hasAction abox:AgreeAction ;
-              cco:hasObject ?resource .
-}

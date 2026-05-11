@@ -1,5 +1,0 @@
-SELECT ?role WHERE {
-    abox:Obligation_1 cco:appliesToRole ?role ;
-                      cco:hasAction abox:CompleteAndDeliverAction ;
-                      cco:hasObject abox:HealthPartResource .
-}

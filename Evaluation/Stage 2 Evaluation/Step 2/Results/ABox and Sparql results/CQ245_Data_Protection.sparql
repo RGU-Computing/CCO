@@ -1,3 +1,0 @@
-SELECT ?startDate WHERE {
-    abox:Regulation1 cco:hasValidityStart ?startDate .
-}

@@ -1,5 +1,0 @@
-SELECT ?conditionExpression
-WHERE {
-  abox:Prohibition_Article85_2 cco:appliesUnder ?condition .
-  ?condition cco:hasConditionExpression ?conditionExpression .
-}

@@ -1,4 +1,0 @@
-SELECT ?conditionExpression
-WHERE {
-  abox:EquivalenceCondition cco:hasConditionExpression ?conditionExpression .
-}

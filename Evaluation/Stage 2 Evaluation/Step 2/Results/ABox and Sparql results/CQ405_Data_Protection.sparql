@@ -1,6 +1,0 @@
-SELECT ?obligation
-WHERE {
-  ?obligation a cco:Obligation .
-  ?obligation cco:hasAction abox:EstablishAndMakeTransparent .
-  ?obligation cco:hasObject abox:ComplaintHandlingProcedures .
-}

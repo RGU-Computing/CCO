@@ -1,7 +1,0 @@
-SELECT ?prohibition
-WHERE {
-  ?prohibition a cco:Prohibition ;
-               cco:hasAction abox:MoveBackAction ;
-               cco:appliesToRole abox:ApprenticeRole ;
-               cco:hasObject abox:StandardResource .
-}

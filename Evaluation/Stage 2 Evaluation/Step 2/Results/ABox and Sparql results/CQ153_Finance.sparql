@@ -1,6 +1,0 @@
-SELECT ?obligation
-WHERE {
-    ?obligation a cco:Obligation ;
-        cco:hasAction abox:DocumentAction ;
-        cco:hasObject abox:LoanDataResource .
-}

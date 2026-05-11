@@ -1,3 +1,0 @@
-SELECT ?condition WHERE {
-  abox:Permission100_2_5 cco:appliesUnder ?condition .
-}

@@ -1,8 +1,0 @@
-SELECT ?obligation
-WHERE {
-  ?obligation a cco:Obligation .
-  ?obligation cco:hasAction abox:DismissOrPenalizeAction .
-  ?obligation cco:hasException ?exception .
-  ?exception cco:hasCondition ?condition .
-  ?condition cco:hasConditionExpression "for performing their tasks" .
-}

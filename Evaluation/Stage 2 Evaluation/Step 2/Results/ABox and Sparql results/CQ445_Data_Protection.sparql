@@ -1,9 +1,0 @@
-SELECT ?regulation
-WHERE {
-  ?regulation a cco:Regulation .
-  ?regulation cco:specifiesNorm ?norm .
-  ?norm a cco:Prohibition, cco:Norm .
-  ?norm cco:appliesToRole abox:PublicAuthorityRole .
-  ?norm cco:appliesUnder abox:DerogationCondition .
-  abox:DerogationCondition cco:hasConditionExpression "Derogations under Article 49(1)(a), (b), and (c)" .
-}

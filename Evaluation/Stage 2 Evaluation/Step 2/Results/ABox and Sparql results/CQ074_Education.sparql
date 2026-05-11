@@ -1,9 +1,0 @@
-SELECT ?obligation
-WHERE {
-  ?obligation a cco:Obligation ;
-              cco:hasAction abox:AssessmentAction ;
-              cco:hasObject abox:ApprenticeResource ;
-              cco:appliesToRole abox:ProviderRole ;
-              cco:appliesUnder ?condition .
-  ?condition cco:hasConditionExpression "English and/or maths is being funded" .
-}

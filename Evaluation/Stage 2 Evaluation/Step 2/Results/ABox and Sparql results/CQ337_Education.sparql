@@ -1,7 +1,0 @@
-SELECT ?obligation
-WHERE {
-    ?obligation a cco:Obligation .
-    ?obligation cco:appliesToRole abox:ReceivingEmployerRole .
-    ?obligation cco:appliesUnder ?condition .
-    ?condition cco:hasConditionExpression "sending employer lacks sufficient funds for training" .
-}

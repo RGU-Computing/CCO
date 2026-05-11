@@ -1,6 +1,0 @@
-SELECT ?conditionExpression
-WHERE {
-  abox:ErasureRightObligation cco:hasException abox:FreeSpeechException .
-  abox:FreeSpeechException cco:hasCondition abox:FreeSpeechCondition .
-  abox:FreeSpeechCondition cco:hasConditionExpression ?conditionExpression .
-}

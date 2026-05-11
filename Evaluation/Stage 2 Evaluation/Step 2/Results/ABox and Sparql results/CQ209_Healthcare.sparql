@@ -1,8 +1,0 @@
-PREFIX cco: <http://www.example.org/cco#>
-PREFIX abox: <http://www.example.org/abox#>
-SELECT ?obligation ?action WHERE {
-  ?obligation a cco:Obligation .
-  ?obligation cco:appliesToRole abox:DirectorGeneralRole .
-  ?obligation cco:hasAction ?action .
-  ?action a cco:Action .
-}

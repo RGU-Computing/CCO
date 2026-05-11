@@ -1,9 +1,0 @@
-SELECT ?obligation WHERE {
-  abox:WHO_ConsultationObligation a cco:Obligation .
-  abox:WHO_ConsultationObligation cco:hasAction abox:ConsultationAction .
-  abox:WHO_Regulation cco:specifiesNorm abox:WHO_ConsultationObligation .
-  abox:WHO a cco:RegulatoryAuthorityAgent .
-  abox:WHO_Regulation cco:hasValidityStart "2023-01-01"^^xsd:date .
-  abox:WHO_ConsultationObligation cco:hasApplicabilityStart "2023-01-01"^^xsd:date .
-  BIND(abox:WHO_ConsultationObligation AS ?obligation)
-}

@@ -1,6 +1,0 @@
-SELECT ?permission
-WHERE {
-    abox:MemberStateRole cco:appliesToRole ?permission .
-    ?permission a cco:Permission .
-    ?permission cco:hasAction abox:ProvideSpecificationsDerogations .
-}

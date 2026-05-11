@@ -1,5 +1,0 @@
-SELECT ?obligation WHERE {
-  ?obligation a cco:Obligation .
-  ?obligation cco:hasAction abox:ConfirmAction .
-  ?obligation cco:appliesToRole abox:ProviderRole .
-}

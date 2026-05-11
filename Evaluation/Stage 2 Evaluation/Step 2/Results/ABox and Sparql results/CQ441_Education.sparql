@@ -1,7 +1,0 @@
-SELECT ?obligation
-WHERE {
-    abox:Regulation_272 cco:specifiesNorm ?obligation .
-    ?obligation a cco:Obligation ;
-                cco:hasAction abox:Action_Repay ;
-                cco:appliesUnder abox:Condition_ChangeOfCircumstance .
-}

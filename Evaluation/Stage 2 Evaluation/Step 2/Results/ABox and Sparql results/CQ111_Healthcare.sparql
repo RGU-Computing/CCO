@@ -1,5 +1,0 @@
-SELECT ?cessationDate WHERE {
-    abox:CessationNorm cco:appliesUnder abox:CessationCondition .
-    abox:CessationCondition cco:hasConditionExpression "the measures have been effectively carried out" .
-    abox:CessationNorm cco:hasApplicabilityStart ?cessationDate .
-}

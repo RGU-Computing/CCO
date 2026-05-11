@@ -1,5 +1,0 @@
-SELECT ?conditionExpression
-WHERE {
-  abox:Article20_4Permission cco:appliesUnder ?condition .
-  ?condition cco:hasConditionExpression ?conditionExpression .
-}

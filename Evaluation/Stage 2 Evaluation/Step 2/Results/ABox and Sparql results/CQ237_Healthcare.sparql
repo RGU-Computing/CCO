@@ -1,7 +1,0 @@
-SELECT ?regulation
-WHERE {
-  ?regulation a cco:Regulation .
-  ?regulation cco:specifiesNorm ?norm .
-  ?norm a cco:Norm, cco:Obligation .
-  ?norm cco:appliesToRole abox:WHO_Member_Role .
-}

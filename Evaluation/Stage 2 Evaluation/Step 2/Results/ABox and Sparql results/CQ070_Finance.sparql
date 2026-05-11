@@ -1,3 +1,0 @@
-SELECT ?resource WHERE {
-    abox:Obligation_61g cco:hasObject ?resource .
-}

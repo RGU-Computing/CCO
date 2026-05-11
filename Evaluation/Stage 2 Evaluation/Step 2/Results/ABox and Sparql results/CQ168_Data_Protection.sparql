@@ -1,5 +1,0 @@
-SELECT ?conditionExpression
-WHERE {
-  abox:LimitationObligation cco:appliesUnder ?condition .
-  ?condition cco:hasConditionExpression ?conditionExpression .
-}

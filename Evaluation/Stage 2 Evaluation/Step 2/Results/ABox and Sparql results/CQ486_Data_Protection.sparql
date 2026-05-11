@@ -1,6 +1,0 @@
-SELECT ?action WHERE {
-  ?regulation a cco:Regulation ;
-              cco:specifiesNorm ?norm .
-  ?norm a cco:Norm, cco:Obligation ;
-        cco:hasAction ?action .
-}
