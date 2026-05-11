@@ -1,0 +1,16 @@
+@prefix cco: <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPR a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation41_2_a .
+
+abox:Obligation41_2_a a cco:Obligation, cco:Norm ;
+    cco:hasAction abox:DemonstrateIndependenceExpertise ;
+    cco:hasObject abox:MonitoringBody ;
+    cco:appliesToRole abox:AccreditationRole .
+
+abox:DemonstrateIndependenceExpertise a cco:Action .
+abox:MonitoringBody a cco:Resource .

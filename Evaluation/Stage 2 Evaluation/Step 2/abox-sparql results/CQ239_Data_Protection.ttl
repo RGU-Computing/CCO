@@ -1,0 +1,14 @@
+@prefix cco: <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation1 a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Norm1 ;
+    cco:regulates abox:PersonalDataResource .
+
+abox:Norm1 a cco:Norm, cco:Permission ;
+    cco:hasObject abox:PersonalDataResource .
+
+abox:PersonalDataResource a cco:Resource .

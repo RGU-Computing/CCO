@@ -1,0 +1,15 @@
+@prefix cco: <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPR a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:Article6_1_f .
+
+abox:Article6_1_f a cco:Permission, cco:Norm ;
+    cco:hasApplicabilityStart "2018-05-25"^^xsd:date ;
+    cco:appliesUnder abox:LegitimateInterestsCondition .
+
+abox:LegitimateInterestsCondition a cco:Condition ;
+    cco:hasConditionExpression "processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party" .

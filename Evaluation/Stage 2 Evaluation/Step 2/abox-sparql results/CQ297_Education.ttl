@@ -1,0 +1,18 @@
+@prefix cco: <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation170 a cco:Regulation ;
+    cco:hasValidityStart "2024-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation170 .
+
+abox:Obligation170 a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2024-01-01"^^xsd:date ;
+    cco:appliesUnder abox:Condition170 ;
+    cco:hasAction abox:Action170 .
+
+abox:Condition170 a cco:Condition ;
+    cco:hasConditionExpression "Employer managing apprenticeship service account" .
+
+abox:Action170 a cco:Action .

@@ -1,0 +1,18 @@
+@prefix cco:  <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation_229a a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation_MaintainBusinessActivities .
+
+abox:Obligation_MaintainBusinessActivities a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2023-01-01"^^xsd:date ;
+    cco:appliesUnder abox:Condition_Disruption ;
+    cco:hasAction abox:Action_MaintainBusinessActivities .
+
+abox:Condition_Disruption a cco:Condition ;
+    cco:hasConditionExpression "if there is disruption to its ordinary business procedures" .
+
+abox:Action_MaintainBusinessActivities a cco:Action .

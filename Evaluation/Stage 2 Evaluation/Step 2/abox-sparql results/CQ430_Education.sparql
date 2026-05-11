@@ -1,0 +1,11 @@
+PREFIX cco: <https://www.w3id.org/cco/cco#>
+PREFIX abox: <https://www.w3id.org/cco/abox#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?action WHERE {
+    abox:Obligation262 cco:hasAction ?action .
+    abox:Obligation262 cco:appliesUnder abox:ConditionNotPossible .
+    abox:ConditionNotPossible cco:hasConditionExpression "active learning is not possible during a FJAA placement gap" .
+}

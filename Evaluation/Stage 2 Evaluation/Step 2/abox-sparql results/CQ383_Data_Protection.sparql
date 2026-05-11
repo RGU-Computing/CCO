@@ -1,0 +1,13 @@
+PREFIX cco: <https://www.w3id.org/cco/cco#>
+PREFIX abox: <https://www.w3id.org/cco/abox#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?obligation
+WHERE {
+  ?obligation a cco:Obligation .
+  ?obligation cco:appliesToRole abox:ControllerOrProcessorRole .
+  ?obligation cco:hasAction abox:PublishAndCommunicateAction .
+  ?obligation cco:hasObject abox:ContactDetailsResource .
+}

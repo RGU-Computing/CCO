@@ -1,0 +1,15 @@
+PREFIX cco: <https://www.w3id.org/cco/cco#>
+PREFIX abox: <https://www.w3id.org/cco/abox#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?isLawful
+WHERE {
+    abox:GDPR cco:specifiesNorm ?norm .
+    ?norm a cco:Permission ;
+          cco:appliesUnder abox:LegitimateInterestsCondition .
+    abox:LegitimateInterestsCondition a cco:Condition ;
+          cco:hasConditionExpression ?condition .
+    BIND(IF(CONTAINS(?condition, "legitimate interests pursued by the controller or by a third party"), "true"^^xsd:boolean, "false"^^xsd:boolean) AS ?isLawful)
+}

@@ -1,0 +1,24 @@
+@prefix cco:  <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation_180 a cco:Regulation ;
+    cco:hasValidityStart "2024-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation_180 .
+
+abox:Obligation_180 a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2024-01-01"^^xsd:date ;
+    cco:hasAction abox:Action_DocumentChanges ;
+    cco:appliesUnder abox:Condition_ChangesOccur ;
+    cco:appliesToRole abox:ProviderRole ;
+    cco:hasObject abox:TNP1_TNP2_PriceFields .
+
+abox:Action_DocumentChanges a cco:Action .
+
+abox:Condition_ChangesOccur a cco:Condition ;
+    cco:hasConditionExpression "changes to either the TNP1 or TNP2 price fields" .
+
+abox:ProviderRole a cco:Role .
+
+abox:TNP1_TNP2_PriceFields a cco:Resource .
