@@ -1,4 +1,4 @@
-# CCO Education Extension — Use Case
+# CCO Education Extension - Use Case
 
 This folder contains the education domain extension of the Core Compliance Ontology (CCO), demonstrating how CCO can be extended for a specific domain.
 
