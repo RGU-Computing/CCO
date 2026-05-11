@@ -1,0 +1,21 @@
+@prefix cco: <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:IHR a cco:Regulation ;
+    cco:hasValidityStart "2005-05-23"^^xsd:date ;
+    cco:specifiesNorm abox:Article33Prohibition .
+
+abox:Article33Prohibition a cco:Prohibition, cco:Norm ;
+    cco:hasApplicabilityStart "2007-06-15"^^xsd:date ;
+    cco:appliesUnder abox:GoodsInTransitCondition ;
+    cco:hasAction abox:SubjectToHealthMeasuresAction ;
+    cco:hasObject abox:GoodsInTransitResource .
+
+abox:GoodsInTransitCondition a cco:Condition ;
+    cco:hasConditionExpression "goods, other than live animals, in transit without transhipment"^^xsd:string .
+
+abox:SubjectToHealthMeasuresAction a cco:Action .
+
+abox:GoodsInTransitResource a cco:Resource .

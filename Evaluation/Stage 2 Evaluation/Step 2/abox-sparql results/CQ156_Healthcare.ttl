@@ -1,0 +1,28 @@
+@prefix cco: <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:StateParty a cco:Organisation .
+abox:AircraftOperator a cco:Role .
+abox:Obligation_Article38_3 a cco:Obligation, cco:Norm .
+abox:Regulation_Healthcare a cco:Regulation .
+abox:Action_Inform a cco:Action .
+abox:RoleHolding_StateParty a cco:RoleHolding .
+
+abox:Regulation_Healthcare cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation_Article38_3 .
+
+abox:Obligation_Article38_3 cco:hasApplicabilityStart "2023-01-01"^^xsd:date ;
+    cco:appliesToRole abox:AircraftOperator ;
+    cco:hasAction abox:Action_Inform ;
+    cco:hasObject abox:HealthPartResource .
+
+abox:RoleHolding_StateParty cco:hasRole abox:RegulatoryAuthorityRole ;
+    cco:hasStartTime "2023-01-01"^^xsd:date .
+
+abox:StateParty cco:holdsRole abox:RoleHolding_StateParty .
+
+abox:RegulatoryAuthorityRole a cco:RegulatoryAuthorityRole .
+
+abox:HealthPartResource a cco:Resource .

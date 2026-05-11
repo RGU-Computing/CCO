@@ -1,0 +1,15 @@
+@prefix cco:  <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:GDPR a cco:Regulation ;
+    cco:hasValidityStart "2018-05-25"^^xsd:date ;
+    cco:specifiesNorm abox:EquivalenceConditionNorm .
+
+abox:EquivalenceConditionNorm a cco:Norm, cco:Obligation ;
+    cco:hasApplicabilityStart "2018-05-25"^^xsd:date ;
+    cco:appliesUnder abox:EquivalenceCondition .
+
+abox:EquivalenceCondition a cco:Condition ;
+    cco:hasConditionExpression "such an application of the rules in those Member States has an equivalent effect to administrative fines imposed by supervisory authorities" .

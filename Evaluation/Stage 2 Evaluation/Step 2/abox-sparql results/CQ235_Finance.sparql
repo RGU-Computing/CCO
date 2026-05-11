@@ -1,0 +1,7 @@
+PREFIX cco: <https://www.w3id.org/cco/cco#>
+PREFIX abox: <https://www.w3id.org/cco/abox#>
+SELECT ?obligation WHERE {
+  ?obligation a cco:Obligation .
+  ?obligation cco:appliesToRole abox:RiskManagementRole .
+  ?obligation cco:hasAction abox:EnsureComplianceAction .
+}

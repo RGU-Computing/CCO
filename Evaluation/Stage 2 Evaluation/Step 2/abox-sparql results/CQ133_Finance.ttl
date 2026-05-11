@@ -1,0 +1,17 @@
+@prefix cco: <https://www.w3id.org/cco/cco#> .
+@prefix abox: <https://www.w3id.org/cco/abox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+abox:Regulation113 a cco:Regulation ;
+    cco:hasValidityStart "2023-01-01"^^xsd:date ;
+    cco:specifiesNorm abox:Obligation113 .
+
+abox:Obligation113 a cco:Obligation, cco:Norm ;
+    cco:hasApplicabilityStart "2023-01-01"^^xsd:date ;
+    cco:appliesToRole abox:StaffRole ;
+    cco:hasAction abox:DiscloseConflictAction .
+
+abox:DiscloseConflictAction a cco:Action .
+
+abox:StaffRole a cco:Role .
