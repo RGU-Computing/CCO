@@ -1,6 +1,6 @@
 # CCO Education Extension
 
-This ontology extends the Core Compliance Ontology (CCO) for the education funding domain. It introduces role-based classes for education-specific agents and aligns selected concepts from the Educational Funding Regulations Ontology (EFRO) to CCO.
+This ontology extends the Core Compliance Ontology (CCO) for the education funding domain. 
 
 ## Files
 
