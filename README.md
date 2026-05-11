@@ -46,7 +46,7 @@ CCO-BFO-Alignment/
   CCO-BFO-Alignment.ttl        # Alignment ontology between CCO and BFO and NRV.
                                # Requires CCO to be imported alongside this ontology.
 
-Usecase/CCO-Education/
+CCO-Education-Usecase/
   CCO-Education.ttl             # The CCO education domain extension, defining education-specific role classes and alignments to EFRO
   CCO-Education.properties      # Protégé project properties file for the education extension
   CCO_V1.ttl                   # Local copy of the core CCO ontology used as a dependency in the education extension
