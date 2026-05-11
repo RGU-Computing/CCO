@@ -10,6 +10,3 @@ This ontology defines formal alignments between the Core Compliance Ontology (CC
 
 Open `CCO-BFO-Alignment.ttl` in Protégé. Requires CCO (`https://www.w3id.org/cco/cco`) to be imported alongside this ontology.
 
-## License
-
-CC-BY 4.0
