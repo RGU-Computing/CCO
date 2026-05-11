@@ -1,16 +1,16 @@
-@prefix : <http://www.example.org/cco#> .
+@prefix : <https://www.w3id.org/cco/cco#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix cco: <http://www.example.org/cco#> .
+@prefix cco: <https://www.w3id.org/cco/cco#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@base <http://www.example.org/cco-bfo-alignment#> .
+@base <https://www.w3id.org/cco/cco-bfo-alignment#> .
 
-<http://www.example.org/cco-bgo-alignment> rdf:type owl:Ontology ;
-								owl:imports <http://www.example.org/cco> ;
+<https://www.w3id.org/cco/cco-bgo-alignment> rdf:type owl:Ontology ;
+								owl:imports <https://www.w3id.org/cco/cco> ;
                               dc:creator "Umair Arshad" ;
                               dc:date "2026" ;
                               dc:description "Alignments between the Core Compliance Ontology and relevant concepts in the BFO Core and BFO Role ontologies, and the Normative Requirements Vocabulary."@en ;
@@ -22,32 +22,32 @@
 
 
 
-###  http://www.example.org/cco#Norm
+###  https://www.w3id.org/cco/cco#Norm
 cco:Norm rdf:type owl:Class ;
          rdfs:subClassOf <http://ns.inria.fr/nrv#NormativeRequirement> .
 
 
-###  http://www.example.org/cco#Organisation
+###  https://www.w3id.org/cco/cco#Organisation
 cco:Organisation rdf:type owl:Class ;
                  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> .
 
 
-###  http://www.example.org/cco#Person
+###  https://www.w3id.org/cco/cco#Person
 cco:Person rdf:type owl:Class ;
            rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000030> .
 
 
-###  http://www.example.org/cco#Role
+###  https://www.w3id.org/cco/cco#Role
 cco:Role rdf:type owl:Class ;
          rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000023> .
 
 
-###  http://www.example.org/cco#RoleHolding
+###  https://www.w3id.org/cco/cco#RoleHolding
 cco:RoleHolding rdf:type owl:Class ;
                 rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000015> .
 
 
-###  http://www.example.org/cco#Action
+###  https://www.w3id.org/cco/cco#Action
 cco:Action skos:closeMatch "http://www.w3.org/ns/odrl/2/Action" .
 
 cco:Obligation  skos:closeMatch "http://docs.oasis-open.org/legalruleml/ns/v1.0/metamodel#Obligation" .
