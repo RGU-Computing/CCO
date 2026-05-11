@@ -44,6 +44,7 @@ CCO-BFO-Alignment/
   CCO-BFO-Alignment.ttl        # Alignment ontology that imports CCO and defines alignments between CCO concepts and BFO and NRV.
                                # Requires CCO to be imported alongside this ontology.
   README.md
+
 CCO-Education-Usecase/
   CCO-Education.ttl             # The CCO education domain extension, defining education-specific role classes and alignments to EFRO
   CCO_V1.ttl                   # Local copy of the core CCO ontology used as a dependency in the education extension
@@ -51,6 +52,7 @@ CCO-Education-Usecase/
   imports/
     efro_module.owl             # A selected extract of EFRO classes used for alignment
   README.md
+
 Evaluation/
   Stage 1 Evaluation/
     CQ Based SPARQL Verification.md  # The 20 competency questions and corresponding SPARQL ASK and SELECT queries
@@ -68,8 +70,10 @@ Evaluation/
       cco_shapes.ttl           # SHACL shapes file for validating ABox instances against CCO
       validation_results.csv   # Results of SHACL validation and SPARQL evaluation across all competency questions
       README.md
+
 Ontology Design Pattern/
   design-patterns.md            # CCO modelling patterns
+
 docs/                           # WIDOCO-generated ontology documentation
   index-en.html                 # Main documentation page
   index.html                    # Redirect to index-en.html
@@ -77,6 +81,7 @@ docs/                           # WIDOCO-generated ontology documentation
     cco-model.png               # CCO conceptual model diagram (Figure 1)
     cco-layering.png            # CCO layered architecture diagram (Figure 2)
     gdpr-example.png            # GDPR Article 33 instantiation diagram (Figure 3)
+
 LICENSE.md                      # CC-BY 4.0 licence
 README.md                       # This file
 ```
