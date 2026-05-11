@@ -1,4 +1,4 @@
-# Stage 2 Evaluation — Step 2
+# Stage 2 Evaluation - Step 2
 
 This folder contains the ABox generation, SPARQL evaluation, and SHACL validation resources for Stage 2 of the CCO evaluation.
 
