@@ -5,9 +5,8 @@ CCO, a domain- independent ontology that captures commonly occurring structural 
 ## Documentation
 
 Full ontology documentation is available at:
-**https://rgu-computing.github.io/CCO/**
+**https://www.w3id.org/cco/cco**
 
-Permanent identifier: **https://www.w3id.org/cco/cco**
 
 ---
 
