@@ -40,21 +40,17 @@ Full ontology documentation is available at:
 ```
 CCO/
   CCO.ttl                      # The core CCO ontology in OWL/Turtle format, defining all classes, properties, and axioms
-  CCO.properties                # Protégé project properties file for the core ontology
-
 CCO-BFO-Alignment/
-  CCO-BFO-Alignment.ttl        # Alignment ontology between CCO and BFO and NRV.
+  CCO-BFO-Alignment.ttl        # Alignment ontology that imports CCO and defines alignments between CCO concepts and BFO and NRV.
                                # Requires CCO to be imported alongside this ontology.
-
+  README.md
 CCO-Education-Usecase/
   CCO-Education.ttl             # The CCO education domain extension, defining education-specific role classes and alignments to EFRO
-  CCO-Education.properties      # Protégé project properties file for the education extension
   CCO_V1.ttl                   # Local copy of the core CCO ontology used as a dependency in the education extension
   catalog-v001.xml              # Ontology catalog file mapping imported IRIs to local file paths for the education extension
   imports/
-    efro_module.owl             # A lightweight EFRO module extracted using the MIREOT method via the ROBOT tool, containing selected EFRO terms
-    efro_module.properties      # Properties file for the EFRO module
-
+    efro_module.owl             # A selected extract of EFRO classes used for alignment
+  README.md
 Evaluation/
   Stage 1 Evaluation/
     CQ Based SPARQL Verification.md  # The 20 competency questions and corresponding SPARQL ASK and SELECT queries
@@ -62,13 +58,18 @@ Evaluation/
     Step 1/
       LLM generated CQs/       # Generated competency questions per domain
       dataset/                 # Regulatory documents used for CQ generation
-      CQs Evaluation.csv       # LLM assessment results for all 1,587 CQs
+      CQs Evaluation.csv       # LLM assessment results CQs
       Generation.ipynb         # CQ generation pipeline notebook
-    Step 2/                    # ABox generation and structural validation
-
-Patterns/
-  design-patterns.md            # The seven CCO modelling patterns
-
+      Human_Evaluation.csv     # Human reviewer evaluation results for a stratified random sample of 240 CQs
+      README.md
+    Step 2/
+      abox-sparql results/     # Generated ABox instance data (TTL) and SPARQL queries for each evaluated provision
+      ABox and Sparql generation and evaluation.ipynb  # ABox generation and SPARQL evaluation notebook
+      cco_shapes.ttl           # SHACL shapes file for validating ABox instances against CCO
+      validation_results.csv   # Results of SHACL validation and SPARQL evaluation across all competency questions
+      README.md
+Ontology Design Pattern/
+  design-patterns.md            # CCO modelling patterns
 docs/                           # WIDOCO-generated ontology documentation
   index-en.html                 # Main documentation page
   index.html                    # Redirect to index-en.html
@@ -76,11 +77,9 @@ docs/                           # WIDOCO-generated ontology documentation
     cco-model.png               # CCO conceptual model diagram (Figure 1)
     cco-layering.png            # CCO layered architecture diagram (Figure 2)
     gdpr-example.png            # GDPR Article 33 instantiation diagram (Figure 3)
-
 LICENSE.md                      # CC-BY 4.0 licence
 README.md                       # This file
 ```
-
 ---
 
 
