@@ -7,6 +7,26 @@ CCO, a domain- independent ontology that captures commonly occurring structural 
 Full ontology documentation is available at:
 **https://www.w3id.org/cco/cco**
 
+[DOI](https://doi.org/10.5281/zenodo.20703107)
+
+---
+## CCO Ontology Statistics
+ 
+| Metric | Count |
+|--------|:-----:|
+| Classes | 16 |
+| Object properties | 14 |
+| Data properties | 8 |
+| Annotation properties | 15 |
+| Logical axioms | 71 |
+| Declaration axioms | 52 |
+| Total axioms | 199 |
+ 
+**Classes (16):** Regulation, Norm, Obligation, Permission, Prohibition, Condition, Exception, Action, Resource, Agent, Person, Organisation, Role, RegulatoryAuthorityRole, RoleHolding, RegulatoryAuthorityAgent
+ 
+**Object properties (14):** specifiesNorm, hasAction, hasObject, hasException, modifiesNorm, hasCondition, appliesUnder, appliesToRole, holdsRole, hasRole, issues, regulates, allocatedTo, supersedes
+ 
+**Data properties (8):** hasActionExpression, hasConditionExpression, hasValidityStart, hasValidityEnd, hasApplicabilityStart, hasApplicabilityEnd, hasStartTime, hasEndTime
 
 ---
 
@@ -84,6 +104,8 @@ docs/                           # WIDOCO-generated ontology documentation
 
 LICENSE.md                      # CC-BY 4.0 licence
 README.md                       # This file
+Related Ontologies Comparison.md          # CCO comparison with existing ontologies
+
 ```
 ---
 
