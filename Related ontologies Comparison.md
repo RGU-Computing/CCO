@@ -1,6 +1,6 @@
 ## Related Ontologies Comparison
 
-The table below compares CCO's core structural patterns against six representative legal and compliance ontologies reviewed during its development: LKIF, LegalRuleML, ODRL, FIBO, GDPRtEXT, and NRV (Normative Requirements Vocabulary). It shows that CCO's patterns recur across existing ontologies, which each cover a subset of them.
+The table below compares CCO's core structural concepts against six representative legal and compliance ontologies reviewed during its development: LKIF, LegalRuleML, ODRL, FIBO, GDPRtEXT, and NRV (Normative Requirements Vocabulary). It shows that these concepts recur across existing ontologies, which each cover a subset of them.
 
 **Legend:** ✓ explicitly modelled · ◐ partial or different form · ✗ not modelled
 
@@ -31,4 +31,4 @@ Scoring: ✓ = 1, ◐ = 0.5, ✗ = 0.
 | NRV | 5 | 1 | 3 | 61% |
 | GDPRtEXT | 4 | 2 | 3 | 56% |
 
-CCO covers all nine recurring structural patterns identified across the reviewed ontologies, which individually cover 56–94% of these patterns (around 74% on average). CCO consolidates them into a single lightweight core.
+CCO covers all recurring structural concepts identified across the reviewed ontologies, which individually cover 56–94% of these concepts (around 74% on average). CCO consolidates them into a single lightweight core.
