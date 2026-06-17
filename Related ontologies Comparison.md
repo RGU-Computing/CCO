@@ -31,4 +31,4 @@ Scoring: ✓ = 1, ◐ = 0.5, ✗ = 0.
 | NRV | 5 | 1 | 3 | 61% |
 | GDPRtEXT | 4 | 2 | 3 | 56% |
 
-CCO covers all nine recurring structural patterns identified across the reviewed ontologies, consolidating them into a single lightweight core.
+CCO covers all nine recurring structural patterns identified across the reviewed ontologies, which individually cover 56–94% of these patterns (around 74% on average). CCO consolidates them into a single lightweight core.
