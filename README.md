@@ -10,7 +10,7 @@ Full ontology documentation is available at:
 The ontology is archived on Zenodo with a persistent DOI: [10.5281/zenodo.20703107](https://doi.org/10.5281/zenodo.20703107)
 
 ---
-## CCO Ontology Statistics
+## CCO Statistics
  
 | Metric | Count |
 |--------|:-----:|
