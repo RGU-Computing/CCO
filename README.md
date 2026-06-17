@@ -51,7 +51,7 @@ The ontology is archived on Zenodo with a persistent DOI: [10.5281/zenodo.207031
 </div>
 
 
-*Figure 3: CCO instantiation of selected requirements from GDPR Article 33. The figure shows an ABox instantiation. The first line in each node denotes an individual, while the class type is shown in brackets. Quoted text boxes and date values denote datatype literals. Italic edge labels denote CCO properties. Dashed arrows denote cco:modifiesNorm links from exceptions to the norms they modify.*
+*Figure 3: CCO instantiation of selected requirements from GDPR Article 33. The figure shows an ABox example: the first line in each node denotes an individual, while the class type is shown in brackets. Quoted text boxes and date values denote datatype literals. Italic edge labels denote CCO properties. Dashed arrows denote cco:modifiesNorm links from exceptions to the norms they modify.*
 
 ---
 
