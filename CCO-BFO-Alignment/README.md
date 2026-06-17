@@ -1,6 +1,6 @@
 # CCO-BFO Alignment
 
-This ontology defines formal alignments between the Core Compliance Ontology (CCO) and foundational ontologies including the Basic Formal Ontology (BFO) and the Normative Requirements Vocabulary (NRV), along with SKOS alignments to LegalRuleML, LKIF, and FIBO.
+This ontology defines formal alignments between the Core Compliance Ontology (CCO), the Basic Formal Ontology (BFO) as a foundational ontology, and related core ontologies such as the Normative Requirements Vocabulary (NRV). It also provides SKOS alignments to LegalRuleML, LKIF, and FIBO.
 
 ## Files
 
