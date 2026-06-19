@@ -4,7 +4,7 @@ The table below compares CCO's core structural concepts against six representati
 
 **Legend:** ✓ explicitly modelled · ◐ partial or different form · ✗ not modelled
 
-| Pattern | LKIF | LegalRuleML | ODRL | FIBO | GDPRtEXT | NRV | **CCO** |
+| Concepts | LKIF | LegalRuleML | ODRL | FIBO | GDPRtEXT | NRV | **CCO** |
 |---------|:----:|:-----------:|:----:|:----:|:--------:|:---:|:-------:|
 | Deontic types (Obligation / Permission / Prohibition) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | **✓** |
 | Norm–regulation link | ✓ | ✓ | ✓ | ◐ | ◐ | ✓ | **✓** |
